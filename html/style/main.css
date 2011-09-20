@@ -6,23 +6,29 @@
 }
 
 #blurb {
-    border-top:3px solid black;
-   width:560px; 
+    border-top:6px solid black;
+    width:560px; 
     float:left; 
 }
 
 #projects {
+    border-top:1px solid black;
     width:560px; 
     float:left; 
 }
 
 #previous_works {
+    border-top:1px solid black;    
     width:560px; 
     float:left;   
 }
 
 #contacts {
-    border-top:3px solid black;
+    border-top:6px solid black;
     width: 160px;
     float: right; 
 }
+
+.project, .previous_work {
+    background-color:#ddd;   
+}    
