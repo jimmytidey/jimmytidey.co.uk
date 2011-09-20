@@ -2,18 +2,22 @@
     position:relative; 
     margin:10px auto;
     width: 800px;
-    border-top:3px solid black;
+   
 }
 
 #blurb {
-    560px; 
+    border-top:3px solid black;
+   width:560px; 
     float:left; 
 }
 
 #projects {
-    
+    width:560px; 
+    float:left; 
 }
 
 #contacts {
-    
+     border-top:3px solid black;
+    width: 160px 
+    float:right; 
 }
