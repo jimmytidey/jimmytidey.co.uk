@@ -1,0 +1,19 @@
+#container {
+    position:relative; 
+    margin:10px auto;
+    width: 800px;
+    border-top:3px solid black;
+}
+
+#blurb {
+    560px; 
+    float:left; 
+}
+
+#projects {
+    
+}
+
+#contacts {
+    
+}
