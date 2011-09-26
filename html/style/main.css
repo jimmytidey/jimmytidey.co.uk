@@ -1,3 +1,9 @@
+
+body, html {
+	background-color:#D9E6DB;
+	
+}
+
 #container {
     position:relative; 
     margin:10px auto;
@@ -6,29 +12,30 @@
 }
 
 #blurb {
-    border-top:6px solid black;
+    border-top:6px solid #3B5837;
     width:560px; 
     float:left; 
 }
 
 #projects {
-    border-top:1px solid black;
-    width:560px; 
+    border-top:1px solid #3B5837;
+    width:540px; 
     float:left; 
 }
 
 #previous_works {
-    border-top:1px solid black;    
-    width:560px; 
+    border-top:1px solid #3B5837; 
+    width:540px; 
     float:left;   
 }
 
 #contacts {
-    border-top:6px solid black;
-    width: 160px;
+    border-top:6px solid #3B5837;
+    width: 200px;
     float: right; 
 }
 
 .project, .previous_work {
-    background-color:#ddd;   
+    background-color:#ddd;
+	padding:10px;
 }    
