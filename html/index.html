@@ -8,6 +8,9 @@
 
 	<link rel="stylesheet" type="text/css" media="screen" href="style/main.css" />
 	
+	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+	<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+	
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.5.min.js"></script>
 	
 	<script src="script.js"></script>
@@ -23,24 +26,70 @@
 	<div id='container'>
     
         <div id='contacts' >
-            <p><a href='mailto:jimmytidey@gmail.com'>jimmytidey@gmail.com</a></p> 
-            <p><a href='http://twitter.com/#!/Jimmytidey'>@jimmytidey</a></p>
-            <p><a href='http://jimmytidey.posterous.com'>jimmytidey.posterous.com</a></p>
-            <p><a href='https://github.com/jimmytidey'>Github</a></p>
+            <p><img src='resources/gmail.png' /><a href='mailto:jimmytidey@gmail.com'>jimmytidey@gmail.com</a></p> 
+            <p><img src='resources/twitter.png' /><a href='http://twitter.com/#!/Jimmytidey'>@jimmytidey</a></p>
+            <p><img src='resources/posterous.png' /> <a href='http://jimmytidey.posterous.com'>jimmytidey.posterous.com</a></p>
+            <p><img src='resources/github.png' /><a href='https://github.com/jimmytidey'>Github</a></p>
         </div>
         
         
 		<div id='blurb' > 
-            <p>Hello. I'm a bridge between tech and non-tech. </p> 
+            <p>Hello. I'm Jimmy. I have a background of techy knowledge that makes me good at taking creative approaches to what can be done on the web.</p>
+			<p>My previous employment has been with companies are doing something fresh from TV to science.</p>
+        </div>
+
+       <div id='previous_works'>
+
+           <h2>Previous Work</h2> 
+
+			<div class='border' >&nbsp;</div>
+
+				<div class='previous_work'>
+				    <h3 class='tk-museo'>Monterosa</h3>
+				    <p>Monterosa develop websites that integrate in realtime with live TV programmes, including for the BBC, ITV, and Channel 4. I started work with them as a Digital Producer, focusing on Project Management.</p> 
+					<p>I became a Development Producer, focusing on working up concepts, writing pitches and presenting them to TV commissioners.</p> 
+					<p><em><a href='http://monterosa.co.uk' class='tk-museo'>Monterosa &raquo;</a></em></p>
+				</div> 
+
+			<div class='border' >&nbsp;</div>
+
+				<div class='previous_work'>
+				    <h3 class='tk-museo'>BBC Lab UK</h3>
+				    <p>BBC Lab UK is a platform for delivering mass-participation scientific experiments to support TV or Radio programming.</p> 
+					<p>I worked as researcher, including working with scientists to design the games used in Brain Test Britain, which went on to generate a Nature paper. I also helped worked on the sociological context for The Great British Class Survey.</p> 
+					<p><em><a href='http://bbc.co.uk/labuk' class='tk-museo' >BBC Lab UK &raquo;</a></em></p>
+				</div> 
+
+			<div class='border' >&nbsp;</div>
+
+				<div class='previous_work'>
+				    <h3 class='tk-museo'>Anjunabeats</h3>
+				    <p>Anjunabeats are an independent record label. I redeveloped their website, including integrating with YouTube, Flickr and their online shop</p>
+				 	<p>Anjunabeats were deeply engaged in the web, running a large forum for their fans and a highly successful podcast. I also helped design and develop competitions and promotions using microsites and their mailing list.</p>
+					<p><em><a href='http://anjunabeats.com' class='tk-museo' >Anjunabeats  &raquo;</a></em></p>
+				</div>             
+
         </div>
         
         <div id='projects' >
         
-            <h2>Current Projects</h2>
-            
+            <h2>Independent Projects</h2>
+
+            <div class='border' >&nbsp;</div>
+
+            <div class='project'>
+                <h3 class='tk-museo'>Crisis Action Mapping</h3>
+                <p>Mapping for a <a href='http://crisisaction.org/en/'>Crisis Action</a> report. I processed data and presented it geographically using <a href='http://mapbox.com/tilemill/'>TileMill</a> GIS.</p> 
+                <p>I'd put a link up, but unfortunately the data is a secret. I taught me a lot about building maps though!<p> 
+
+            </div>
+
+
+            <div class='border' >&nbsp;</div>
+
             <div class='project'>
                 <h3 class='tk-museo'>Ephemrascope</h3>
-                <p>Ephemrascope explores data about places (photos, tweets, FourSquare tips). The app generates a map with directions around a journey in the style of  Charles Baudelaire's Flâneur</p> 
+                <p>Ephemrascope explores data about places (photos, tweets, FourSquare tips). The app generates a map with directions around a journey in the style of Charles Baudelaire's Flâneur</p> 
                 <p>Technologies:<p> 
                 <ul>
                     <li>Open Street Map open source maps</li> 
@@ -48,21 +97,26 @@
                     <li>Google's directions API, + Twitter, Flickr and FourSquare APIs</li>
                     <li>HTML5 geolocation</li>
                 </ul>
+
             </div> 
+
+			<div class='border' >&nbsp;</div>
             
             <div class='project'>
-                <h3>Heresay</h3> 
+                <h3 class='tk-museo'>Heresay</h3> 
                 <p>Heresay aggregates online discussions about locations and makes them easier to find. It's deployed as a plugin for common Content Management Systems</p> 
                 <p>Technologies:</p> 
                 <ul> 
                     <li>Geonames</li> 
                     <li>Open Street Maps / Google Maps</li> 
-                    <li>Built as a plugin for drupal, Vanilla forum and Ning</li>
+                    <li>Built as a plugin for Drupal, Vanilla, and Ning</li>
                 <ul> 
             </div> 
             
+			<div class='border' >&nbsp;</div>	
+
             <div class='project'>
-                <h3>Timerliner</h3> 
+                <h3 class='tk-museo'>Timerliner</h3> 
                 <p>Timeliner is an app for making drag and drop timeslines. It's never been fully deployed, however it did serve as an interesting design experiment</p>
                 <p>Technologies:</p>
                 <ul> 
@@ -71,10 +125,15 @@
                     <li>Ruby on Rails</li>
                     <li>Heroku</li> 
                 </ul>
+
+				<p><em><a href='http://timeline-maker.com' class='tk-museo' >Timeliner  &raquo;</a></em></p>
+
             </div>
+
+			<div class='border' >&nbsp;</div>	
             
             <div class='project'>
-                <h3>Random Seed</h3> 
+                <h3 class='tk-museo'>Random Seed</h3> 
                 <p>Random seed is a project to explore introducing random elements into music composition</p>
                 <p>Technologies:</p>
                 <ul> 
@@ -86,26 +145,7 @@
         </div>
         
 
-        <div id='previous_works'>
-           
-           <h2>Previous Work</h2> 
-           
-            <div class='previous_work'>
-                <h3><a href='http://monterosa.co.uk'>Monterosa</a></h3>
-                <p>Monterosa develops websites with real time integration with TV programmes, including for the BBC, ITV, and Channel 4. I started work with them as a Digital Producer in a project management role. I became a Development Producer, focusing on working up concepts, writing pitches and presenting them to TV commissioners.</p> 
-            </div> 
-            
-            <div class='previous_work'>
-                <h3><a href='http://bbc.co.uk/labuk'>Lab UK</a></h3>
-                <p>Ephemrascope explores data about places (photos, tweets, FourSquare tips). The app generates a map with directions around a journey in the style of  Charles Baudelaire's Flâneur</p> 
-            </div> 
-            
-            <div class='previous_work'>
-                <h3><a href='http://anjunabeats.com'>Anjunabeats</a></h3>
-                <p>Ephemrascope explores data about places (photos, tweets, FourSquare tips). The app generates a map with directions around a journey in the style of  Charles Baudelaire's Flâneur</p> 
-            </div>             
-            
-        </div>
+ 
 	</div>	
 	
 </body>
