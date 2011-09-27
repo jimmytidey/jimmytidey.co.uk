@@ -1,0 +1,34 @@
+#container {
+    position:relative; 
+    margin:10px auto;
+    width: 800px;
+   
+}
+
+#blurb {
+    border-top:6px solid black;
+    width:560px; 
+    float:left; 
+}
+
+#projects {
+    border-top:1px solid black;
+    width:560px; 
+    float:left; 
+}
+
+#previous_works {
+    border-top:1px solid black;    
+    width:560px; 
+    float:left;   
+}
+
+#contacts {
+    border-top:6px solid black;
+    width: 160px;
+    float: right; 
+}
+
+.project, .previous_work {
+    background-color:#ddd;   
+}    
