@@ -64,8 +64,9 @@ h3 a {
 }	
 
 #contacts img {
-	margin-right:8px;
-	margin-top:3px;
+    margin-right: 8px;
+    position: relative;
+    top: 2px;
 }
 
 #projects, #previous_works {
