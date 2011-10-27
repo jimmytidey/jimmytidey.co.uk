@@ -48,6 +48,13 @@ h3 a {
 	margin-bottom:20px;
 }
 
+#previous_works img {
+	float:left;
+	border:1px solid black;
+	margin-bottom:10px;
+	margin-right:10px;
+}
+
 #contacts {
     border-top:6px solid #3B5837;
     width: 200px;
@@ -80,4 +87,9 @@ h3 a {
 	width:460px;
 	margin-top:25px;
 	height:2px;
+	clear:left;
+}
+
+li {
+	margin-bottom:0.5em;
 }
