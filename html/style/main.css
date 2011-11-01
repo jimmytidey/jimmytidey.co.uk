@@ -62,6 +62,7 @@ h3 a {
 	background:#f6f5f5;
 	position:fixed;
 	margin-left:590px;
+	height:238px;
 }
 
 #contacts a {
@@ -80,7 +81,7 @@ h3 a {
 }
 
 .isotope-item {
-    background-color:#daeee8;
+    background-color:#b8cbc5;
 	padding:10px;
 	margin-bottom:20px;
 	width:550px;
