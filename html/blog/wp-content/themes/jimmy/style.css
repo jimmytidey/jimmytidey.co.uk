@@ -1361,3 +1361,25 @@ code {
 		border: none;
 	}
 }
+
+/* jimmy hack  */
+
+#tweet_link img { 
+    border: medium none;
+    left: 840px;
+    position: relative;
+    top: 106px;
+}
+
+#site-title { 
+	position:relative;
+	top:30px;
+	z-index:-1;
+}
+
+
+#site-description { 
+	position:relative;
+	top:30px;
+	z-index:-1;
+}

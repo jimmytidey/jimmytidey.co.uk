@@ -1,0 +1,210 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: RSS iTunes Redirection\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-05-30 13:33+0100\n"
+"PO-Revision-Date: 2012-05-30 13:33+0100\n"
+"Last-Translator: Florian Simeth <florian.simeth@online.de>\n"
+"Language-Team: Florian Simeth <florian.simeth@online.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../class.settings.php:23
+msgid "Google Plus Author"
+msgstr ""
+
+#: ../class.settings.php:39
+msgid "Replace author link with the Google Profile URL?"
+msgstr "Ersetze Autorenlink mit GooglePlus Profillink?"
+
+#: ../class.settings.php:41
+msgid "Show or hide the link in the content-section?"
+msgstr "Verstecke oder zeige den Link nach dem Inhaltsbereich?"
+
+#: ../class.settings.php:43
+msgid "Open the link in a new window?"
+msgstr "Öffne den Link in einem neuen Fenster?"
+
+#: ../class.settings.php:45
+msgid "Link text"
+msgstr "Linktext"
+
+#: ../class.settings.php:49
+msgid "Not every theme shows the Author-Link right beside a page or an article. In this case activate the link to be included after the content."
+msgstr "Nicht jedes Theme zeigt einen Autorenlink neben einer Seite oder einem Artikel an. In diesem Fall können Sie den Link direkt nach dem Inhaltsbereich einfügen lassen."
+
+#: ../class.settings.php:54
+msgid "Yes"
+msgstr "Ja"
+
+#: ../class.settings.php:55
+msgid "No"
+msgstr "Nein"
+
+#: ../class.settings.php:55
+msgid "Instead show it in the content-area (see below)"
+msgstr "Stattdessen: Zeige den Link nach dem Inhaltsbereich (siehe unten)"
+
+#: ../class.settings.php:60
+msgid "Hide"
+msgstr "Verstecken"
+
+#: ../class.settings.php:61
+msgid "Show"
+msgstr "Anzeigen"
+
+#: ../class.settings.php:66
+#: ../class.settings.php:71
+msgid "Only applied when link is displayed after the content"
+msgstr "Wird nur angewandt, wenn der Link nach dem Inhaltsbereich angezeigt wird"
+
+#: ../page.settings.php:29
+msgid "Google Plus Author Information in Search Result (GPAISR)"
+msgstr ""
+
+#: ../page.settings.php:35
+msgid "General"
+msgstr "Allgemein"
+
+#: ../page.settings.php:38
+msgid "This plugin will replace your author link in your template with your Google+ Profile link to make sure that the picture will be shown at the search results."
+msgstr "Dieses Plugin ersetzt den Autoren-Link im Theme-Template mit einem speziellen Google+-Link. Damit wird in den Google Suchergebnissen jeweils ein Profilbild des Autors mit angezeigt."
+
+#: ../page.settings.php:39
+msgid "Alternatively the link can be included after the content if your template does not show the author  link."
+msgstr "Alternativ kann der Link auch nach dem Inhaltsbereich eingefügt werden, wenn das aktuell gewählte Template keine Autorenlinks anzeigt."
+
+#: ../page.settings.php:45
+msgid "What to do"
+msgstr "Was zu tun ist"
+
+#: ../page.settings.php:49
+msgid "Create a Google+ Profile"
+msgstr "Erstellen Sie ein Google+ Profil"
+
+#: ../page.settings.php:50
+msgid "Login to Google+"
+msgstr "Loggen Sie sich bei Google+ ein"
+
+#: ../page.settings.php:51
+msgid "Click here to open your profile"
+msgstr "Klicken Sie hier um Ihr Profil zu öffnen"
+
+#: ../page.settings.php:52
+msgid "Find your Google+ Profile link by visiting your own page and copy the link (shown and marked in the image below) to clipboard"
+msgstr "Finden Sie Ihren eigenen Google+ Profillink indem Sie Ihre eigenen Profilseite besuchen. Kopieren Sie dann den entsprechenden Link in die Zwischenablage (siehe Bild unten)"
+
+#: ../page.settings.php:54
+msgid "Activate this plugin."
+msgstr "Aktivieren Sie dieses Plugin."
+
+#: ../page.settings.php:55
+msgid "Go to your profile page"
+msgstr "Wechseln Sie zur Blog-Profilseite"
+
+#: ../page.settings.php:55
+msgid "and paste your profile link where it says \"Google Plus Link\""
+msgstr "und fügen Sie den gerade kopierten Google+ Profillink in das Feld \"Google Plus Link\""
+
+#: ../page.settings.php:55
+msgid "Do not add the tag \"?ref=author\" because that will be added automatically."
+msgstr "Fügen Sie nicht \"?ref=author\" am Ende an. Es wird automatisch angehängt. "
+
+#: ../page.settings.php:58
+msgid "Go to Settings > Google Plus Author and make changes if needed (this page - see below)"
+msgstr "Gehen Sie in Einstellungen > Google Plus Author und legen Sie alle nötigen Einstellungen fest (siehe unten)"
+
+#: ../page.settings.php:59
+msgid "http://support.google.com/webmasters/bin/answer.py?hl=en&answer=1408986"
+msgstr "http://support.google.com/webmasters/bin/answer.py?hl=de&answer=1408986"
+
+#: ../page.settings.php:59
+msgid "Follow this instructions to link your Google+ Profile with your blog."
+msgstr "Folgen Sie dieser Anleitung um Ihr Google+-Profil mit Ihrem Blog zu verbinden."
+
+#: ../page.settings.php:60
+msgid "Test your site using the"
+msgstr "Testen Sie Ihre Seite. Benutzen Sie dazu das"
+
+#: ../page.settings.php:61
+msgid "If you can see your profile picture everything is okay. If not, you have made something wrong."
+msgstr "Wenn Sie Ihr Profilbild sehen können ist alles OK. Wenn nicht, haben Sie etwas falsch gemacht."
+
+#: ../page.settings.php:62
+msgid "Note that there is no guarantee that a Rich Snippet will be shown for your page on actual search results!"
+msgstr "Seien Sie sich im klaren, dass es keine Garantie dafür gibt, dass Rich Snippets in den Suchergebnissen bei Google angezeigt werden."
+
+#: ../page.settings.php:63
+msgid "Go to the plugins homepage to get more information."
+msgstr "Wechseln Sie zur Plugin-Homepage um weitere Informationen zu erhalten."
+
+#: ../page.settings.php:70
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: ../page.settings.php:81
+msgid "Test the latest post or page."
+msgstr "Den aktuellsten Artikel / die Seite testen."
+
+#: ../page.settings.php:94
+msgid "Share"
+msgstr "Teilen"
+
+#: ../page.settings.php:96
+msgid "Go to the plugins page"
+msgstr "Wechseln Sie zur Plugin-Website"
+
+#~ msgid "If you like this plugin, please click: "
+#~ msgstr "Wenn du das Plugin magst, bitte klicke hier:"
+
+#~ msgid ""
+#~ "If you have submitted an RSS-Feed to iTunes and want to change the url to "
+#~ "a new feed address you may know that iTunes does not provide a form or "
+#~ "something like this. Instead you need a little code-snippet in your RSS "
+#~ "2.0-Feed to change the URL. This plugin will help you to do this."
+#~ msgstr ""
+#~ "Wenn Du einen RSS-Feed in iTunes importiert hast und diese URL nun ändern "
+#~ "willst, wirst du feststellen, dass das gar nicht so einfach ist. Man "
+#~ "benötigt einen kleinen Code direkt im RSS-Feed um die Weiterleitung "
+#~ "einzuleiten. Dieses Plugin hilft dir dabei."
+
+#~ msgid "Check my feed with the W3C Feed Validator"
+#~ msgstr "Meinen Feed auf Gültigkeit prüfen (W3C Feed Validator)"
+
+#~ msgid "RSS iTunes Redirection Settings"
+#~ msgstr "Einstellungen"
+
+#~ msgid "New URL to redirect"
+#~ msgstr "Neue Feed-URL"
+
+#~ msgid "Add the namespace?"
+#~ msgstr "Namespace hinzufügen?"
+
+#~ msgid "Will add the namespace"
+#~ msgstr "Folgender Namespace wird hinzugefügt"
+
+#~ msgid ""
+#~ "If you are using a podcast plugin please check if this plugin adds the "
+#~ "namespace. If so, you do not need it again. If you are not using any of "
+#~ "these plugins you normally need the namespace. Just check your feed "
+#~ "whether you get an error or not:"
+#~ msgstr ""
+#~ "Wenn du ein Podcast-Plugin benutzt, welches den Namespace <strong>xmlns:"
+#~ "itunes=\"http://www.itunes.com/dtds/podcast-1.0.dtd\"</strong> zum Feed "
+#~ "hinzufügt, brauchst du den Namespace nicht noch einmal hinzufügen. Wenn "
+#~ "du kein Podcast-Plugin benutzt benötigst du den Namespace normalerweise "
+#~ "schon. Öffne einfach deinen Feed und sehe nach, ob ein Fehler entsteht:"
+
+#~ msgid ""
+#~ "If you are using feedburner: Click on Troubleshootize -> Resync to update "
+#~ "your feed on this platform as well."
+#~ msgstr ""
+#~ "Wenn du Feedburner benutzt: Clicke auf Troubleshootize -> Resync um den "
+#~ "Feed auch dort zu aktualisieren."
