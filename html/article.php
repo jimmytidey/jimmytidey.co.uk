@@ -8,7 +8,6 @@ $article_id = urldecode($_GET['article_id']);
 if ($article_id == urldecode('Local+by+Social+-++Where+sexy+social+media+and+bashful+local+government+go+to+flirt')) { 
     header("HTTP/1.1 301 Moved Permanently");
     header('Location: http://jimmytidey.co.uk/blog/local-by-social-where-sexy-social-media-and-bashful-local-government-go-to-flirt/');
-    header('Location: http://www.example.com/');
 }
 
 else if ($article_id == urldecode('Wikipedia+Book+of+the+Dead')) { 
