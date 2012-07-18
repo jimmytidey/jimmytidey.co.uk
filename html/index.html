@@ -18,233 +18,137 @@
 	
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.5.min.js"></script>
 	<script type="text/javascript" src="http://use.typekit.com/urd8lfs.js"></script>
-	<script type='text/javascript' src='script/jquery.isotope.min.js' ></script>
-	<script type='text/javascript' src='script/script.js' ></script>
+	<!-- <script type='text/javascript' src='script/jquery.isotope.min.js' ></script> -->
+	<!-- <script type='text/javascript' src='script/script.js' ></script> -->
 	
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-
-	
+    <script type="text/javascript">
+       $(document).ready(function() {
+           
+            $('#arrow_right').click(function() {
+                console.log('right');
+                $('#item_container').animate({
+                    left: '-=900'
+               });
+            });
+            
+            $('#arrow_left').click(function() {
+                console.log('left');
+                $('#item_container').animate({
+                    left: '+=900'
+               });
+            });            
+            
+        });
+    
+	</script>
 </head> 
 
 <body>
 	<div id='container'>
     
-		<div id='contacts' >
-            <p><img src='resources/gmail.png' alt='Gmail logo' /><a href='mailto:jimmytidey@gmail.com'>jimmytidey@gmail.com</a></p> 
-            <p><img src='resources/twitter.png' alt ='Twitter logo'/><a href='http://twitter.com/#!/Jimmytidey'>@jimmytidey</a></p>
-            <p><img src='resources/github.png' alt='Github logo' /><a href='https://github.com/jimmytidey'>Github</a></p>
-            <p><img src='resources/blog_icon.png' alt='Blog logo' /><a href='blog/'>Blog</a></p>
-        </div>
+        
+	
+        
+
         
         <div id='main_column'>
-	
-			<div id='blurb' > 
-	            <h3 class='tk-museo'>Creative product development</h3>
-				<p>I'm Jimmy. My experience spans technical and production roles. I started as a front end developer at an agency, but my most recent work has been in product management: prototyping, testing, scoping, architecting and pitching.</p>
-	
-				<section id="options" >
-				
-					<ul class="option-set">
-						<li><a class='selected' href='#skills'>Skills</a></li>
-						<li><a href='#employment'>Employment history</a></li>									
-						<li><a href='#analysis'>Analysis / data viz</a></li>
-						<li><a href='#my-projects'>Projects</a></li>
-						<li><a href='#all'>Everything</a></li>						
-						
-					</ul>	
-				</section>
-				
-			</div>
-		
-			<div id='isotope_container'>
-				
-				<div class='isotope-item skills'>
-					<ul>
-						<li><strong>Production</strong> on projects with many stakeholders and remote dev teams</li>
-						<li><strong>Specification</strong> writing and maintaining spec documents with appropriate levels of detail</li>
-						<li><strong>Prototyping</strong> Rapidly producing working mock ups to refine ideas</li>
-						<li><strong>Testing</strong> Surveys, guerilla user testing, focus groups, full-scale user testing</li> 
-						<li><strong>Pitching &amp; Presenting</strong> Delivering pitches to external companies, presenting progress to management</li>
-				        <li><strong>Medium is the message</strong> Having worked on <a href='http://monterosa.co.uk/'>2-Screen TV</a>, I've spent plenty of time thinking about the <a href='http://jimmytidey.posterous.com/bar-camp-talk-the-internet-is-not-a-medium'>ergonomics of new kinds of media</a></li>							
-						
-						<li><strong>Tech Stuff</strong>
-    						<ul>
-    						    <li><strong>PHP, JavaScript, HTML5, Rails, Git</strong></li>
-    						    <li><strong>Semantic web technologies</strong> <a href='http://www.w3.org/TR/rdf-sparql-query/'>SPARQL</a>, <a href='http://dbpedia.org/About'>DBpedia</a>, <a href='http://www.freebase.com/'>Freebase</a></li>
-    						    <li><strong>Mapping</strong> Google maps / Open Street Map / <a href='http://mapbox.com/tilemill/'>TileMill</a></li>
-    						    <li><strong>Sentiment analysis</strong></li>
-    						    <li><strong>Numbers</strong> I've got some handy maths &amp; stats skills from my physics degree</li>
-    						</ul>
-						</li>
-					</ul>
-				</div>
+	    <h1 class='tk-museo'>Jimmy Tidey</h1>
+	    <p id='tag'><strong>Deep thinking about the way people use the web, practical knowledge of tech.</strong> 
+	    
 
-				<div class='isotope-item all employment'>
-				    <h3 class='all tk-museo'>Evrythng</h3>
-					<img src='resources/evrythng.png' alt="Somethin' Else productions" />
-					<div class='text-description'>
-						<p>Evrythng is an Internet of Things startup. They wanted a consumer-facing app to demonstrate the power of their technology. I ran a creative development process including workshops, market research, building prototypes, user testing and scoping.</p>
-						<p><em><a href='http://evrythng.com/' class='all tk-museo' >Evrythng</a></em></p>
-					</div>
-				</div>
-
-				<div class='isotope-item all employment'>
-				    <h3 class='all tk-museo'>Somethin' Else</h3>
-					<img src='resources/somethin_else.png' alt="Somethin' Else productions" />
-					<div class='text-description'>
-						<p>At Somethin' Else I built prototypes for a project about the future of radio.</p>
-						
-						<p>I brought my skills in semantic analysis and crawling the social graph to the project.</p> 
-						<p><em><a href='http://www.somethinelse.com/' class='all tk-museo' >Somethin Else</a></em></p>
-
-					</div>
-				</div>								
-								
-				<div class='isotope-item all employment'>
-				    <h3 class='all tk-museo'>Monterosa</h3>
-					<img src='resources/mpd.png' alt='Million Pound Drop - A Monterosa production' />
-					<div class='text-description'>
-						<p>Monterosa develop websites that integrate in realtime with live TV programmes, including for the BBC, ITV, and Channel 4. I started work with them as a Digital Producer, focusing on Project Management.</p> 
-						<p>I became a Development Producer, working up concepts, writing pitches and presenting them to TV commissioners.</p> 
-						<p><em><a href='http://monterosa.co.uk' class='all tk-museo'>Monterosa &raquo;</a></em></p>
-					</div>
-				</div> 
-
-				<div class='isotope-item all employment'>
-				    <h3 class='all tk-museo'>BBC Lab UK</h3>
-					<img src='resources/big_personality_test.png' alt='BBC Lab UK Big Personality Test' />
-					<div class='text-description'>
-						<p>BBC Lab UK is a platform for delivering mass-participation scientific experiments to support TV or Radio programming.</p> 
-						<p>I worked as researcher, including working with scientists to design the games used in Brain Test Britain, which went on to generate a paper for scientific journal for Nature. I also worked on the sociological context for The Great British Class Survey.</p> 
-						<p><em><a href='http://bbc.co.uk/labuk' class='all tk-museo' >BBC Lab UK &raquo;</a></em></p>
-						
-					</div>
-				</div> 
-
-				<div class='isotope-item all employment'>
-				    <h3 class='all tk-museo'>Anjunabeats</h3>
-					<img src='resources/anjunabeats.png' alt='Anjunabeats website' />		
-					<div class='text-description'>		
-						<p>Anjunabeats is an independent record label. I redeveloped their website, including integration with YouTube, Flickr and their online shop.</p>
-						<p>Anjunabeats took a pioneering approach to the web, running a large forum for their fans and a highly successful podcast and were the first UK record label to have a commercial deal with YouTube. I also helped design and develop competitions and promotions using microsites and their mailing list.</p>
-						<p><em><a href='http://anjunabeats.com' class='all tk-museo' >Anjunabeats  &raquo;</a></em></p>
-					</div>
-				</div>  
-
-				<div class='isotope-item all employment'>
-				    <h3 class='all tk-museo'>Basecreative</h3>
-					<img src='resources/basecreative.png' alt='Basecreative logo' />		
-					<div class='text-description'>		
-						<p>Basecreative is web design and online marketing agency. I worked with them as a front end developer and Flash developer.</p>
-						<p><em><a href='http://http://www.basecreative.eu/' class='all tk-museo' >Basecreaitve  &raquo;</a></em></p>
-					</div>
-				</div>				           
-
-
-				<!-- MY PROJECTS  -->
-			
-				<div class='isotope-item all my-projects'	>
-				    <h3 class='tk-museo'>Random Seed generative music player</h3>
-					<img src='resources/random_seed.png' alt='random seed composition tool' />
-					<div class='text-description'>
-						<p>Most music is now played back on computers, but almost no music takes advantage the platform. Random Seed uses algorithms to vary the music that it plays back.</p>
-						<p><a href='http://jimmytidey.co.uk/random-seed.html'>Read more about the project...</a></p>
-					</div>	
-				</div>	
-			
-				<div class='isotope-item all my-projects'>
-					<h3 class='tk-museo'>Heresay</h3> 
-					<img src='resources/heresay.png' alt="Image of the Heresay user editable map" />
-					<div class='text-description'>
-						<p>Heresay aggregates online discussions about locations and makes them easier to find. It's deployed as a plugin for common Content Management Systems.</p> 
-						<p>Technologies:</p> 
-						<ul> 
-						<li>Geonames</li> 
-						<li>Open Street Maps / Google Maps</li> 
-						<li>Built as a plugin for Drupal, Vanilla, and Ning</li>
-						</ul>
-						<p>Beta version: <em><a href='http://heresay.org.uk' class='all tk-museo' >Heresay &raquo;</a></em></p>
-					</div>
-				</div>			
-
-				<div class='isotope-item all my-projects'>
-					<h3 class='tk-museo'>Ephemerascope - a psychogeographical theodolite</h3>
-					<img src='resources/ephemrascope.png' alt="Ephemrascope screenshot" />
-					<div class='text-description'>
-						<p>"Psychogeography: a beginner's guide. Unfold a street map of London, place a glass, rim down, anywhere on the map, and draw round the edge. Pick up the map, go out into the city and walk around the circle, keeping as close as you can to the curve. Record the experience as you go, in whatever medium you favour: film, photography, manuscript, tape. Catch the textual run-off of the streets; the graffiti, the branded litter, the snatches of conversation. Cut for sign. Log the data-stream" - Robert McFarlane, quoted in Merlin Coverley's <em>Psychogeography</em>.</p> 
-						<p>Ephemerascope logs a different data-stream. It recreates this psychogeographical experience, but using the digital ephemera that litter our streets: FourSquare tips, tweets, Flickr photos.</p>
-						<p>Technologies:<p> 
-						<ul>
-						<li>Open Street Map open source maps</li> 
-						<li>jQuery Mobile</li> 
-						<li>Google's directions API, + Twitter, Flickr and FourSquare APIs</li>
-						<li>HTML5 geolocation</li>
-						</ul>
-						<p>At the moment, this is still being tested and developed. Looking at it now is... confusing.</p>
-					</div>
-				</div> 
-          
-				<div class='isotope-item all my-projects'>
-				<h3 class='tk-museo'>Timeliner</h3>
-				<img src='resources/timeliner.png' alt="Edit mode in my timeline maker" />
-				<div class='text-description'>
-				    <p>Timeliner is an app for making drag and drop timelines. Although it's never been promoted, it served as an interesting experiment in asking users to build visualisations.</p>
-				    <p>Technologies:</p>
-				    <ul> 
-				        <li>Freebase semantic lookup for dates of events and births and deaths</li>
-				        <li>MIT's <a href='http://simile.mit.edu/'>Simile</a> timeline library</li>
-				        <li>Ruby on Rails</li>
-				        <li>Heroku</li> 
-				    </ul>
-					<p><em><a href='http://timeline-maker.com' class='tk-museo' >Timeliner  &raquo;</a></em></p>
-				</div>
-				</div> 
-	
-	
-				<!-- ANALYSIS  -->
-			
-	           <div class='isotope-item all analysis'>
-				    <h3 class='tk-museo'>Darfur maps for Crisis Action</h3>
-					<img src='resources/darfur.png' alt="I can't show you the original map, this is a substitute map of Darfur" />
-					<div class='text-description'>
-						<p>Crisis Action works to draw government attention to human rights abuses. A recent report highlighted the ongoing conflict in Sudan.</p>
-						<p>I took data on aerial assaults, cleaned it and mapped it by date and intensity to illustrate the persistent level of violence.</p>
-						<p>The data is confidential so I can't share the map here.</p>
-					</div>
-					
-				</div>	
-	
-				<div class='isotope-item all analysis'>
-				    <h3 class='tk-museo'>Facebook social graph analysis</h3>
-					<img src='resources/cytoscape.png' alt='cytoscape network analysis software' />
-					<div class='text-description'>
-						<p>Monterosa's Million Pound Drop play-along game allows users to compete with their Facebook friends as they play.</p>
-						<p>We wanted to maximise the number of friends online. I used <a href='http://www.cytoscape.org/'>Cytoscape</a> to visualise the clusters of friends playing the game and generate insights that could be used to increase the level of connectivity between players.</p>
-					</div>
-				</div>
-
-				<div class='isotope-item all analysis'>
-				    <h3 class='tk-museo'>Musical genre analysis</h3>
-					<img src='resources/genre_analysis.png' alt='graph of different associations between musical genres' />
-					<div class='text-description'>
-						<p>Does musical genre mean something different in the digital world? If you don't have hunt through racks of categorised vinyl to find obscure gems, do it change the way you listen?</p>
-						<p>Using data from Last.FM's API I graphed the relationships between musical genres in different countries.</p>
-						<p><a href='http://jimmytidey.posterous.com/2010/07/dance-music.html'>Read more about the project...</a></p>
-					</div> 
-				</div>		
-
-				<div class='isotope-item all analysis'>
-				    <h3 class='tk-museo'>Michael Jackson is more important than Jesus</h3>
-					<img src='resources/dolan.png' alt='graph of the dolan index, ranking Wikipedia articles by connectedness' />
-					<div class='text-description'>
-						<p>For fun, an attempt at objectively listing the most famous people ever. This project used the "Dolan" index, DBpedia and Google PageRank.</p>
-						<p><a href='http://jimmytidey.posterous.com/2010/05/michael-jackson-is-more-famous-than.html'>Read more about the project...</a></p>
-					</div>	
-				</div>			
-					
-			</div>
-			
+	    
+	    <div id='arrow_left'>&laquo;</div>
+	    
+	    <div id='scroll_container'>
+	        <div id='item_container'>
+    	        <div class='scroll_item' data-scroll-number='1'>
+    	            <p><strong>If you are working on a web product, I can help</strong></p>
+            	    <ul>
+            	        <li>Grow the seed of an idea into a fully defined concept</li> 
+            	        <li>Rapidly prototype and test with users</li>
+            	        <li>Design products which have growth built-in</li> 
+            	        <li>Write specifications, work with designers and developers to deliver</p>
+            	    </ul>
+    	            <p><strong>Tech skills</strong></p>
+            	    <ul>
+            	        <li>Front-end development: Javascript, HTML, CSS, photoshop</li> 
+            	        <li>Strong PHP, working knowledge of Rails</li>
+                        <li>Semantic web technologies SPARQL, DBpedia, Freebase</li>
+            	    </ul>  
+    	            <p><strong>Non-tech skills</strong></p>
+            	    <ul>
+            	        <li>Writing specification documents, wireframing, and pitching to external companies</li> 
+            	        <li>Running focus groups, surveys and user testing sessions</li>
+            	    </ul>            	      	            
+    	            
+    	            
+            	    
+            	    <img id='me' src='resources/me.png' > 
+            	    
+    	        </div>   
+    	        
+    	        <!-- New Scroll Item -->            
+    	        <div class='scroll_item' data-scroll-number='2'>
+    	            <img src='resources/monterosa.png' />
+    	            
+    	            <div class='description'>
+    	                <h1 class='tk-museo'>Montrosa</h1>
+    	                <p class='question'>Most people can access the Internet while they watch TV. What can you do with that?</p>
+    	    
+    	                <p>I worked as a development producer at Monterosa, developing ideas for websites that sync with TV programmes and pitching them to TV channels.</p>
+    	            
+    	                <p>Monterosa are leaders in '2-Screen' TV, we worked with the BBC, ITV and Channel 4.</p>
+    	                
+                        <p>You can see our Million Pound Drop app in action here, and learn more about 2-Screen here</p>  
+    	            </div>
+    	        </div>
+    	        
+    	        <!-- New Scroll Item -->  
+    	        <div class='scroll_item' data-scroll-number='3'>
+    	            <img src='resources/evrythng_slider.png' />
+    	            
+    	            <div class='description'>
+    	                <h1 class='tk-museo'>Evrythng</h1>
+    	                <p class='question'>Most people can access the Internet while they watch TV. What can you do with that?</p>
+    	    
+    	                <p>I worked as a development producer at Monterosa, developing ideas for websites that sync with TV programmes and pitching them to TV channels.</p>
+    	            
+    	                <p>Monterosa are leaders in '2-Screen' TV, we worked with the BBC, ITV and Channel 4.</p>
+    	                
+    	                <p>You can see our Million Pound Drop app in action here, and learn more about 2-Screen here</p> 
+    	            </div>
+    	        </div>    	  
+    	        
+    	        <!-- New Scroll Item -->  
+    	        <div class='scroll_item' data-scroll-number='3'>
+    	            <img src='resources/bbc_slider.png' />
+    	            
+    	            <div class='description'>
+    	                <h1 class='tk-museo'>BBC</h1>
+    	                <p class='question'>How does science work</p>
+    	    
+    	                <p>I worked as a development producer at Monterosa, developing ideas for websites that sync with TV programmes and pitching them to TV channels.</p>
+    	            
+    	                <p>Monterosa are leaders in '2-Screen' TV, we worked with the BBC, ITV and Channel 4.</p>
+    	                
+    	                <p>You can see our Million Pound Drop app in action here, and learn more about 2-Screen here</p> 
+    	            </div>
+    	        </div>    	        
+    	        
+    	    </div>    
+	    </div>
+	    
+	    <div id='arrow_right'>&raquo;</div>
+	    
 		</div>
+		
+		<div id='contacts' >
+            <p><a href='mailto:jimmytidey@gmail.com'><img src='resources/gmail.png' alt='Gmail logo' /></a></p> 
+            <p><a href='http://twitter.com/#!/Jimmytidey'><img src='resources/twitter.png' alt ='Twitter logo'/></a></p>
+            <p><a href='https://github.com/jimmytidey'><img src='resources/github.png' alt='Github logo' /></a></p>
+            <p><a href='blog/'><img src='resources/blog_icon.png' alt='Blog logo' /></a></p>
+        </div>	
 		
 	</div>	
 	
