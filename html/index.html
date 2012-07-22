@@ -23,132 +23,221 @@
 	
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     <script type="text/javascript">
-       $(document).ready(function() {
-           
-            $('#arrow_right').click(function() {
-                console.log('right');
-                $('#item_container').animate({
-                    left: '-=900'
-               });
+$(document).ready(function() {
+   
+    $('#arrow_right').click(function() {
+       
+        if(parseInt($('#item_container').css('left')) > -5400 && !$('#item_container').is(":animated")) {
+            
+            console.log('right');
+            $('#item_container').animate({
+                left: '-=900'
             });
+            $('#guide_marker').animate({
+                left: '+=80'
+            });
+        }          
+    });
+    
+    $('#arrow_left').click(function() {
             
-            $('#arrow_left').click(function() {
-                console.log('left');
-                $('#item_container').animate({
-                    left: '+=900'
-               });
-            });            
+            if(parseInt($('#item_container').css('left')) < 0 && !$('#item_container').is(":animated") ) { 
+            console.log('left');
+            $('#item_container').animate({
+                left: '+=900'
+           });
+            $('#guide_marker').animate({
+                left: '-=80'
+           });    
+        }
+    });  
+    
+    $('#clickable span').click(function() {
             
-        });
+        var distance = $(this).attr('data-pixel-distiance');
+        var marker_distance = (distance / 11.25) - 8;  
+        console.log('dot click');
+        
+        $('#item_container').animate({
+            left: - distance
+       });
+        $('#guide_marker').animate({
+            left: marker_distance
+       });    
+        
+    });       
+    
+});
     
 	</script>
 </head> 
 
 <body>
 	<div id='container'>
-    
-        
-	
-        
 
-        
-        <div id='main_column'>
-	    <h1 class='tk-museo'>Jimmy Tidey</h1>
-	    <p id='tag'><strong>Deep thinking about the way people use the web, practical knowledge of tech.</strong> 
+	    <h1 class='tk-museo' id='name'>Jimmy Tidey</h1>
+	    <p id='tag'><strong>Deep thinking about the way people use the web, practical knowledge of tech</strong> 
 	    
-
+		<div id='contacts' >
+            <p><a href='mailto:jimmytidey@gmail.com'><img src='resources/gmail.png' alt='Gmail logo' /></a></p> 
+            <p><a href='http://twitter.com/#!/Jimmytidey'><img src='resources/twitter.png' alt ='Twitter logo'/></a></p>
+            <p><a href='https://github.com/jimmytidey'><img src='resources/github.png' alt='Github logo' id='github_logo' /></a></p>
+            <p><a href='blog/'><img src='resources/blog_icon.png' alt='Blog logo' id='blog_logo' /></a></p>
+        </div>
 	    
 	    <div id='arrow_left'>&laquo;</div>
 	    
 	    <div id='scroll_container'>
 	        <div id='item_container'>
-    	        <div class='scroll_item' data-scroll-number='1'>
-    	            <p><strong>If you are working on a web product, I can help</strong></p>
+    	        <div class='scroll_item' >
+    	            
+    	            <p class='next'>work I've done →</p>
+    	            
+    	            <p><strong>If you are working on a web site or app, I can help</strong></p>
             	    <ul>
             	        <li>Grow the seed of an idea into a fully defined concept</li> 
             	        <li>Rapidly prototype and test with users</li>
-            	        <li>Design products which have growth built-in</li> 
-            	        <li>Write specifications, work with designers and developers to deliver</p>
+            	        <li>Design products with a view to marketing and baked-in growth</li> 
+            	        <li>Write specifications, work with designers and developers to deliver</li>
             	    </ul>
     	            <p><strong>Tech skills</strong></p>
             	    <ul>
             	        <li>Front-end development: Javascript, HTML, CSS, photoshop</li> 
             	        <li>Strong PHP, working knowledge of Rails</li>
-                        <li>Semantic web technologies SPARQL, DBpedia, Freebase</li>
+                        <li>Semantic web technologies. <a href='http://jimmytidey.co.uk/blog/michael-jackson-is-more-important-than-jesus-fact/'>SPARQL</a>, <a href='http://jimmytidey.co.uk/blog/timeline-maker-com/'>Freebase</a>. <a href='jimmytidey.co.uk/blog/lost-in-the-noise-what-we-really-think-about-musical-genres/'>Graph analysis</a>.</li>
             	    </ul>  
     	            <p><strong>Non-tech skills</strong></p>
             	    <ul>
+            	        <li>Defining a roadmap from conceptualisation to specification to delivery</li>
             	        <li>Writing specification documents, wireframing, and pitching to external companies</li> 
             	        <li>Running focus groups, surveys and user testing sessions</li>
             	    </ul>            	      	            
     	            
     	            
             	    
-            	    <img id='me' src='resources/me.png' > 
+            	    <img id='me' src='resources/me.png' alt='picture of me ' > 
             	    
     	        </div>   
     	        
-    	        <!-- New Scroll Item -->            
-    	        <div class='scroll_item' data-scroll-number='2'>
-    	            <img src='resources/monterosa.png' />
-    	            
-    	            <div class='description'>
-    	                <h1 class='tk-museo'>Montrosa</h1>
-    	                <p class='question'>Most people can access the Internet while they watch TV. What can you do with that?</p>
-    	    
-    	                <p>I worked as a development producer at Monterosa, developing ideas for websites that sync with TV programmes and pitching them to TV channels.</p>
-    	            
-    	                <p>Monterosa are leaders in '2-Screen' TV, we worked with the BBC, ITV and Channel 4.</p>
-    	                
-                        <p>You can see our Million Pound Drop app in action here, and learn more about 2-Screen here</p>  
-    	            </div>
-    	        </div>
-    	        
     	        <!-- New Scroll Item -->  
-    	        <div class='scroll_item' data-scroll-number='3'>
+    	        <div class='scroll_item' >
     	            <img src='resources/evrythng_slider.png' />
     	            
     	            <div class='description'>
     	                <h1 class='tk-museo'>Evrythng</h1>
-    	                <p class='question'>Most people can access the Internet while they watch TV. What can you do with that?</p>
+    	                <p class='question'>One day, your toaster and your guitar will be as connected as your phone. Evrythng want to provide a software platform to link... well, everything, together.</p>
+    	    
+    	                <p>I worked as a Product Manager to research ways that their platform can be deployed.</p>
+    	            
+    	                <p>I produced prototypes using their API, ran user testing, surveys and participated in a their development sprints.</p>
+    	                
+    	                <p>More <a href='http://evrythng.com'>here</a></p> 
+    	            </div>
+    	        </div>    	        
+    	        
+    	        <!-- New Scroll Item -->            
+    	        <div class='scroll_item' >
+    	            <img src='resources/monterosa.png' />
+    	            
+    	            <div class='description'>
+    	                <h1 class='tk-museo'>Montrosa</h1>
+    	                <p class='question'>Sitting on the sofa, computer on lap, watching TV - everyone does it. Monterosa work to make the laptop (or tablet) part of the TV experience.</p>
     	    
     	                <p>I worked as a development producer at Monterosa, developing ideas for websites that sync with TV programmes and pitching them to TV channels.</p>
     	            
     	                <p>Monterosa are leaders in '2-Screen' TV, we worked with the BBC, ITV and Channel 4.</p>
     	                
-    	                <p>You can see our Million Pound Drop app in action here, and learn more about 2-Screen here</p> 
+                        <p>You can see the Million Pound Drop app in action here, and learn more about 2-Screen here.</p>  
     	            </div>
-    	        </div>    	  
+    	        </div>
+
+
+    	        <!-- New Scroll Item -->  
+    	        <div class='scroll_item' >
+    	            <img src='resources/fed_slider.png' />
+    	            
+    	            <div class='description'>
+    	                <h1 class='tk-museo'>A front end developer...</h1>
+    	                
+    	                <p>I started my career as a front end developer at <a href='http://basecreative.eu/'>Base Creative</a>, and then worked to produce a new site for <a href='http://anjunabeats.com'>Anjunanbeats</a>.</p>  
+    	                
+    	                <p>A good example of my recent work can be seen at <a href='http://timeliner-maker.com'>timeline-maker.com</a> (<a href='https://github.com/jimmytidey/timeline/'>code here</a>). This is a personal project, I designed and built the front end and made friends with Ruby for the back end. The javascript is better than the design...</p>
+                        
+                        <p>I also made use of the <a href='http://freebase.com'>Freebase API</a>, and got friendly with Rails.</p> 
+                        
+    	            </div>
+    	        </div>    	        
+  
+
+
+
     	        
     	        <!-- New Scroll Item -->  
-    	        <div class='scroll_item' data-scroll-number='3'>
+    	        <div class='scroll_item' >
     	            <img src='resources/bbc_slider.png' />
     	            
     	            <div class='description'>
-    	                <h1 class='tk-museo'>BBC</h1>
-    	                <p class='question'>How does science work</p>
+    	                <h1 class='tk-museo'>BBC Lab UK</h1>
+    	                <p class='question'>Science needs big samples to make valid conclusions. Can we make scientific experiments fun enough that 100,000 people will participate via a website?</p>
     	    
-    	                <p>I worked as a development producer at Monterosa, developing ideas for websites that sync with TV programmes and pitching them to TV channels.</p>
-    	            
-    	                <p>Monterosa are leaders in '2-Screen' TV, we worked with the BBC, ITV and Channel 4.</p>
-    	                
-    	                <p>You can see our Million Pound Drop app in action here, and learn more about 2-Screen here</p> 
+                        <p>I worked on the <a href='www.bbc.co.uk/labuk/'>Lab UK</a> projects as a researcher. During my time we had over 100,000 participants in our experiments, leading to a scientific paper published in nature.</p>  
     	            </div>
+    	        </div>   
+    	        
+    	        <!-- New Scroll Item -->  
+    	        <div class='scroll_item' >
+    	            <img src='resources/rifff_slider.png' />
+    	            
+    	            <div class='description'>
+    	                <h1 class='tk-museo'>RIFFF</h1>
+    	                <p class='question'>Music is always affected by its medium - Beethoven benefitted from the iron frame piano, three-minute pop songs are the length of a side of vinyl. What does listening on your iPhone mean?</p>
+    	    
+    	                <p>Rifff is a project to use generative composition to produce music that sounds (more or less) like music.</p>
+    	                
+    	                <p>I've written it almost exclusively in Flash, you can see the code <a href='https://github.com/jimmytidey/Riff-Flash'>here</a>, and you can see the project <a href='http://algorithmic-music-composer.net/'>here</a>.</p> 
+    	            </div>
+    	        </div>
+    	        
+    	        <!-- New Scroll Item -->  
+    	        <div class='scroll_item' >
+    	           
+    	            
+    	            <div class='description'>
+    	                <h1 class='tk-museo'>Get in contact</h1>
+                        
+                        <p>I'm available for hire.</p>
+                        
+                        <ul>
+                            <li>Twitter: <a href='https://twitter.com/Jimmytidey'>jimmytidey</li>
+                            <li><a href='mailto:jimmytidey@gmail.com'>jimmytidey@gmail.com</a></li>
+                        </ul>
+                    </div>    
     	        </div>    	        
+    	        	        	                
+        	        
     	        
     	    </div>    
 	    </div>
 	    
 	    <div id='arrow_right'>&raquo;</div>
 	    
-		</div>
+
 		
-		<div id='contacts' >
-            <p><a href='mailto:jimmytidey@gmail.com'><img src='resources/gmail.png' alt='Gmail logo' /></a></p> 
-            <p><a href='http://twitter.com/#!/Jimmytidey'><img src='resources/twitter.png' alt ='Twitter logo'/></a></p>
-            <p><a href='https://github.com/jimmytidey'><img src='resources/github.png' alt='Github logo' /></a></p>
-            <p><a href='blog/'><img src='resources/blog_icon.png' alt='Blog logo' /></a></p>
-        </div>	
+		<div id='guide'>
+		    
+		    <div id='clickable'>
+		        <span data-pixel-distiance='0' > </span>	        
+		        <span data-pixel-distiance='900'> </span>	        
+		        <span data-pixel-distiance='1800'> </span>	        
+		        <span data-pixel-distiance='2700'> </span>	        
+		        <span data-pixel-distiance='3600'> </span>	        
+		        <span data-pixel-distiance='4500'> </span>	        
+		        <span data-pixel-distiance='5400'> </span>	        
+		    </div>    
+		        		        		    
+		    <img src='resources/guide_marker.png' id='guide_marker' />
+            <img src='resources/guide.png' />
+	    </div>
 		
 	</div>	
 	

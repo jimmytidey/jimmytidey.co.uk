@@ -1,6 +1,7 @@
 
 body, html {
 	background-color:#F4EAE1;
+	background-image:url(../resources/background.png);
 	font-family: “Helvetica Neue”, Arial, Helvetica, sans-serif;
 }
 
@@ -25,9 +26,8 @@ h3 a {
    
 }
 
-#main_column {
-	float:left;
-	width:570px;
+#name {
+	margin-bottom:10px;
 }
 
 #tag { 
@@ -45,7 +45,7 @@ h3 a {
 
 #contacts {
 	position:absolute;
-    top:76px;
+    top:47px;
 	right:-7px;	
 }
 
@@ -53,6 +53,14 @@ h3 a {
 	width:60px;
 	float:left;
 	text-align:right;
+}
+
+#github_logo { 
+	margin-top:-2px;
+}
+
+#blog_logo { 
+	margin-top:-2px;
 }
 
 #contacts a {
@@ -104,9 +112,10 @@ h3 a {
 }
 
 #item_container { 
-	width:4000px;
+	width:8000px;
 	height:400px;
 	position:absolute;
+	left:0;
 }
 
 .scroll_item { 
@@ -138,6 +147,50 @@ h3 a {
 
 #me { 
 	bottom: 0;
-    left: 540px;
+    left: 550px;
     position: absolute;
+}
+
+.next { 
+	font-size:12px;
+	position:absolute;
+	top:10px;
+	left:680px;
+	text-align:right;
+	width:200px;
+}
+
+#guide { 
+	position:absolute;
+	top:510px;
+	left:160px;
+	width:500px;
+}
+
+
+
+#guide img  {
+	margin-right:6px;
+	margin-bottom:-2px;
+	
+}
+
+#guide_marker { 
+    left: -7px;
+    position: absolute;
+    top: -7px;
+}
+
+#clickable { 
+	position:absolute;
+	width:620px;
+	margin-left:-10px;
+	margin-top:-10px;
+	cursor:pointer;
+}
+
+#guide span { 
+	float:left;
+	width:80px;
+	height:100px;
 }
