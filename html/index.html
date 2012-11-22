@@ -12,71 +12,28 @@
 	
 
 	<link rel="stylesheet" type="text/css" media="screen" href="style/main.css" />
-	
+	<link rel="stylesheet" type="text/css" href="script/jquery.fancybox.css?v=2.1.2" media="screen" />
+		
 	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
 	<link rel="icon" type="image/x-icon" href="/favicon.ico" />
 	
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.5.min.js"></script>
 	<script type="text/javascript" src="http://use.typekit.com/urd8lfs.js"></script>
-	<!-- <script type='text/javascript' src='script/jquery.isotope.min.js' ></script> -->
-	<!-- <script type='text/javascript' src='script/script.js' ></script> -->
+    <script type='text/javascript' src='script/script.js' ></script> 
+
+	<script type="text/javascript" src="script/jquery.mousewheel-3.0.6.pack.js"></script>
+	<script type="text/javascript" src="script/jquery.fancybox.pack.js"></script>
+
 	
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-    <script type="text/javascript">
-$(document).ready(function() {
-   
-    $('#arrow_right').click(function() {
-       
-        if(parseInt($('#item_container').css('left')) > -5400 && !$('#item_container').is(":animated")) {
-            
-            console.log('right');
-            $('#item_container').animate({
-                left: '-=900'
-            });
-            $('#guide_marker').animate({
-                left: '+=80'
-            });
-        }          
-    });
-    
-    $('#arrow_left').click(function() {
-            
-            if(parseInt($('#item_container').css('left')) < 0 && !$('#item_container').is(":animated") ) { 
-            console.log('left');
-            $('#item_container').animate({
-                left: '+=900'
-           });
-            $('#guide_marker').animate({
-                left: '-=80'
-           });    
-        }
-    });  
-    
-    $('#clickable span').click(function() {
-            
-        var distance = $(this).attr('data-pixel-distiance');
-        var marker_distance = (distance / 11.25) - 8;  
-        console.log('dot click');
-        
-        $('#item_container').animate({
-            left: - distance
-       });
-        $('#guide_marker').animate({
-            left: marker_distance
-       });    
-        
-    });       
-    
-});
-    
-	</script>
+ 
 </head> 
 
 <body>
 	<div id='container'>
 
 	    <h1 class='tk-museo' id='name'>Jimmy Tidey</h1>
-	    <p id='tag'><strong>Deep thinking about the way people use the web</strong> 
+	    <p id='tag'><strong>Deep thinking about the web</strong> 
 	    
 		<div id='contacts' >
             <p><a target='_blank' href='mailto:jimmytidey@gmail.com'><img src='resources/gmail.png' alt='Gmail logo' /></a></p> 
@@ -90,37 +47,66 @@ $(document).ready(function() {
 	    <div id='scroll_container'>
 	        <div id='item_container'>
     	        <div class='scroll_item' >
-    	            
-    	            <p class='next'>work I've done →</p>
-    	            
-    	            <p><strong>If you are working on a web site or app, I can help with</strong></p>
-            	    <ul>
-            	        <li>Full-scale development as a developer or product manager</li> 
-            	        <li>Growing the seed of an idea into a fully defined concept</li> 
-            	        <li>Rapid, iterative prototyping and testing</li>
-            	        <li>Ensuring growth and marketing are considered at every stage </li>            	        
-            	    </ul>
-            	    
-            	    
+    	            	    
+    	            <h2>I'm a freelance front-end developer and producer / product manager, my background spans both production and tech roles.</h2>	    
+    	            	    
     	            <p><strong>Tech skills</strong></p>
             	    <ul>
-            	        <li>Front-end development: Javascript, HTML, CSS, photoshop</li> 
-            	        <li>Strong PHP, working knowledge of Rails</li>
+            	        <li>Front-end development: Javascript, HTML5, Responsive Design, CSS, photoshop</li> 
+            	        <li>Strong PHP, WordPress, working knowledge of Rails</li>
                         <li>Semantic web technologies, such as <a target='_blank' href='http://jimmytidey.co.uk/blog/timeline-maker-com/'>SPARQL &amp; Freebase</a>. <a target='_blank' href='http://jimmytidey.co.uk/blog/lost-in-the-noise-what-we-really-think-about-musical-genres/'>Graph analysis</a>.</li>
             	    </ul>  
-    	            <p><strong>Non-tech skills</strong></p>
+    	            <p><strong>Production skills</strong></p>
             	    <ul>
             	        <li>Defining roadmaps from conceptualisation to specification to delivery</li>
             	        <li>Writing specification documents, wireframing, making stimulus material for testing</li>
             	        <li>Running focus groups, surveys and user testing sessions</li>
             	        <li>Extensive experience of pitching</li> 
             	    </ul>            	      	            
-    	            
-    	            
             	    
             	    <img id='me' src='resources/me.png' alt='picture of me ' > 
             	    
     	        </div>   
+    	        
+    	        <!-- New Scroll Item -->  
+    	        <div class='scroll_item' >
+    	              
+	                
+	                
+	                <div class='freelance_nugget'>
+	                    <img src='resources/n0tice.png'  />
+                        <p class='question'>LBi - N0tice campaign for the Guardian</p>
+                        <p>Front-end development using the N0tice API to produce <a href='http://about.n0tice.com/2012/10/30/lights-camera-action-its-n0tice-high-streets-the-movie/'>embedable, dynamic infographics</a>. </p>
+                    </div>
+                    
+                    <div class='freelance_nugget'>
+                        <img src='resources/nesta.png'  />
+                        <p><strong>Stian Westlake / NESTA</strong> 
+                            
+                        <p>Ongoing project to map the social graph of think tanks, and to gather and explore research. It's a personal project for a NESTA employee. <a href='resources/thinktank_social_network.png' title='social networks' data-fancybox-group="gallery" class="fancybox">Little taster</a>.</p>
+
+                    </div>
+                    
+                    <div class='freelance_nugget'>
+                        <img src='resources/rubric.png'  />
+                        <p><strong>Rubric Creative</strong><p> 
+                        <p>Working as a front-end web developer for <a href='http://www.rubriccreative.com/'>Rubric Creative</a>. Responsive Design and WordPress development.</p>
+                    </div>
+                    
+                    <div class='freelance_nugget'>
+                         <img src='resources/was.png'  />
+                        <p class='question'>Wines and Spirits B2B</p>
+                        <p>Refining information architecture, running surveys, refining copy and sharpening the offer.</p>
+                    </div>
+                    
+                    <div class='freelance_nugget'>
+                         <img src='resources/se.png'  />
+                        <p class='question'>Somethin' Else</p>
+                        <p>R&amp;D project producing maps of people's musical preferences using Facebook and YouTube.</p>
+                    </div>
+    	            
+    	        </div>    	        
+    	        
     	        
     	        <!-- New Scroll Item -->  
     	        <div class='scroll_item' >
@@ -136,9 +122,8 @@ $(document).ready(function() {
     	                
     	                <p>More <a target='_blank' href='http://evrythng.com'>here</a>.</p> 
     	            </div>
-    	        </div>
+    	        </div>  	
     	        
-    	            	        
     	        
     	        <!-- New Scroll Item -->            
     	        <div class='scroll_item' >
@@ -154,28 +139,8 @@ $(document).ready(function() {
     	                
                         <p>You can see the Million Pound Drop app in action <a target='_blank' href='http://vimeo.com/25461004'>here</a>, and learn more about 2-Screen <a target='_blank' href='http://monterosa.co.uk/'>here</a>.</p>  
     	            </div>
-    	        </div>
-
-
-    	        <!-- New Scroll Item -->  
-    	        <div class='scroll_item' >
-    	            <img src='resources/fed_slider.png' />
-    	            
-    	            <div class='description'>
-    	                <h1 class='tk-museo'>A front end developer...</h1>
-    	                
-    	                <p>I started my career as a front end developer at <a target='_blank' href='http://basecreative.eu/'>Base Creative</a>, and after that as a front and back end dev for <a href='http://anjunabeats.com'>Anjunanbeats</a>.</p>  
-    	                
-    	                <p>A good example of my recent work can be seen at <a target='_blank' href='http://timeliner-maker.com'>timeline-maker.com</a> (<a href='https://github.com/jimmytidey/timeline/'>code here</a>). This is a personal project, I designed and built the front end and worked with <a target='_blank' href='http://www.nagisystems.com/'>Andrew Nagi</a> on the back end.</p>
-                        
-                        <p>I also made use of the <a target='_blank' href='http://freebase.com'>Freebase API</a>, and got friendly with Rails for the first time.</p> 
-                        
-    	            </div>
-    	        </div>    	        
+    	        </div>    	                
   
-
-
-
     	        
     	        <!-- New Scroll Item -->  
     	        <div class='scroll_item' >
@@ -192,31 +157,18 @@ $(document).ready(function() {
     	            </div>
     	        </div>   
     	        
-    	        <!-- New Scroll Item -->  
-    	        <div class='scroll_item' >
-    	            <img src='resources/rifff_slider.png' />
-    	            
-    	            <div class='description'>
-    	                <h1 class='tk-museo'>RIFFF</h1>
-    	                <p class='question'>Music is always affected by medium - from Beethoven writing for the newly-invented iron-frame piano to the length of a side of vinyl giving us the three-minute pop song. Rifff asks: what does listening on your iPhone mean for music?</p>
-    	    
-    	                <p>Rifff is a project to explore the computational power inheriant in modern playback devices - mobile phones and laptops.</p>
-    	                
-    	                <p>I've done all the design and development on the project, working iteratively with musician <a  target='_blank' href='http://thomasjbryan.co.uk/'>Tom Bryan</a>. You can see the code <a target='_blank' href='https://github.com/jimmytidey/Riff-Flash'>here</a>, and the project <a target='_blank' href='http://algorithmic-music-composer.net/'>here</a>.</p> 
-    	            </div>
-    	        </div>
+
     	        
     	        <!-- New Scroll Item -->  
     	        <div class='scroll_item' >
-    	           
-    	            
+
     	            <div class='description'>
     	                <h1 class='tk-museo'>Get in contact</h1>
                         
                         <p>I'm available for hire.</p>
                         
                         <ul>
-                            <li>Twitter: <a target='_blank' href='https://twitter.com/Jimmytidey'>jimmytidey</li>
+                            <li>Twitter: <a target='_blank' href='https://twitter.com/Jimmytidey'>jimmytidey</a></li>
                             <li><a target='_blank' href='mailto:jimmytidey@gmail.com'>jimmytidey@gmail.com</a></li>
                         </ul>
                     </div>    
@@ -228,23 +180,14 @@ $(document).ready(function() {
 	    </div>
 	    
 	    <div id='arrow_right'>&raquo;</div>
-	    
 
-		
 		<div id='guide'>
-		    
-		    <div id='clickable'>
-		        <span data-pixel-distiance='0' > </span>	        
-		        <span data-pixel-distiance='900'> </span>	        
-		        <span data-pixel-distiance='1800'> </span>	        
-		        <span data-pixel-distiance='2700'> </span>	        
-		        <span data-pixel-distiance='3600'> </span>	        
-		        <span data-pixel-distiance='4500'> </span>	        
-		        <span data-pixel-distiance='5400'> </span>	        
-		    </div>    
-		        		        		    
-		    <img src='resources/guide_marker.png' id='guide_marker' />
-            <img src='resources/guide.png' />
+		    <p data-target='1'>About</p>
+		    <p data-target='2'>Freelance work</p>
+		    <p data-target='3'>Evrythng</p>
+		    <p data-target='4'>Monterosa</p>
+		    <p data-target='5'>BBC Lab UK</p>		    		    
+            <p data-target='6'>Contact</p>
 	    </div>
 		
 	</div>	

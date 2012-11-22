@@ -14,6 +14,11 @@ a {
 	color:black;
 }
 
+h2 { 
+	font-size:16px;
+	width:500px;
+}
+
 h3 a {
 	font-size:18px;
 }
@@ -105,6 +110,7 @@ h3 a {
 }
 
 #scroll_container { 
+	border:1px solid #ccc;
 	position:absolute;
 	width:900px;
 	height:400px;
@@ -162,24 +168,36 @@ h3 a {
 
 #guide { 
 	position:absolute;
-	top:510px;
-	left:160px;
-	width:500px;
+	top:490px;
+	width:900px;
 }
 
-
-
-#guide img  {
-	margin-right:6px;
-	margin-bottom:-2px;
-	
+#guide p { 
+   float: left;
+    text-align: center;
+    width: 16%;
+	cursor:pointer;
 }
 
-#guide_marker { 
-    left: -7px;
-    position: absolute;
-    top: -7px;
+.freelance_nugget { 
+	width:350px;
+	height:120px;
+	margin-left:12px;
+	float:left;
+	margin-bottom:20px;
+	padding-right:30px;
 }
+
+.freelance_nugget  p { 
+	margin-top:0px;
+}
+
+.freelance_nugget img {
+	float:left;
+	margin-bottom:70px;
+	margin-right:20px;
+}	
+
 
 #clickable { 
 	position:absolute;
