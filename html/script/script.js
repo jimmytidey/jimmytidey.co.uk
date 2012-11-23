@@ -1,7 +1,7 @@
 scroller = {};
 scroller.page = 1; 
 scroller.max_page = 6; 
-scroller.page_names = ['', '#About', '#Freelance', '#Evrythng', '#Monterosa', '#BBC', '#Contact'];
+scroller.page_names = ['', '#About', '#Freelance', '#Evrythng', '#Monterosa', '#Personal-work', '#Contact'];
 
 
 $(document).ready(function() {
