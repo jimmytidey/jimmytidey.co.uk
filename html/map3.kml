@@ -16,7 +16,7 @@
   </Style>
 
   
-  <Placemark>
+  <Placemark id='1'>
     <name>Lambeth</name>
     <description><![CDATA[London Borough of Lambeth]]></description>
     <styleUrl>#style1</styleUrl>
