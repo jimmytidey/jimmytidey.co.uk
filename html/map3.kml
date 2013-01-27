@@ -14,121 +14,12 @@
       <outline>1</outline>
     </PolyStyle>
   </Style>
-  <Style id="style6">
-    <LineStyle>
-      <color>80FF3333</color>
-      <width>2</width>
-    </LineStyle>
-    <PolyStyle>
-      <color>73FFFFFF</color>
-      <fill>1</fill>
-      <outline>1</outline>
-    </PolyStyle>
-  </Style>
-  <Style id="style8">
-    <LineStyle>
-      <color>80FF3333</color>
-      <width>2</width>
-    </LineStyle>
-    <PolyStyle>
-      <color>73FFFFFF</color>
-      <fill>1</fill>
-      <outline>1</outline>
-    </PolyStyle>
-  </Style>
-  <Style id="style9">
-    <LineStyle>
-      <color>80FF3333</color>
-      <width>2</width>
-    </LineStyle>
-    <PolyStyle>
-      <color>73FFFFFF</color>
-      <fill>1</fill>
-      <outline>1</outline>
-    </PolyStyle>
-  </Style>
-  <Style id="style2">
-    <LineStyle>
-      <color>40000000</color>
-      <width>3</width>
-    </LineStyle>
-    <PolyStyle>
-      <color>736666FF</color>
-      <fill>1</fill>
-      <outline>1</outline>
-    </PolyStyle>
-  </Style>
-  <Style id="style11">
-    <LineStyle>
-      <color>80FF3333</color>
-      <width>2</width>
-    </LineStyle>
-    <PolyStyle>
-      <color>73FFFFFF</color>
-      <fill>1</fill>
-      <outline>1</outline>
-    </PolyStyle>
-  </Style>
-  <Style id="style7">
-    <LineStyle>
-      <color>80FF3333</color>
-      <width>2</width>
-    </LineStyle>
-    <PolyStyle>
-      <color>73FFFFFF</color>
-      <fill>1</fill>
-      <outline>1</outline>
-    </PolyStyle>
-  </Style>
-  <Style id="style10">
-    <LineStyle>
-      <color>80FF3333</color>
-      <width>2</width>
-    </LineStyle>
-    <PolyStyle>
-      <color>73FFFFFF</color>
-      <fill>1</fill>
-      <outline>1</outline>
-    </PolyStyle>
-  </Style>
-  <Style id="style5">
-    <LineStyle>
-      <color>80FF3333</color>
-      <width>2</width>
-    </LineStyle>
-    <PolyStyle>
-      <color>73FFFFFF</color>
-      <fill>1</fill>
-      <outline>1</outline>
-    </PolyStyle>
-  </Style>
-  <Style id="style3">
-    <LineStyle>
-      <color>80FF3333</color>
-      <width>2</width>
-    </LineStyle>
-    <PolyStyle>
-      <color>73FFFFFF</color>
-      <fill>1</fill>
-      <outline>1</outline>
-    </PolyStyle>
-  </Style>
-  <Style id="style4">
-    <LineStyle>
-      <color>80FF3333</color>
-      <width>2</width>
-    </LineStyle>
-    <PolyStyle>
-      <color>73FFFFFF</color>
-      <fill>1</fill>
-      <outline>1</outline>
-    </PolyStyle>
-  </Style>
+
   
   <Placemark>
     <name>Lambeth</name>
     <description><![CDATA[London Borough of Lambeth]]></description>
-    <styleUrl>#style7</styleUrl>
+    <styleUrl>#style1</styleUrl>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
