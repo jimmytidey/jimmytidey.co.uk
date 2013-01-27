@@ -8,11 +8,7 @@
       <color>80FF3333</color>
       <width>2</width>
     </LineStyle>
-    <PolyStyle>
-      <color>73FFFFFF</color>
-      <fill>1</fill>
-      <outline>1</outline>
-    </PolyStyle>
+
   </Style>
   <Placemark id='placemark_1'>
     <name>Lambeth</name>
