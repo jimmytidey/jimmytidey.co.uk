@@ -14,7 +14,7 @@
       <outline>1</outline>
     </PolyStyle>
   </Style>
-  <Placemark id='1'>
+  <Placemark id='placemark_1'>
     <name>Lambeth</name>
     <description><![CDATA[London Borough of Lambeth]]></description>
     <styleUrl>#style1</styleUrl>
