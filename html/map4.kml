@@ -4,7 +4,7 @@
   <name>London Boroughs</name>
   <description><![CDATA[Map of London Boroughs]]></description>
   <Style id="style1">
-    <LineStyle>
+
     <LineStyle>
       <color>55B4A014</color>
       <width>4</width>
