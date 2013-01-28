@@ -4,13 +4,15 @@
   <name>London Boroughs</name>
   <description><![CDATA[Map of London Boroughs]]></description>
   <Style id="style1">
-      <LineStyle>
-        <color>7f00ffff</color>
-        <width>4</width>
-      </LineStyle>
-      <PolyStyle>
-        <color>7f00ff00</color>
-      </PolyStyle>
+    <LineStyle>
+      <color>80FF3333</color>
+      <width>2</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>44ff0000</color>
+      <fill>1</fill>
+      <outline>1</outline>
+    </PolyStyle>
   </Style>
   <Placemark id='placemark_1'>
     <name>Lambeth</name>
