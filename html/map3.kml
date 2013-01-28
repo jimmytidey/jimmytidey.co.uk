@@ -5,11 +5,11 @@
   <description><![CDATA[Map of London Boroughs]]></description>
   <Style id="style1">
       <LineStyle>
-        <color>7f00ffff</color>
+        <color>55B4A014</color>
         <width>4</width>
       </LineStyle>
       <PolyStyle>
-        <color>7f00ff00</color>
+        <color>fB4A014</color>
       </PolyStyle>
   </Style>
   <Placemark id='placemark_1'>
