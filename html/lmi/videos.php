@@ -1,5 +1,8 @@
 <?
 $query = urlencode($_GET['query']);
+if(isset($_GET['callback'])) {
+    $callback = $_GET['callback'];
+}
 
 $url = 'http://gdata.youtube.com/feeds/api/users/icouldstories/uploads/?alt=json&q=' . $query;
 
@@ -12,7 +15,12 @@ header('Expires: Mon, 26 Jul 1997 05:00:00 GMT');
 header('Content-type: text/json');
 header('Content-type: application/json');
 
-echo $results;
+if(isset($callback)) { 
+    echo $callback . '('.$results.')';
+}
+else {
+   echo($results);
+} 
 
 
 function curl_download($Url){
