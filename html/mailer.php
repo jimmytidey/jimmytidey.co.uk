@@ -11,7 +11,7 @@
     
     mail($to, $subject, $message);
     
-    $message = 'This is a place holder for your prescription'
+    $message = 'This is a place holder for your prescription';
      
     mail($user_address, $subject, $message); 
      
