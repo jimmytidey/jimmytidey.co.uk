@@ -1,7 +1,7 @@
 <?
     
-    $headers = "From: " . strip_tags($_POST['req-email']) . "\r\n";
-    $headers .= "Reply-To: ". strip_tags($_POST['req-email']) . "\r\n";
+    $headers = "From: jimmytidey@gmail.com" .  "\r\n";
+    $headers .= "Reply-To: jimmytidey@gmail.com" .  "\r\n";
   
     $headers .= "MIME-Version: 1.0\r\n";
     $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
@@ -24,6 +24,6 @@
     }
     
     mail($user_address, $subject, $message, $headers); 
-     
+    print_r($_REQUEST);
 
 ?>
