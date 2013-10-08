@@ -23,7 +23,7 @@
         $subject        = $_POST['subject'];
     }
     
-    mail($user_address, $subject, $message, $headers); 
+    mail($email_address, $subject, $message, $headers); 
     print_r($_REQUEST);
 
 ?>
