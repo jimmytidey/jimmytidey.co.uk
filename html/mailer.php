@@ -1,8 +1,8 @@
 <?
     
-    $headers = "From: " . strip_tags($_POST['req-email']) . "\r\n";
-    $headers .= "Reply-To: ". strip_tags($_POST['req-email']) . "\r\n";
-    $headers .= "CC: susan@example.com\r\n";
+    //$headers = "From: " . strip_tags($_POST['req-email']) . "\r\n";
+    //$headers .= "Reply-To: ". strip_tags($_POST['req-email']) . "\r\n";
+  
     $headers .= "MIME-Version: 1.0\r\n";
     $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
     
@@ -19,8 +19,10 @@
         $email_address        = $_POST['email_address'];
     }
     
+    if(!$_GET['email_address']) { 
+        $subject        = $_POST['subject'];
+    }
     
-    mail($to, $subject, $message, $headers);
     mail($user_address, $subject, $message, $headers); 
      
 
