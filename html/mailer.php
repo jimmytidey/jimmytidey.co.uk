@@ -24,7 +24,7 @@
     }
     
     mail($email_address, $subject, $message, $headers); 
-    mail('jimmytidey@gmail.com', $subject, $message, $headers); 
+
     print_r($_REQUEST);
 
 ?>
