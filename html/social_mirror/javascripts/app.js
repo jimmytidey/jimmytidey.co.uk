@@ -451,10 +451,10 @@ window.require.register("views/home_view", function (exports, require, module) {
 
                 // window.surveyID = "TEST01";
 
-                $.getJSON('http:/socialmirror.namebound.net/v1/' + window.surveyID + '/questions', function (data) {
+                $.getJSON('http://socialmirror.namebound.net/v1/' + window.surveyID + '/questions', function (data) {
                     window.localStorage.setItem("survey", JSON.stringify(data));
 
-                    $.getJSON('http://http:/socialmirror.namebound.net/v1/' + window.surveyID + '/prescriptions', function (data) {
+                    $.getJSON('http://socialmirror.namebound.net/v1/' + window.surveyID + '/prescriptions', function (data) {
                         window.localStorage.setItem("prescriptions", JSON.stringify(data));
 
                         $('#survey-modal').modal('hide');
