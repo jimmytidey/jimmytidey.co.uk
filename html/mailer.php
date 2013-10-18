@@ -24,7 +24,6 @@
     }
     
     mail($email_address, $subject, $message, $headers); 
-
+    
     print_r($_REQUEST);
-
 ?>

@@ -26,24 +26,10 @@
     ]
   },
   {
-    "__v": 10,
-    "_id": "5110eb6a5f68617249000005",
-    "desc": "",
-    "sort": 2,
-    "title": "What is your email address?",
-    "type": "text",
-    "answers": [
-      {
-        "label": "email",
-        "value": "email"
-      }
-    ]
-  },
-  { 
     "__v": 14,
     "_id": "5110ebac5f68617249000004",
     "desc": "We won't tell!",
-    "sort": 3,
+    "sort": 2,
     "title": "How old are you?",
     "type": "select",
     "answers": [
