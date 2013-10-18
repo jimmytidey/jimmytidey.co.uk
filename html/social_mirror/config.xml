@@ -4,16 +4,14 @@
         id        = "com.phonegap.example"
         versionCode="10" 
         version   = "1.0.0">
-    
-        <access origin="*"/>
-    
+
     <!-- versionCode is optional and Android only -->
 
-    <name>Social Mirror v3</name>
+    <name>Social Mirror</name>
 
     <description></description>
 
-    <author href="http://namebound.com" email="jimmytidey@gmail.com">jimmytidey@gmail.com</author>
+    <author href="http://namebound.com" email="laurian@gmail.com">Laurian Gridinoc</author>
 
     <preference name="fullscreen" value="true" />
     <preference name="detect-data-types" value="false" />
