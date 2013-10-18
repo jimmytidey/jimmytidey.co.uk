@@ -13,6 +13,7 @@
     
     if(!$_GET['message']) { 
         $message        = $_POST['message'];
+        $message = preg_replace('/[^(\x20-\x7F)]*/','', $message);
     }
     
     if(!$_GET['email_address']) { 
