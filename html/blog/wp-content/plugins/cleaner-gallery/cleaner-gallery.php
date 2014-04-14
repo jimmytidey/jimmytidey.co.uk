@@ -81,8 +81,9 @@ function cleaner_gallery_get_setting( $option = '' ) {
 		return false;
 
 	if ( !isset( $cleaner_gallery->settings ) )
-		$cleaner_gallery->settings = get_option( 'cleaner_gallery_settings' );
-
+		if ( !$cleaner_gallery ) {
+			$cleaner_gallery->settings = get_option( 'cleaner_gallery_settings' );
+		}
 	if ( !is_array( $cleaner_gallery->settings ) || empty( $cleaner_gallery->settings[$option] ) )
 		return false;
 
