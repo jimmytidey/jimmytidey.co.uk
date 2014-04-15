@@ -1,7 +1,0 @@
-
-
-AuthType Basic
-AuthName "social mirror"
-AuthUserFile /home/96975/.htpasswd
-AuthGroupFile /home/96975/.htgroup
-Require user social_mirror
