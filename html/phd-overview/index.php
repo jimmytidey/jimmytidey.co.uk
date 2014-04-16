@@ -22,7 +22,7 @@
         
         <div class='col-md-6 '>
             
-            <p>I'm doing a <a href='http://thecreativeexchange.org/'>PhD at RCA</a>. I'm investigating new ways of representing online social interactions.</p>
+            <p>I'm doing a <a href='http://thecreativeexchange.org/'>PhD at RCA</a>. I'm investigating representing online social interactions.</p>
             
             <h2 id='hypothesis'>Research Question</h2>
             
@@ -42,7 +42,9 @@
                 <li><strong>Discovery:</strong> eg. printed highlights of hyperlocal blogs can reach people who do not read blogs online</li>
                 <li><strong>Motivation:</strong> eg. <a href='http://en.wikipedia.org/wiki/Calm_technology'>Sonification</a> of coworkers Tweets might nudge the team towards knowing more about what each other are thinking about</li>
                 <li><strong>Aggregation:</strong> A pattern might emerge from combining Twitter with blog posts that is otherwise invisible</li>                
-            </ul>            
+            </ul>
+            
+            <p>In my research I will be testing this hypothesis by building prototype systems.</p>    
             
             <h2 id='analogy'>An analogy</h2>
             
@@ -55,7 +57,7 @@
             
             <p>My intention is to carry out rapid, iterative testing of different methods of aggregation, filtering and presentation. In order to achieve this I have built a flexible <a href='https://github.com/jimmytidey/obs'>software platform</a> for aggregation.</p>  
 
-            <p>At the moment I'm developing a series of rapidly deployable ways to present the aggregated data.</p>
+            <p>At the moment I'm developing a series of rapidly deployable ways to present the aggregated data. </p>
 
             <p>The personal computer screen is the omni-present interface for all digital activities - from organising your calendar to writing to social activity. </p>  
             
