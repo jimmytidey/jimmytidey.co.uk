@@ -22,7 +22,7 @@
         
         <div class='col-md-6 '>
             
-            <p>I'm doing a <a href='http://thecreativeexchange.org/'>PhD at RCA</a>. I'm investigating representing online social interactions.</p>
+            <p>I'm doing a <a href='http://thecreativeexchange.org/'>PhD at RCA</a>. I'm investigating new representations of online social interactions.</p>
             
             <h2 id='hypothesis'>Research Question</h2>
             
