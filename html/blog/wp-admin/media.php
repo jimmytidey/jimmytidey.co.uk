@@ -7,7 +7,7 @@
  */
 
 /** Load WordPress Administration Bootstrap */
-require_once('./admin.php');
+require_once( dirname( __FILE__ ) . '/admin.php' );
 
 $parent_file = 'upload.php';
 $submenu_file = 'upload.php';
@@ -59,6 +59,7 @@ case 'edit' :
 	$att = get_post($att_id);
 
 	if ( empty($att->ID) ) wp_die( __('You attempted to edit an attachment that doesn&#8217;t exist. Perhaps it was deleted?') );
+	if ( 'attachment' !== $att->post_type ) wp_die( __('You attempted to edit an item that isn&#8217;t an attachment. Please go back and try again.') );
 	if ( $att->post_status == 'trash' ) wp_die( __('You can&#8217;t edit this attachment because it is in the Trash. Please move it out of the Trash and try again.') );
 
 	add_filter('attachment_fields_to_edit', 'media_single_attachment_fields_to_edit', 10, 2);
@@ -80,10 +81,10 @@ case 'edit' :
 	get_current_screen()->set_help_sidebar(
 	'<p><strong>' . __('For more information:') . '</strong></p>' .
 	'<p>' . __('<a href="http://codex.wordpress.org/Media_Add_New_Screen#Edit_Media" target="_blank">Documentation on Edit Media</a>') . '</p>' .
-	'<p>' . __('<a href="http://wordpress.org/support/" target="_blank">Support Forums</a>') . '</p>'
+	'<p>' . __('<a href="https://wordpress.org/support/" target="_blank">Support Forums</a>') . '</p>'
 	);
 
-	require( './admin-header.php' );
+	require( ABSPATH . 'wp-admin/admin-header.php' );
 
 	$parent_file = 'upload.php';
 	$message = '';
@@ -102,7 +103,6 @@ case 'edit' :
 ?>
 
 <div class="wrap">
-<?php screen_icon(); ?>
 <h2>
 <?php
 echo esc_html( $title );
@@ -135,7 +135,7 @@ if ( current_user_can( 'upload_files' ) ) { ?>
 
 <?php
 
-	require( './admin-footer.php' );
+	require( ABSPATH . 'wp-admin/admin-footer.php' );
 
 	exit;
 
