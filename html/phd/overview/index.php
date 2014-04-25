@@ -1,5 +1,7 @@
-
-<?php include('header.php') ?>
+<?php 
+    $title = 'PhD Overview';
+    include('header.php');
+?>
 
 <div class='container'>
     <div class='row'>
@@ -15,8 +17,7 @@
                 <li><a href='#hypothesis'>Research Question</a></li>
                 <li><a href='#analogy'>An Analogy</a></li>
                 <li><a href='#prototyping'>Prototyping</a></li>
-                <li><a href='#work_so_far'>Work so far</a></li>
-                
+                <li><a href='#work_so_far'>Work so far</a></li>          
             </ul>
         </div>
         
