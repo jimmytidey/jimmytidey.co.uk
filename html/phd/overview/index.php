@@ -1,11 +1,11 @@
 <?php 
     $title = 'PhD Overview';
-    include('header.php');
+    include('../../header.php');
 ?>
 
 <div class='container'>
     <div class='row'>
-        <div id='background' class='col-md-6 col-md-offset-3'>
+        <div id='background' class='col-md-7 col-md-offset-3'>
             <h1>Making digital social activity visible</h1>
         </div>
     </div>
@@ -21,10 +21,12 @@
             </ul>
         </div>
         
-        <div class='col-md-6 '>
+        <div class='col-md-7 '>
             
             <p>I'm doing a <a href='http://thecreativeexchange.org/'>PhD at RCA</a>. I'm investigating new representations of online social interactions.</p>
             
+            <p><a href='/'>[More about me]</a></p>
+
             <h2 id='hypothesis'>Research Question</h2>
             
             <p>Most communities, for example a village or work place, produce a stream of 'digital exhaust' on services such as:</p>
@@ -73,21 +75,34 @@
             
             <h3>Kensington &amp; Chelsea Council</h3>
             <img class='img_border' src="img/little_printer.png" alt="Little Printer printing out receipts">
-            <img class='img_border' src="img/receipt.png"  alt="Print out of social media activity">
-            <p>Receipt printer in the K&amp;C council staff canteen. We captured 8 stories about the borough from across Twitter, Facebook, Blogs and Forums every day and printed the headlines on the receipt, which short links to the full items</p>   
             
+            <img class='img_border' src="img/receipt.png"  alt="Print out of social media activity">
+            <p><em>Receipt printer in the K&amp;C council staff canteen.</em></p> 
+            <p>We captured 8 stories about the borough from across Twitter, Facebook, blogs and forums every day.</p>   
+            <p>The results were printed out and staff were able to read them while they ate their lunch.</p>
+            <p>This project relied on the <a href='http://heresay.org.uk'>Heresay</a> platform to find the data.</p>
+
+
             <h3>FACT Gallery</h3>
             <img class='img_border' src="img/fact.png" alt="Workshop at FACT gallery">    
-            <p>Asking cinema goers in the FACT gallery to respond to printed stories from Twitter &amp; Facebook. These were from the Bold Street area immediately surrounding the space. </p>
+            <p><em>Asking cinema goers in the FACT gallery to respond to printed stories from Twitter &amp; Facebook.</em></p>
+            <p>This workshop was an opportunity to see public reaction to hyperlocal news stories. Participants were are asked to organise the fragments of social media into piles while "thinking out loud" about the process.</p>
             
+
             <h3>Wonkbook</h3>
             <img src="img/wonkbook.png" class='img_border'  alt="Wonkbook screen shot">
-            <p>Harvesting Twitter interactions between Think Tanks</p>
-            
-            <h3>CX Bucket</h3>
+            <p>Wonkbook was an experiment with Stian Westlake from NESTA. The project started by scraping think tank websites and populating a database of reports and staff </p>
+            <p>From there we became interested in finding the Twitter feeds of think tank staff, which gave us a real-time window into the ecosystem.</p>
+            <p>We combined this Twitter data with the Twitter feeds of MPs and Journalists to create a league table of a the most retweeted individuals and think tanks.</p>
+
+
+            <h3>CX Observatory</h3>
             <img src="img/bucket.jpg" class='img_border' alt="Bucket">      
-            <p>Harvesting the digital exhaust of our office - sonification and screen</p>
-            
+            <p><em>Harvesting the digital exhaust of our office - sonification and screen</em></p>
+            <p>The Creative Exchange is spread across three universities. This project looks at ways to keep us all connected, as well as giving us a chance to experience the use of ambient displays first hand.</p>
+            <p>It tracks Twitter, Facebook and Blog updates from the team and displays the most recent information prominently. An audio cue also alerts us to changes. </p>
+            <p>I plan to encompass Dropbox and Google Docs activity soon.</p> 
+
             <h2 id='work_so_far'>Noun project credits</h2>
             <ul>
                 <li><a href='http://thenounproject.com/matt.crum'>Matt Crum</a></li>
@@ -108,7 +123,7 @@
 
 </div>
 
-<?php  include 'footer.php' ?>
+<?php  include '../../footer.php' ?>
 
     
 

@@ -93,10 +93,8 @@
 							$header_height = $header_width = '';
 						}
 						?>
-						<a href='/blog/'><img src="<?php bloginfo('stylesheet_directory'); ?>/images/header.png" alt="" /> </a>
-
-<a href='http://twitter.com/#!/jimmytidey' id='tweet_link'><img src='http://jimmytidey.co.uk/resources/tweet.png' /> </a>
-					<?php endif; ?>
+						<a href='/blog/'></a>
+s					<?php endif; ?>
 			</div><!-- #branding -->
 
 			<div id="access" role="navigation">
