@@ -1,11 +1,6 @@
-jQuery(function() 
-{
-	su_init_tabs();		
- });
-
 function su_init_tabs()
 {
-	/* if this is not the SEO Ultimate admin page, quit */
+	/* if this is not an SEO Ultimate admin page, quit */
 	if (!jQuery("#su-tabset").length) return;		
 	
 	/* init markup for tabs */
@@ -43,11 +38,17 @@ function su_init_tabs()
 	});
 }
 
+jQuery(document).ready(function() {
+	su_init_tabs();
+});
+
 function su_hash_form(hash) {
 	var form   = jQuery('#su-admin-form');
-	var action = form.attr("action").split('#', 1) + hash;
-	// an older bug pops up with some jQuery version(s), which makes it
-	// necessary to set the form's action attribute by standard javascript 
-	// node access:						
-	form.get(0).setAttribute("action", action);
+	if (form) {
+		var action = form.attr("action").split('#', 1) + hash;
+		// an older bug pops up with some jQuery version(s), which makes it
+		// necessary to set the form's action attribute by standard javascript 
+		// node access:						
+		form.get(0).setAttribute("action", action);
+	}
 }

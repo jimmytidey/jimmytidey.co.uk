@@ -1,50 +1,38 @@
 === SEO Ultimate ===
-Contributors: SEO Design Solutions, JohnLamansky
-Tags: seo, SEO Ultimate, suite, google, yahoo, bing, search engines, admin, post, page, custom post types, categories, tags, terms, custom taxonomies, base, title, title tag, wp_title, meta, robots, noindex, nofollow, canonical, HTTP headers, 404, robots.txt, htaccess, slugs, url, anchor, more, link, excerpt, permalink, links, autolinks, code, footer, settings, redirect, 301, 302, 307, modules, uninstallable, reinstallable, downgradable, import, export, CSV, affiliate
-Requires at least: 3.3
-Tested up to: 3.4.1
-Stable tag: 7.2.7
+Contributors: SEO Design Solutions, JohnLamansky, djalexandar
+Tags: seo, SEO Ultimate, suite, google, yahoo, bing, search engines, admin, post, page, custom post types, categories, tags, terms, custom taxonomies, base, title, title tag, wp_title, meta, robots, noindex, nofollow, canonical, HTTP headers, 404, robots.txt, htaccess, slugs, url, anchor, more, link, excerpt, permalink, links, autolinks, code, footer, settings, redirect, 301, 302, 307, modules, uninstallable, reinstallable, downgradable, import, export, CSV, affiliate, Open Graph, og, microdata, Facebook, Twitter, Schema.org
+Requires at least: 3.5
+Tested up to: 3.8.1
+Stable tag: 7.6.4.3
 
-This all-in-one SEO plugin gives you control over title tags, noindex, meta tags, slugs, canonical, autolinks, 404 errors, rich snippets, and more.
+This all-in-one SEO plugin gives you control over title tags, noindex, meta tags, Open Graph, slugs, canonical, autolinks, 404 errors, rich snippets, and more.
 
 == Description ==
 
 = Recent Releases =
 
+* Version 7.6 adds Deeplink Juggernaut autolink dampening
+* Version 7.5 adds support for Twitter Cards, Schema.org, and place snippets
+* Version 7.4 adds the Author Highlighter module
+* Version 7.3 adds the Open Graph Integrator module
 * Version 7.2 updates Permalink Tweaker
-* Version 7.1 adds new Link Mask Generator features
-* Version 7.0 adds meta description pagination and WP 3.3 compatibility
-* Version 6.9 adds the Settings Monitor module
-* Version 6.8 adds rewrite method selection for Title Tag Rewriter
 
 = Features =
 
 SEO Ultimate is an all-in-one [SEO](http://www.seodesignsolutions.com/) plugin with these powerful features:
 
-* **Title Tag Rewriter** -- UPDATED in Version 6.8
+* **Title Tag Rewriter**
 	* Out-of-the-box functionality puts your post titles at the beginning of the `<title>` tag for improved keyword SEO.
 	* Easily override the entire `<title>` tag contents for any individual post, page, attachment, category, post tag, or post format archive on your blog. Also supports custom post types and custom taxonomies.
 	* Customize your homepage's `<title>` tag.
 	* Format the `<title>` tags of posts, pages, categories, tags, archives, search results, and more!
 	* Choose between two rewrite methods: "output buffering" or "filtering"
 
-* **Meta Description Editor** -- UPDATED in Version 7.0
+* **Meta Description Editor**
 	* Edit the `<meta>` description tags for posts, pages, attachments, categories, tags, post format archives, and the homepage.
 	* Increase SERP clickthrough rates by influencing search engine result snippets.
 	* Mass-editor makes it a cinch to go back and add descriptions to old posts.
 	* Use the `{excerpt::autogen}` variable to auto-generate meta descriptions if desired.
-
-* **Meta Keywords Editor**
-	* Edit the `<meta>` keyword tags for posts, pages, categories, terms, and the homepage.
-	* Easily specify global keywords that are applied across the entire site.
-	* Go back and edit old posts' and pages' keywords with the mass-editor.
-	* Automatically generate meta keywords based on categories, tags, custom taxonomy terms, and frequently-used words.
-
-* **Meta Robot Tags Editor**
-	* Add the `<meta name="robots" content="noindex,follow" />` tag to archives, comment feeds, the login page, and more.
-	* Set meta robots tags (index/noindex and follow/nofollow) for each individual post, page, category, tag, and post type archive on your blog. Also supports custom post types and custom taxonomies.
-	* Avoid duplicate content SEO issues with the recommended noindex settings (see built-in module documentation for details).
-	* Give instructions to search engine spiders if desired (`noodp`, `noydir`, and `noarchive`).
 
 * **Deeplink Juggernaut**
 	* Use the power of anchor text to boost your internal ranking SEO paradigm.
@@ -53,7 +41,7 @@ SEO Ultimate is an all-in-one [SEO](http://www.seodesignsolutions.com/) plugin w
 	* Easily select autolink destinations using autocomplete textboxes that scour your site's content and taxonomy terms to find the link destination you're looking for.
 	* Autolinks point to the objects themselves, not to their URLs, so if you change the URL of a post or category on your site, the autolinks automatically adjust.
 	* Avoid over-optimization penalties by controlling the maximum number of autolinks added to each post/page, the maximum number of times an anchor is linked per post/page, and/or the maximum number of times a post/page can link to the same destination.
-	* Decide how many times each anchor is linked across your entire site, on a per-link or global basis.
+	* Reduce autolink frequency by a given percentage (globally or per-link) with the frequency dampener feature. (Useful for large sites.)
 	* Choose whether or not posts can link to themselves and/or to the current URL with a few simple checkboxes.
 	* Apply the nofollow attribute on a per-link basis. (Perfect for automatic affiliate links.)
 	* Exclude specific posts/pages from having links added to them, if desired (e.g. contact pages, the homepage, etc.).
@@ -62,9 +50,35 @@ SEO Ultimate is an all-in-one [SEO](http://www.seodesignsolutions.com/) plugin w
 	* Build internal links to your posts from within the WordPress post editor! Use "Instant Post Propulsion" technology to automatically link your old posts to new ones.
 	* Lets you enable "Silo Linking" mode so that posts only link to other posts in the same category.
 
+* **Open Graph Integrator**
+	* Out-of-the-box functionality autogenerates Open Graph data for your homepage, posts, pages, attachments, custom post type objects, and user profile pages.
+	* Fine-grained controls allow you to customize the Open Graph title, image, and content type for every single post, page, attachment, and custom post type object on your site.
+	* Mass-editors let you specify Open Graph data for multiple posts and pages at a time.
+	* Includes support for summary-style and photo-style Twitter Cards.
+	* Lets you fix the official Facebook/Twitter HTML so that it validates as XHTML or HTML5.
+
+* **Rich Snippet Creator**
+	* Easily add rich snippet code for reviews and places.
+	* Attract more search traffic with eye-catching supplementary SERP data.
+	* Supports the new Schema.org format used by Google, Bing, Yahoo, and Yandex.
+
+* **Author Highlighter**
+	* Generates code so that when one of your site's posts appears in Google search results, the Google+ profile picture of the post's author will appear alongside it.
+	* Includes support for both single-author and multi-author site setups.
+	* Supports author highlighting for posts, pages, attachments, custom post types, the homepage, archive pages, and author pages.
+	* Inserts a "Google+ Profile URL" field on the WordPress user profile editor, so that users can insert their Google+ URL and enable author highlighting on their posts.
+
+* **Link Mask Generator**
+	* Generate robots.txt-blocked "link masks" (e.g. `www.example.com/go/google/`) that pass-through to an external URL.
+	* Mask links on a per-link, per-post basis so you can exert fine-tuned control over your posts' linkflow.
+	* Create global link masks that apply across your entire site.
+	* Change `/go/` to a directory of your choosing.
+	* Link masks provide a modern replacement for the deprecated, nofollow-based "PageRank Sculpting" technique.
+	* Perfect for affiliate marketers and SEO-savvy bloggers.
+
 * **Canonicalizer**
 	* Point search engines to preferred content access points with `<link rel="canonical" />` head tags and/or `Link: <url>; rel="canonical"` HTTP headers.
-	* Go beyond the basic canonical tag functionality of WordPress 2.9+ with SEO Ultimate's support for category/tag/date/author archives.
+	* Go beyond WordPress's basic canonical tag functionality with SEO Ultimate's support for category/tag/date/author archives.
 	* Redirect requests for non-existent pagination with a simple checkbox.
 
 * **404 Monitor**
@@ -73,86 +87,51 @@ SEO Ultimate is an all-in-one [SEO](http://www.seodesignsolutions.com/) plugin w
 	* The default settings hone in on the most important errors by only logging 404s that either have a referring URL or are generated by a search engine spider.
 	* If desired, ignore 404s generated from specific URLs or wildcard URL patterns.
 
-* **Linkbox Inserter**
-	* Encourage natural linkbuilding activity by adding textboxes to the end of your posts/pages that contain automatically-generated link HTML.
-
-* **File Editor**
-	* Implement advanced SEO strategies with the `.htaccess` editor.
-	* Give instructions to search engines via the `robots.txt` editor.
-
-* **Slug Optimizer**
-	* Increase in-URL keyword potency by removing "filler words" (like "the," "with," "and," etc.) from post/page URLs.
-	* Lets you customize the "filler words" list as desired.
-
-* **More Link Customizer**
-	* SEO your posts' "read more" links by including the posts' keyword-rich titles in the anchor text.
-	* Override the "read more" link on a per-post basis.
-	* Include `<strong>` or `<em>` tags in the anchor text if so desired.
-
-* **Code Inserter**
-	* Easily insert custom HTML into your site's `<head>` tag, footer, or item content.
-	* Use to add Google Analytics, Feedburner FeedFlare, Google AdSense section targeting, and other SEO/SEM-enhancing code snippets.
-	* Code remains even when switching themes.
-
-* **Rich Snippet Creator**
-	* Easily add rich snippet code to your review posts.
-	* Attract more search traffic with eye-catching supplementary SERP data.
-	* Add code to old review posts automatically.
-
-* **Sharing Facilitator**
-	* Adds buttons that make it easy for visitors to share your content on social networking sites (thus building links to your site).
-	* Choose from either the ShareThis or the AddThis button.
-	* Unlike the official ShareThis plugin, SEO Ultimate doesn't require you to register at the ShareThis website before enabling the button -- just enable and go.
-
-* **Webmaster Verification Assistant**
-	* Enter verification codes in the provided fields to access search engine webmaster tools.
-
-* **Link Mask Generator** -- UPDATED in Version 7.1
-	* Generate robots.txt-blocked "link masks" (e.g. `www.example.com/go/google/`) that pass-through to an external URL.
-	* Mask links on a per-link, per-post basis so you can exert fine-tuned control over your posts' linkflow.
-	* Create global link masks that apply across your entire site.
-	* Change `/go/` to a directory of your choosing.
-	* Link masks provide a modern replacement for the deprecated, nofollow-based "PageRank Sculpting" technique.
-	* Perfect for affiliate marketers and SEO-savvy bloggers.
-
-* **Nofollow Manager**
-	* Lets you maintain `rel="nofollow"` settings when migrating from other SEO plugins
-
-* **Permalink Tweaker** -- UPDATED in Version 7.2
+* **Permalink Tweaker**
 	* Lets you remove the permalink base for categories, tags, and/or custom taxonomies.
 	* For example, enable category base removal to convert `http://example.com/category/example` into `http://example.com/example`, and then pair that with a `/%category%/%postname%/` permalink to enable some serious SEO siloing action.
 	* The "URL Conflict Resolution" setting lets you arbitrate between pages/terms when taxonomy base removal causes their URLs to conflict
 
+* **Meta Robot Tags Editor**
+	* Add the `<meta name="robots" content="noindex,follow" />` tag to archives, comment feeds, the login page, and more.
+	* Set meta robots tags (index/noindex and follow/nofollow) for each individual post, page, category, tag, and post type archive on your blog. Also supports custom post types and custom taxonomies.
+	* Avoid duplicate content SEO issues with the recommended noindex settings (see built-in module documentation for details).
+	* Give instructions to search engine spiders if desired (`noodp`, `noydir`, and `noarchive`).
+
 * **SEO Ultimate Widgets**
-	* Lets you output your Deeplink Juggernaut Footer Links in a widget
-	* The Siloed Categories widget makes it drag-and-drop-easy to construct siloed navigation on your site
+	* Lets you output your Deeplink Juggernaut Footer Links in a widget.
+	* The Siloed Categories widget makes it drag-and-drop-easy to construct siloed navigation on your site.
 
-* **Settings Monitor** -- NEW in Version 6.9
-	* Keep tabs on the SEO-friendliness of your site's settings with a dashboard of green/yellow/red indicators
-
-* **Settings Manager**
+* **Plugin Settings Manager** (located under Settings > SEO Ultimate)
 	* Export your SEO Ultimate settings to a file and re-import later if desired.
-	* Move SEO Ultimate settings between blogs using the export/import functionality.
+	* Use the export/import functionality to move SEO Ultimate settings between WordPress sites.
 	* Reset all settings back to "factory defaults" if something goes wrong.
 
-* **Additional features**
-	* Lets you import post meta from All in One SEO Pack.
-	* Displays admin notices if blog privacy settings are configured to block search engines.
-	* Supports [WordPress plugin translation](http://urbangiraffe.com/articles/translating-wordpress-themes-and-plugins/). POT file is included in the zip file.
-	* SEO Ultimate documentation is seamlessly integrated into the contextual help system of WordPress 2.7+ and is accessible via the dropdowns in the upper-right-hand corner of the admin screen. In-depth info, explanations, and FAQ are just a click away.
-	* Unlike certain other SEO plugins, SEO Ultimate sports a clean, simple, aesthetically-pleasing interface, with no ads or donation nags.
-	* SEO Ultimate cleanly integrates itself into WordPress without plastering its name all over the interface.
-	* Includes icon integration with the WordPress 2.7+ menu and the Ozh Admin Drop Down Menu plugin.
-	* Uses WordPress plugin security features like nonces, etc.
-	* Includes an uninstaller that can delete the plugin's files and database entries if desired.
-	* Lets you upgrade/downgrade the plugin to versions of your choosing.
+* And much more...
+	* **Code Inserter**: Easily insert SEO/SEM-enhancing custom HTML into your site's `<head>` tag, footer, or item content. Code remains even when switching themes.
+	* **File Editor**: Implement advanced SEO strategies with the `.htaccess` editor, and give instructions to search engines via the `robots.txt` editor.
+	* **Linkbox Inserter**: Encourage natural linkbuilding activity by adding textboxes to the end of your posts/pages that contain automatically-generated link HTML.
+	* **Meta Keywords Editor**: Auto-generate and edit `<meta>` keywords for posts, pages, categories, tags, terms, and the homepage.
+	* **More Link Customizer**: Optimize your posts' "read more" links by including the posts' keyword-rich titles in the anchor text.
+	* **Nofollow Manager**: Lets you maintain `rel="nofollow"` settings when migrating from other SEO plugins
+	* **Settings Monitor**: Keep tabs on the SEO-friendliness of your site's settings with a dashboard of green/yellow/red indicators.
+	* **Sharing Facilitator**: Adds buttons that make it easy for visitors to share your content on social networking sites (thus building links to your site).
+	* **Slug Optimizer**: Increase in-URL keyword potency by removing customizeable "filler words" (like "the," "with," "and," etc.) from post/page URLs.
+	* **Webmaster Verification Assistant**: Enter verification codes in the provided fields to access search engine webmaster tools.
 
-* **More Features In the Works**
-There are many additional features in development. Install SEO Ultimate today and use WordPress's automatic plugin updater to get new features as they're released.
+* **Additional features**
+	* Features a clean, aesthetically-pleasing interface, with no donation nags.
+	* Cleanly integrates into the admin interface with minimal branding.
+	* Includes seamlessly-integrated documentation, accessible via the "Help" dropdown in the upper-right-hand corner of the admin screen. In-depth info, explanations, and FAQs are just a click away.
+	* Lets you import post meta from All in One SEO Pack.
+	* Lets you downgrade to the previous version of the plugin in case an upgrade goes awry.
+	* Displays admin notices if WordPress settings are configured to discourage search engines.
+	* Supports [WordPress plugin translation](http://urbangiraffe.com/articles/translating-wordpress-themes-and-plugins/). POT file is included in the zip file.
+	* Includes an uninstaller that can delete the plugin's files and database entries if desired.
 
 [**Download**](http://downloads.wordpress.org/plugin/seo-ultimate.zip) **your free copy of SEO Ultimate today.**
 
-[youtube http://www.youtube.com/watch?v=IE_10_nwe0c]
+[youtube http://www.youtube.com/watch?v=CZwZuUPCAto]
 
 == Installation ==
 
@@ -185,7 +164,13 @@ To install the plugin manually:
 = Compatibility =
 
 * **What's the minimum version of WordPress required to run SEO Ultimate?**
-	In order for all the features to work, you need to be using WordPress 3.3 or above. SEO Ultimate will run on WordPress 3.1.3 or above, but a few features might not work. If you're using a WordPress version older than 3.1.3, SEO Ultimate will refuse to activate.
+	WordPress 3.3 is required. SEO Ultimate would generate PHP errors if you tried to run it on an earlier version, and so it will simply refuse to activate on any version of WordPress that's older than 3.3.
+
+* **Will SEO Ultimate work on multisite setups?**
+	Yes. SEO Ultimate versions 7.2.6 and later are designed to work on networks running WordPress 3.3 or later.
+
+* **Which browsers work best with the SEO Ultimate administration interface?**
+	SEO Ultimate's administration interface occasionally uses some HTML5 features. All modern browsers support these features with the exception of Internet Explorer. Don't worry, you'll still be able to use the administration interface with Internet Explorer, but you'll get the best experience if you use another browser. (Note that this only applies to the browser _you_ use. The visitors to your website, on the other hand, can use whatever browser they want.)
 
 = General FAQ =
 
@@ -220,12 +205,12 @@ To install the plugin manually:
 	Open the editor, click the "Screen Options" tab in the upper-right-hand corner, and uncheck the "SEO Settings" checkbox. Note that the box's visibility is a per-user preference.
 
 * **Why did some of the textboxes disappear from the "SEO Settings" box?**
-	The "SEO Settings" fields are added by your modules. The "Title Tag" field is added by the Title Tag Rewriter module, the "Description" and "Keywords" fields are added by the Meta Editor module, etc. If you disable a module using the Module Manager, its fields in the "SEO Settings" box will be disabled too. You can re-enable the field in question by re-enabling the corresponding module.
+	The "SEO Settings" fields are added by your modules. The "Title Tag" field is added by the Title Tag Rewriter module, the "Meta Description" field is added by the Meta Description Editor module, etc. If you disable a module using the Module Manager, its fields in the "SEO Settings" box will be disabled too. You can re-enable the field in question by re-enabling the corresponding module.
 
 
 = Module FAQ =
 
-Frequently asked questions, settings help, and troubleshooting tips for SEO Ultimate's modules can be found by clicking the help tabs in the upper-right-hand corner of the module admin pages themselves. The same documentation can also be found in the `seo-ultimate/modules/documentation.txt` file of the SEO Ultimate download.
+Frequently asked questions, settings help, and troubleshooting tips for SEO Ultimate's modules can be found by clicking the help tabs in the upper-right-hand corner of the module admin pages themselves.
 
 
 
@@ -258,6 +243,142 @@ Frequently asked questions, settings help, and troubleshooting tips for SEO Ulti
 
 
 == Changelog ==
+
+= Version 7.6.4.3 (April 14, 2014) =
+* Bugfix: Rich Snippet Creator's "Place” search result type address fields appearance fix
+
+= Version 7.6.4.2 (April 11, 2014) =
+* Bugfix: Twitter Card Tags Handle Fix
+
+= Version 7.6.4.1 (April 10, 2014) =
+* Bugfix: Layout Fix on Miscellaneous page
+
+= Version 7.6.4 (April 9, 2014) =
+* Bugfix: Title tag issue with $ sign when followed by a number 0-99 (Pre-parse the title replacement text to escape the $n backreferences because of preg_replace issue)
+* Bugfix: Post Metabox Single Tab layout issue
+* Bugfix: SDF Promo Ads option on settings page
+
+= Version 7.6.3.1 (March 24, 2014) =
+* Bugfix: Added rel="nofollow" to all author attribution links, whitepapers module SDS Blog links and banner ads
+
+= Version 7.6.3 (March 24, 2014) =
+* Bugfix: Title Tag Rewriter Fix for Data Loss on Update from 7.6.1
+* Bugfix: Code Inserter Fix for Data Loss on Update from 7.6.1
+* Feature: Added Media Upload Button in Metabox Social Networks Listing Image and Open Graph Integrator Module Image input fields
+
+= Version 7.6.2 (March 19, 2014) =
+* Bugfix: Fixed PHP 5.3 Strict Errors/Notices
+* Feature: Added Twitter Bootstrap Assets and updated Markup
+
+= Version 7.6.1 (January 1, 2013) =
+* Bugfix: Fixed a bug that prevented the "Dampener" column from appearing on the Deeplink Juggernaut Content Links tab
+
+= Version 7.6 (December 31, 2012) =
+* Feature: Open Graph Integrator now lets you output W3C-valid XHTML or HTML5 instead of the non-validating code prescribed by Open Graph and Twitter
+* Improvement: Deeplink Juggernaut's "Site Cap" feauture has been replaced with a more efficient "Dampener" feature
+* Improvement: Open Graph Integrator no longer outputs author data for pages, and lets you turn it off for posts
+* Improvement: Rich Snippet Creator now has an admin section that gives a brief explanation of how to use it, since some users were confused by the module's lack of an admin page and assumed it wasn't working
+* Improvement: Link Mask Generator now disables itself and displays a warning if you're not using a compatible permalink structure
+* Improvement: Added lots of missing documentation
+* Improvement: Removed unused code throughout the plugin
+* Bugfix: Open Graph Integrator no longer generates a fatal error when the active theme doesn't support post thumbnails
+* Bugfix: Open Graph Integrator now outputs the correct URL on the "Posts page" when the "Front page displays" option (under Settings > Reading) is set to "A static page"
+* Bugfix: Fixed errors that would appear when Meta Keywords Editor and the WP_DEBUG mode were both enabled
+* Bugfix: Archive pages for new terms no longer generate 404 errors when Permalink Tweaker's base removal feature is in use
+* Bugfix: The "Nofollow" checkbox on the "Miscellaneous" tab of the "SEO Settings" post editor box no longer reverts to an unchecked state when the post is saved
+* Bugfix: The plugin no longer generates a "WordPress Database Error" after upgrading the plugin on sites with the WP_DEBUG mode enabled
+* Compatibility: Fixed minor WordPress 3.5 compatibility issues
+
+= Version 7.5.7 (August 17, 2012) =
+* Removed Feature: Open Graph Integrator no longer falls back to using webpage screenshot images from the WordPress.com mShots service, as this was causing "Generating Image" placeholders to be cached by Facebook
+
+= Version 7.5.6 (August 13, 2012) =
+* Feature: Rich Snippet Creator now includes an "Image of Reviewed Item" field for reviews
+* Bugfix: The autocomplete dropdowns of the "Link Location" boxes of Deeplink Juggernaut's Footer Linker once again include taxonomy archive pages
+* Bugfix: Fixed bug that would cause a single, blank autolink entry pointing to a post to appear on the Deeplink Juggernaut Content Links list (bug introduced in 3.9)
+* Bugfix: The "Link Masks" section of the "SEO Settings" box no longer includes links to anchor targets (i.e. links that begin with "#")
+* Bugfix: Restored access to the "When displaying page lists, nofollow links to this page" checkbox that disappeared from the "SEO Settings" box in version 7.3
+* Bugfix: Fixed errors that would appear when Open Graph Integrator and the WP_DEBUG mode were both enabled (bug introduced in 7.3)
+* Bugfix: Fixed errors that would appear when Rich Snippet Creator and the WP_DEBUG mode were both enabled (bug introduced in 7.5)
+* Bugfix: Fixed errors that would appear on the post editor screen with the WP_DEBUG mode enabled (bug introduced in 7.5.3)
+* Bugfix: Rich Snippet Creator now outputs a hidden datePublished property using a `<meta>` tag instead of using a self-closing `<time>` tag
+
+= Version 7.5.5 (August 12, 2012) =
+* Bugfix: Fixed PHP warning that appeared on the post editor screen with Meta Keywords Editor enabled (bug introduced in 7.5.3)
+
+= Version 7.5.4 (August 11, 2012) =
+* Bugfix: Fixed broken settings reset function (bug introduced in 5.0)
+
+= Version 7.5.3 (August 11, 2012) =
+* Bugfix: The Autolink Exclusion checkbox now appears when adding posts, not just when editing them
+* Bugfix: Documentation for the SEO Settings box now appears on the post editor screen's "Help" dropdown under the "SEO Settings" tab instead of under the generic "Overview" tab
+* Removed Feature: Webmaster Verification Assistant no longer supports verification tags for the now-defunct Yahoo! Site Explorer
+* Compatibility: SEO Ultimate will now refuse to activate on any version of WordPress older than 3.3
+
+= Version 7.5.2 (August 11, 2012) =
+* Bugfix: Fixed disorganized documentation on the Miscellaneous page (bug introduced in 7.5)
+* Bugfix: Fixed bug that caused Open Graph Integrator image boxes to show autocomplete suggestions for all types of site items, instead of just images (bug introduced in 7.3)
+* Improvement: Tweaked the behavior of the meta description mass-editor textareas
+
+= Version 7.5.1 (August 9, 2012) =
+* Bugfix: Removed blank Rich Snippet Creator admin page from the SEO menu (bug introduced in 7.5)
+* Bugfix: Removed non-functional "Test" link from the "Add a New Alias" section of Link Mask Generator's admin page (bug introduced in 7.1)
+
+= Version 7.5 (August 9, 2012) =
+* Feature: Open Graph Integrator now includes Twitter Card support
+* Feature: Rich Snippet Creator now supports Place microdata
+* Improvement: Rich Snippet Creator has been updated to use the new Schema.org microdata format supported by Google, Bing, Yahoo, and Yandex
+* Improvement: Module Manager no longer shows the "Hidden" option for Miscellaneous modules, since for those modules the "Hidden" option behaves no differently than the "Enabled" option
+* Bugfix: Adjusted 404 Monitor CSS to account for WordPress CSS changes
+* Bugfix: Since Open Graph articles are only supposed to have one "article:section" element but can have multiple "article:tag" elements, posts with multiple categories now have those categories listed in the Open Graph code as "article:tag" elements instead of multiple "article:section" elements, while posts with just one category continue to have that category marked as "article:section"
+* Removed Feature: Rich Snippet Creator no longer lets you choose between the microdata/microformat/RDFa data formats, since these have been replaced with the new Schema.org format. (Rich Snippet Creator will update all your old microdata/microformat/RDFa code automatically.)
+* Removed Feature: The previous version of Rich Snippet Creator was able to mark old posts as reviews if they had certain categories or tags. This feature has been removed, and old posts must now be marked as reviews manually. This is because automatically marking old posts as reviews won't do you much good unless those posts also have review data, which must be entered in manually anyway.
+* Note: Rich Snippet Creator no longer has an admin page; now the module's only interface is in the "SEO Settings" box
+* Change: The "Link Masks" section now appears on the "Links" tab of the "SEO Settings" box instead of on the "Miscellaneous" tab
+* Change: The admin pages for Linkbox Inserter, Nofollow Manager, and Slug Optimizer have been moved to the Miscellaneous page in order to reduce clutter on the SEO menu
+
+= Version 7.4 (August 7, 2012) =
+* New Module: Author Highlighter
+	* Generates code so that when one of your site's posts appears in Google search results, the Google+ profile picture of the post's author will appear alongside it
+	* Includes support for both single-author and multi-author site setups
+	* Supports author highlighting for posts, pages, attachments, custom post types, the homepage, archive pages, and author pages
+	* Inserts a "Google+ Profile URL" field on the WordPress user profile editor, so that users can insert their Google+ URL and enable author highlighting on their posts
+
+= Version 7.3.5 (August 7, 2012) =
+* Bugfix: Fixed PHP error that appeared when Open Graph Integrator was enabled but Meta Description Editor was disabled (bug introduced in 7.3)
+
+= Version 7.3.4 (August 7, 2012) =
+* Bugfix: Fixed bug that caused the Open Graph Type dropdown in the "SEO Settings" box to read "Video" by default (bug introduced in 7.3)
+
+= Version 7.3.3 (August 7, 2012) =
+* Bugfix: Fixed JavaScript error on the Add New Post screen (bug introduced in 7.3)
+
+= Version 7.3.2 (August 6, 2012) =
+* Bugfix: Fixed broken Open Graph author elements on posts with the "article" type (bug introduced in 7.3)
+
+= Version 7.3.1 (August 6, 2012) =
+* Bugfix: Fixed broken autogenerated Open Graph image URLs (bug introduced in 7.3)
+
+= Version 7.3 (August 6, 2012) =
+* New Module: Open Graph Integrator
+	* Automatically generates Open Graph elements for posts, pages, attachments, custom post type objects, user profile pages, and the blog homepage
+	* Includes a mass-editor that lets you bulk-edit data for posts, pages, attachments, and custom post types
+	* Adds Open Graph fields to the "SEO Settings" box
+	* Lets you specify sitewide and default Open Graph values
+* Feature: The "Title Tag" field in the "SEO Settings" box now includes a character counter
+* Improvement: The "SEO Settings" box has been broken up into 4 tabs in order to make the box smaller and in order to make settings easier to find
+* Improvement: Removed some backcompatibility code for old versions of WordPress (2.9 and before)
+* Improvement: Mass-editors now include posts/pages/etc. that are drafts/pending/scheduled/trashed
+* Bugfix: Restored the ability to edit media items in module mass-editors
+* Bugfix: Meta Keywords Editor now removes stopwords case-insensitively from lists of autogenerated meta keywords
+
+= Version 7.2.9 (July 9, 2012) =
+* Bugfix: Code Inserter no longer calls the `wp_get_current_user` function prematurely during first-time plugin activation (bug introduced in 7.2.6)
+
+= Version 7.2.8 (July 7, 2012) =
+* Bugfix: Permalink Tweaker now removes its changes to WordPress's rewrite rules when SEO Ultimate is deactivated/uninstalled or when Permalink Tweaker is disabled from the Module Manager
+* Bugfix: International characters are no longer stripped from autogenerated meta keywords
+* Compatibility: SEO Ultimate will now refuse to activate on versions of WordPress below 3.2
 
 = Version 7.2.7 (July 5, 2012) =
 * Feature: Canonicalizer now lets you force a URL scheme (`http://` or `https://`) across all canonical URLs
@@ -376,8 +497,8 @@ Frequently asked questions, settings help, and troubleshooting tips for SEO Ulti
 
 = Version 6.6 (July 15, 2011) =
 * New Module: SEO Ultimate Widgets
-* Feature: The new "Footer Links" widget lets you display your Deeplink Juggernaut Footer Links in a widgetized footer or sidebar
-* Feature: The new "Siloed Categories" widget lets you create a navigation section that's siloed around a taxonomy of your choosing
+	* The new "Footer Links" widget lets you display your Deeplink Juggernaut Footer Links in a widgetized footer or sidebar
+	* The new "Siloed Categories" widget lets you create a navigation section that's siloed around a taxonomy of your choosing
 
 = Version 6.5.2 (July 13, 2011) =
 * Bugfix: Restored access to the "Global" tab of Meta Robot Tags Editor (broke in 6.4)

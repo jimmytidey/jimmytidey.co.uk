@@ -1,165 +1,372 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: RSS iTunes Redirection\n"
+"Project-Id-Version: Google+ Author Information in Search Results\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-05-30 13:33+0100\n"
-"PO-Revision-Date: 2012-05-30 13:33+0100\n"
-"Last-Translator: Florian Simeth <florian.simeth@online.de>\n"
-"Language-Team: Florian Simeth <florian.simeth@online.de>\n"
+"POT-Creation-Date: 2013-10-25 12:44+0100\n"
+"PO-Revision-Date: 2013-10-25 12:44+0100\n"
+"Last-Translator: WP-Buddy <info@wp-buddy.com>\n"
+"Language-Team: WP-Buddy <info@wp-buddy.com>\n"
+"Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-KeywordsList: _;__;_e\n"
 "X-Poedit-Basepath: .\n"
-"X-Poedit-Language: German\n"
-"X-Poedit-Country: GERMANY\n"
-"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.5.7\n"
 "X-Poedit-SearchPath-0: ..\n"
 
-#: ../class.settings.php:23
-msgid "Google Plus Author"
-msgstr ""
+#: ../class.profile.php:33
+msgid "Google+"
+msgstr "Google+"
 
-#: ../class.settings.php:39
-msgid "Replace author link with the Google Profile URL?"
-msgstr "Ersetze Autorenlink mit GooglePlus Profillink?"
+#: ../class.settings.php:82
+msgid "Google+ Author Free"
+msgstr "Google+ Author Free"
 
-#: ../class.settings.php:41
-msgid "Show or hide the link in the content-section?"
-msgstr "Verstecke oder zeige den Link nach dem Inhaltsbereich?"
-
-#: ../class.settings.php:43
-msgid "Open the link in a new window?"
-msgstr "Öffne den Link in einem neuen Fenster?"
-
-#: ../class.settings.php:45
-msgid "Link text"
-msgstr "Linktext"
-
-#: ../class.settings.php:49
-msgid "Not every theme shows the Author-Link right beside a page or an article. In this case activate the link to be included after the content."
-msgstr "Nicht jedes Theme zeigt einen Autorenlink neben einer Seite oder einem Artikel an. In diesem Fall können Sie den Link direkt nach dem Inhaltsbereich einfügen lassen."
-
-#: ../class.settings.php:54
-msgid "Yes"
-msgstr "Ja"
-
-#: ../class.settings.php:55
-msgid "No"
-msgstr "Nein"
-
-#: ../class.settings.php:55
-msgid "Instead show it in the content-area (see below)"
-msgstr "Stattdessen: Zeige den Link nach dem Inhaltsbereich (siehe unten)"
-
-#: ../class.settings.php:60
-msgid "Hide"
-msgstr "Verstecken"
-
-#: ../class.settings.php:61
-msgid "Show"
-msgstr "Anzeigen"
-
-#: ../class.settings.php:66
-#: ../class.settings.php:71
-msgid "Only applied when link is displayed after the content"
-msgstr "Wird nur angewandt, wenn der Link nach dem Inhaltsbereich angezeigt wird"
-
-#: ../page.settings.php:29
-msgid "Google Plus Author Information in Search Result (GPAISR)"
-msgstr ""
-
-#: ../page.settings.php:35
+#: ../class.settings.php:97
 msgid "General"
 msgstr "Allgemein"
 
-#: ../page.settings.php:38
-msgid "This plugin will replace your author link in your template with your Google+ Profile link to make sure that the picture will be shown at the search results."
-msgstr "Dieses Plugin ersetzt den Autoren-Link im Theme-Template mit einem speziellen Google+-Link. Damit wird in den Google Suchergebnissen jeweils ein Profilbild des Autors mit angezeigt."
-
-#: ../page.settings.php:39
-msgid "Alternatively the link can be included after the content if your template does not show the author  link."
-msgstr "Alternativ kann der Link auch nach dem Inhaltsbereich eingefügt werden, wenn das aktuell gewählte Template keine Autorenlinks anzeigt."
-
-#: ../page.settings.php:45
+#: ../class.settings.php:100
 msgid "What to do"
 msgstr "Was zu tun ist"
 
-#: ../page.settings.php:49
-msgid "Create a Google+ Profile"
-msgstr "Erstellen Sie ein Google+ Profil"
-
-#: ../page.settings.php:50
-msgid "Login to Google+"
-msgstr "Loggen Sie sich bei Google+ ein"
-
-#: ../page.settings.php:51
-msgid "Click here to open your profile"
-msgstr "Klicken Sie hier um Ihr Profil zu öffnen"
-
-#: ../page.settings.php:52
-msgid "Find your Google+ Profile link by visiting your own page and copy the link (shown and marked in the image below) to clipboard"
-msgstr "Finden Sie Ihren eigenen Google+ Profillink indem Sie Ihre eigenen Profilseite besuchen. Kopieren Sie dann den entsprechenden Link in die Zwischenablage (siehe Bild unten)"
-
-#: ../page.settings.php:54
-msgid "Activate this plugin."
-msgstr "Aktivieren Sie dieses Plugin."
-
-#: ../page.settings.php:55
-msgid "Go to your profile page"
-msgstr "Wechseln Sie zur Blog-Profilseite"
-
-#: ../page.settings.php:55
-msgid "and paste your profile link where it says \"Google Plus Link\""
-msgstr "und fügen Sie den gerade kopierten Google+ Profillink in das Feld \"Google Plus Link\""
-
-#: ../page.settings.php:55
-msgid "Do not add the tag \"?ref=author\" because that will be added automatically."
-msgstr "Fügen Sie nicht \"?ref=author\" am Ende an. Es wird automatisch angehängt. "
-
-#: ../page.settings.php:58
-msgid "Go to Settings > Google Plus Author and make changes if needed (this page - see below)"
-msgstr "Gehen Sie in Einstellungen > Google Plus Author und legen Sie alle nötigen Einstellungen fest (siehe unten)"
-
-#: ../page.settings.php:59
-msgid "http://support.google.com/webmasters/bin/answer.py?hl=en&answer=1408986"
-msgstr "http://support.google.com/webmasters/bin/answer.py?hl=de&answer=1408986"
-
-#: ../page.settings.php:59
-msgid "Follow this instructions to link your Google+ Profile with your blog."
-msgstr "Folgen Sie dieser Anleitung um Ihr Google+-Profil mit Ihrem Blog zu verbinden."
-
-#: ../page.settings.php:60
-msgid "Test your site using the"
-msgstr "Testen Sie Ihre Seite. Benutzen Sie dazu das"
-
-#: ../page.settings.php:61
-msgid "If you can see your profile picture everything is okay. If not, you have made something wrong."
-msgstr "Wenn Sie Ihr Profilbild sehen können ist alles OK. Wenn nicht, haben Sie etwas falsch gemacht."
-
-#: ../page.settings.php:62
-msgid "Note that there is no guarantee that a Rich Snippet will be shown for your page on actual search results!"
-msgstr "Seien Sie sich im klaren, dass es keine Garantie dafür gibt, dass Rich Snippets in den Suchergebnissen bei Google angezeigt werden."
-
-#: ../page.settings.php:63
-msgid "Go to the plugins homepage to get more information."
-msgstr "Wechseln Sie zur Plugin-Homepage um weitere Informationen zu erhalten."
-
-#: ../page.settings.php:70
+#: ../class.settings.php:103 ../class.settings.php:486
 msgid "Settings"
 msgstr "Einstellungen"
 
-#: ../page.settings.php:81
-msgid "Test the latest post or page."
-msgstr "Den aktuellsten Artikel / die Seite testen."
+#: ../class.settings.php:106
+msgid "About"
+msgstr "Über"
 
-#: ../page.settings.php:94
+#: ../class.settings.php:109
 msgid "Share"
 msgstr "Teilen"
 
-#: ../page.settings.php:96
-msgid "Go to the plugins page"
-msgstr "Wechseln Sie zur Plugin-Website"
+#: ../class.settings.php:111
+msgid "Discover"
+msgstr "Entdecken"
+
+#: ../class.settings.php:114
+msgid "Helpful links"
+msgstr "Nützliche Links"
+
+#: ../class.settings.php:141
+msgid ""
+"This plugin will replace your author link in your template with your Google+ "
+"Profile link to make sure that the picture will be shown at the search "
+"results."
+msgstr ""
+"Dieses Plugin ersetzt den Autoren-Link im Theme-Template mit einem "
+"speziellen Google+-Link. Damit wird in den Google Suchergebnissen jeweils "
+"ein Profilbild des Autors mit angezeigt."
+
+#: ../class.settings.php:142
+msgid ""
+"Alternatively the link can be included after the content if your template "
+"does not show the author  link."
+msgstr ""
+"Alternativ kann der Link auch nach dem Inhaltsbereich eingefügt werden, wenn "
+"das aktuell gewählte Template keine Autorenlinks anzeigt."
+
+#: ../class.settings.php:144
+msgid "Please note:"
+msgstr "Bitte beachten Sie folgendes:"
+
+#: ../class.settings.php:144
+msgid ""
+"Google says that there is no guarantee that a Rich Snippet will be shown for "
+"your page on actual search results."
+msgstr ""
+"Laut Google gibt es keine Garantie dafür, dass auch Ihre Rich Snippets in "
+"den Suchergebnissen bei Google angezeigt werden."
+
+#: ../class.settings.php:144
+msgid "Please click here for more information"
+msgstr "Klicken Sie hier um weitere Informationen zu erhalten"
+
+#: ../class.settings.php:162
+msgid "A) Set up authorship by linking your content to your Google+ profile"
+msgstr ""
+"A) Richten Sie die Urheberschaft ein, indem Sie Ihre Inhalte mit Ihrem Google"
+"+ Profil verknüpfen"
+
+#: ../class.settings.php:166
+#, php-format
+msgid "Follow this link to open your Google+ profile: %s"
+msgstr "Folgen Sie diesen Link um Ihre Google+ Profilseite zu öffnen: %s"
+
+#: ../class.settings.php:168
+msgid ""
+"Copy your Profile-URL from the address bar to clipboard (see picture below):"
+msgstr ""
+"Kopieren Sie die Profil-URL aus der Adresszeile des Browser in die "
+"Zwischenablage (siehe Bild unten):"
+
+#: ../class.settings.php:173
+msgid ""
+"Go to your Wordpress Admin Panel and click Users -> Your Profile. Paste the "
+"above mentioned URL to the field where it says \"Google+\"."
+msgstr ""
+"Wechseln Sie zur Wordpress Administrationsoberfläche und klicken Sie auf "
+"Benutzer -> Dein Profil. Fügen Sie die oben genannte URL in das Feld \"Google"
+"+\" ein."
+
+#: ../class.settings.php:178
+msgid "Click Update Profile."
+msgstr "Klicken Sie auf \"Profil aktualisieren\"."
+
+#: ../class.settings.php:180
+msgid ""
+"Repeat the above steps with all the other Wordpress authors on your blog."
+msgstr ""
+"Wiederholen Sie die oben genannten Schritte mit allen anderen Wordpress "
+"Autoren auf Ihrem Blog."
+
+#: ../class.settings.php:185
+msgid ""
+"B) Add a reciprocal link back from your profile to the site you just updated"
+msgstr ""
+"B) Fügen Sie einen Link hinzu, der von Ihrem Profil zu der Website "
+"zurückführt, die Sie soeben aktualisiert haben."
+
+#: ../class.settings.php:189
+#, php-format
+msgid "Follow this link to edit the Contributor To section: %s"
+msgstr ""
+"Folgen Sie diesem Link um den Abschnitt \"Macht mit bei\" zu bearbeiten: %s"
+
+#: ../class.settings.php:192
+#, php-format
+msgid ""
+"A dialog will appear. Scroll down to the \"Contributor to\" section. Click "
+"\"Add custom link\" and enter your website URL: %s"
+msgstr ""
+"Klicken Sie in dem daraufhin angezeigten Dialogfeld auf "
+"\"Benutzerdefinierten Link hinzufügen\" und geben Sie dann die URL der "
+"Website ein: %s"
+
+#: ../class.settings.php:194
+#, php-format
+msgid "Optional: For the label you can use your website title: %s"
+msgstr "Optional: Als Label können Sie den Website-Titel benutzen: %s"
+
+#: ../class.settings.php:196
+msgid "If you want, click the drop-down list to specify who can see the link."
+msgstr ""
+"Wenn Sie möchten, können Sie in der Dropdown-Liste festlegen, wer den Link "
+"sehen kann."
+
+#: ../class.settings.php:198
+msgid "Click Save."
+msgstr "Klicken Sie auf Speichern."
+
+#: ../class.settings.php:200
+msgid "Tell your authors that they should also do step B."
+msgstr ""
+"Teilen Sie all Ihren Autoren mit, dass sie ebenfalls Schritt B durchführen "
+"sollen."
+
+#: ../class.settings.php:205
+msgid "C) Test"
+msgstr "C) Test"
+
+#: ../class.settings.php:209
+msgid ""
+"To see what author data Google can extract from your page, use the Rich "
+"Snippet Testing Tool."
+msgstr ""
+"Um sehen zu können welche Autordaten Google aus Ihrer Seite extrahieren "
+"kann, können Sie den Rich Snippets-Tester benutzen."
+
+#: ../class.settings.php:248
+msgid "Test the latest post or page."
+msgstr "Den aktuellsten Artikel / die Seite testen."
+
+#: ../class.settings.php:327
+msgid "Add to the header"
+msgstr "Zum Header hinzufügen"
+
+#: ../class.settings.php:329
+msgid "Replace author link with the Google Profile URL?"
+msgstr "Ersetze Autorenlink mit GooglePlus Profillink?"
+
+#: ../class.settings.php:331
+msgid "Show or hide the link in the content-section?"
+msgstr "Verstecke oder zeige den Link nach dem Inhaltsbereich?"
+
+#: ../class.settings.php:333
+msgid "Open the link in a new window?"
+msgstr "Öffne den Link in einem neuen Fenster?"
+
+#: ../class.settings.php:335
+msgid "Display in Feed?"
+msgstr "Im Feed anzeigen?"
+
+#: ../class.settings.php:337
+msgid "Link text"
+msgstr "Linktext"
+
+#: ../class.settings.php:353
+msgid ""
+"Not every theme shows the Author-Link right beside a page or an article. In "
+"this case activate the link to be included after the content."
+msgstr ""
+"Nicht jedes Theme zeigt einen Autorenlink neben einer Seite oder einem "
+"Artikel an. In diesem Fall können Sie den Link direkt nach dem "
+"Inhaltsbereich einfügen lassen."
+
+#: ../class.settings.php:363
+msgid "(Recommended. Not visible to the user.)"
+msgstr "(Empfohlen. Nicht für den User sichtbar)"
+
+#: ../class.settings.php:399
+msgid "Yes"
+msgstr "Ja"
+
+#: ../class.settings.php:399
+msgid "(Please note: Some themes does not support this.)"
+msgstr "(Achtung: Einige Themes unterstützen dies nicht.)"
+
+#: ../class.settings.php:400
+msgid "No"
+msgstr "Nein"
+
+#: ../class.settings.php:400
+msgid "Instead show it in the content-area (see below)"
+msgstr "Stattdessen: Zeige den Link nach dem Inhaltsbereich (siehe unten)"
+
+#: ../class.settings.php:417
+msgid "Hide"
+msgstr "Verstecken"
+
+#: ../class.settings.php:417
+msgid "(Please not that Google does not like hidden links)"
+msgstr "(Bitte beachten Sie, dass Google keine versteckten Links mag)."
+
+#: ../class.settings.php:418
+msgid "Show"
+msgstr "Anzeigen"
+
+#: ../class.settings.php:446
+msgid "Check this if you want to display the Google+ Link inside the feeds."
+msgstr ""
+"Wird dies aktiviert, so werden die Google+ Links auch in den Feeds angezeigt."
+
+#: ../class.settings.php:473
+msgid ""
+"Need more options and an automatic test? Check out the Extended Version of "
+"this Plugin"
+msgstr ""
+"Sie benötigen mehr Optionen und einen automatisierten Test? Versuchen Sie es "
+"mit der Erweiterten Version dieses Plugins"
+
+#: ../class.settings.php:487
+msgid "More Plugins by WPBuddy"
+msgstr "Mehr Plugins von WPBuddy"
+
+#: ../class.settings.php:501
+msgid "Installation manual"
+msgstr "Installationsanleitung (englisch)"
+
+#: ../class.settings.php:504
+msgid "Support forum"
+msgstr "Support-Forum (englisch)"
+
+#: ../class.settings.php:507
+msgid "Changelog"
+msgstr "Verionshistorie"
+
+#: ../class.settings.php:509
+msgid "Get the full version"
+msgstr "Vollversion kaufen"
+
+#: ../class.settings.php:510
+msgid "More cool stuff by WPBuddy"
+msgstr "Weitere coole Produkte von WPBuddy"
+
+#: ../page.settings.php:4
+msgid "Google+ Authorship (Free) Settings"
+msgstr "Google+ Authorship (Free) Einstellungen"
+
+#~ msgid "Only applied when link is displayed after the content"
+#~ msgstr ""
+#~ "Wird nur angewandt, wenn der Link nach dem Inhaltsbereich angezeigt wird"
+
+#~ msgid "Go to the plugins page"
+#~ msgstr "Wechseln Sie zur Plugin-Website"
+
+#~ msgid "Google Plus Author Information in Search Result (GPAISR)"
+#~ msgstr "Google Plus Author Information in Search Results (GPAISR)"
+
+#~ msgid ""
+#~ "If Google cannot extract your profile picture, please read the FAQ which "
+#~ "you can find in the documentation delivered with this plugin."
+#~ msgstr ""
+#~ "Wenn Google Ihr Profilbild nicht extrahieren kann lesen Sie bitte die "
+#~ "FAQ, die Sie in der Dokumentation finden, die mit diesem Plugin "
+#~ "ausgeliefert wurde."
+
+#~ msgid "Open the documentation now."
+#~ msgstr "Die Dokumentation jetzt öffnen."
+
+#~ msgid "Create a Google+ Profile"
+#~ msgstr "Erstellen Sie ein Google+ Profil"
+
+#~ msgid "Click here to open your profile"
+#~ msgstr "Klicken Sie hier um Ihr Profil zu öffnen"
+
+#~ msgid ""
+#~ "Find your Google+ Profile link by visiting your own page and copy the "
+#~ "link (shown and marked in the image below) to clipboard"
+#~ msgstr ""
+#~ "Finden Sie Ihren eigenen Google+ Profillink indem Sie Ihre eigenen "
+#~ "Profilseite besuchen. Kopieren Sie dann den entsprechenden Link in die "
+#~ "Zwischenablage (siehe Bild unten)"
+
+#~ msgid "Activate this plugin."
+#~ msgstr "Aktivieren Sie dieses Plugin."
+
+#~ msgid "Go to your profile page"
+#~ msgstr "Wechseln Sie zur Blog-Profilseite"
+
+#~ msgid "and paste your profile link where it says \"Google Plus Link\""
+#~ msgstr ""
+#~ "und fügen Sie den gerade kopierten Google+ Profillink in das Feld "
+#~ "\"Google Plus Link\""
+
+#~ msgid ""
+#~ "Do not add the tag \"?ref=author\" because that will be added "
+#~ "automatically."
+#~ msgstr ""
+#~ "Fügen Sie nicht \"?ref=author\" am Ende an. Es wird automatisch "
+#~ "angehängt. "
+
+#~ msgid ""
+#~ "Go to Settings > Google Plus Author and make changes if needed (this page "
+#~ "- see below)"
+#~ msgstr ""
+#~ "Gehen Sie in Einstellungen > Google Plus Author und legen Sie alle "
+#~ "nötigen Einstellungen fest (siehe unten)"
+
+#~ msgid ""
+#~ "http://support.google.com/webmasters/bin/answer.py?hl=en&answer=1408986"
+#~ msgstr ""
+#~ "http://support.google.com/webmasters/bin/answer.py?hl=de&answer=1408986"
+
+#~ msgid "Test your site using the"
+#~ msgstr "Testen Sie Ihre Seite. Benutzen Sie dazu das"
+
+#~ msgid ""
+#~ "If you can see your profile picture everything is okay. If not, you have "
+#~ "made something wrong."
+#~ msgstr ""
+#~ "Wenn Sie Ihr Profilbild sehen können ist alles OK. Wenn nicht, haben Sie "
+#~ "etwas falsch gemacht."
+
+#~ msgid "In Feed?"
+#~ msgstr "Im Feed anzei"
 
 #~ msgid "If you like this plugin, please click: "
 #~ msgstr "Wenn du das Plugin magst, bitte klicke hier:"
@@ -183,9 +390,6 @@ msgstr "Wechseln Sie zur Plugin-Website"
 
 #~ msgid "New URL to redirect"
 #~ msgstr "Neue Feed-URL"
-
-#~ msgid "Add the namespace?"
-#~ msgstr "Namespace hinzufügen?"
 
 #~ msgid "Will add the namespace"
 #~ msgstr "Folgender Namespace wird hinzugefügt"

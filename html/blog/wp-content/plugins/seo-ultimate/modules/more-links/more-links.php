@@ -9,9 +9,9 @@ if (class_exists('SU_Module')) {
 
 class SU_MoreLinks extends SU_Module {
 	
-	function get_module_title() { return __('More Link Customizer', 'seo-ultimate'); }
+	static function get_module_title() { return __('More Link Customizer', 'seo-ultimate'); }
 	
-	function get_parent_module() { return 'misc'; }
+	static function get_parent_module() { return 'misc'; }
 	function get_settings_key() { return 'more-links'; }
 	
 	function get_default_settings() {
@@ -48,7 +48,7 @@ class SU_MoreLinks extends SU_Module {
 	function postmeta_fields($fields, $screen) {
 		
 		if (strcmp($screen, 'post') == 0)
-			$fields['40|morelinktext'] = $this->get_postmeta_textbox('morelinktext', __('More Link Text:', 'seo-ultimate'));
+			$fields['links'][20]['morelinktext'] = $this->get_postmeta_textbox('morelinktext', __('Anchor Text of &#8220;More&#8221; Link:', 'seo-ultimate'));
 		
 		return $fields;
 	}
@@ -98,7 +98,7 @@ class SU_MoreLinks extends SU_Module {
 		
 		if ($this->has_enabled_parent()) {
 			$screen->add_help_tab(array(
-			  'id' => 'su-more-links-overview'
+			  'id' => 'su-more-links-help'
 			, 'title' => __('More Link Customizer', 'seo-ultimate')
 			, 'content' => 
 '<h3>' . __('Overview', 'seo-ultimate') . '</h3>' . $overview . 

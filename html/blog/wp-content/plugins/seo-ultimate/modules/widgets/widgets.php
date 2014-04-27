@@ -9,10 +9,14 @@ if (class_exists('SU_Module')) {
 
 class SU_Widgets extends SU_Module {
 	
-	function get_module_title() { return __('SEO Ultimate Widgets', 'seo-ultimate'); }
-	function get_menu_title()	{ return false; }
+	static function get_module_title() { return __('SEO Ultimate Widgets', 'seo-ultimate'); }
+	static function get_menu_title()	{ return false; }
 	
-	function get_admin_url() {
+	function get_admin_url($key = false) {
+		
+		if ($key)
+			return parent::get_admin_url($key);
+		
 		if (is_network_admin())
 			return false;
 		
