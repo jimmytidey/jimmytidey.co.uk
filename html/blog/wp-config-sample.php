@@ -1,4 +1,4 @@
-<?php
+	<?php
 /**
  * The base configurations of the WordPress.
  *
@@ -61,7 +61,7 @@ define('NONCE_SALT',       'put your unique phrase here');
  */
 $table_prefix  = 'wp_';
 
-/**
+/**F
  * WordPress Localized Language, defaults to English.
  *
  * Change this to localize WordPress. A corresponding MO file for the chosen
