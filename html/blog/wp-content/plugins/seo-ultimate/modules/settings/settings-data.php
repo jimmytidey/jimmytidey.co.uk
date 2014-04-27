@@ -9,11 +9,11 @@ if (class_exists('SU_Module')) {
 
 class SU_SettingsData extends SU_Module {
 
-	function get_parent_module() { return 'settings'; }
-	function get_child_order() { return 20; }
-	function is_independent_module() { return false; }
+	static function get_parent_module() { return 'settings'; }
+	static function get_child_order() { return 20; }
+	static function is_independent_module() { return false; }
 	
-	function get_module_title() { return __('Settings Data Manager', 'seo-ultimate'); }
+	static function get_module_title() { return __('Settings Data Manager', 'seo-ultimate'); }
 	function get_module_subtitle() { return __('Manage Settings Data', 'seo-ultimate'); }
 	
 	function get_admin_page_tabs() {
@@ -77,10 +77,10 @@ class SU_SettingsData extends SU_Module {
 						
 						//Module settings
 						$module_settings = apply_filters('su_settings_import_array', $import['settings']);
-						foreach ($module_settings as $module => $module_settings) {
-							$msdata = (array)get_option("seo_ultimate_module_$module", array());
+						foreach ($module_settings as $key => $module_settings) {
+							$msdata = (array)get_option("seo_ultimate_module_$key", array());
 							$msdata = array_merge($msdata, $module_settings);
-							update_option("seo_ultimate_module_$module", $msdata);							
+							update_option("seo_ultimate_module_$key", $msdata);							
 						}
 						
 						$this->queue_message('success', __('Settings successfully imported.', 'seo-ultimate'));
@@ -96,7 +96,13 @@ class SU_SettingsData extends SU_Module {
 			
 			$psdata = (array)get_option('seo_ultimate', array());
 			$modules = array_keys($psdata['modules']);
-			foreach ($modules as $module) delete_option("su_$module");
+			foreach ($modules as $module) {
+				
+				if (!$this->plugin->call_module_func($module, 'get_settings_key', $key) || !$key)
+					$key = $module;
+				
+				delete_option("seo_ultimate_module_$key");
+			}
 			unset($psdata['modules']);
 			update_option('seo_ultimate', $psdata);
 			

@@ -15,7 +15,8 @@ add_filter('su_settings_export_array', 'su_titles_export_filter');
 
 class SU_Titles extends SU_Module {
 	
-	function get_module_title() { return __('Title Tag Rewriter', 'seo-ultimate'); }
+	static function get_module_title() { return __('Title Tag Rewriter', 'seo-ultimate'); }
+	static function get_menu_title() { return __('Title Tag Rewriter', 'seo-ultimate'); }
 	
 	function init() {
 		
@@ -49,9 +50,9 @@ class SU_Titles extends SU_Module {
 	}
 	
 	function formats_tab() {
-		echo "<table class='form-table'>\n";
+		//echo "<table class='form-table'>\n";
 		$this->textboxes($this->get_supported_settings(), $this->get_default_settings());
-		echo "</table>";
+		//echo "</table>";
 	}
 	
 	function settings_tab() {
@@ -59,7 +60,7 @@ class SU_Titles extends SU_Module {
 		$this->checkbox('terms_ucwords', __('Convert lowercase category/tag names to title case when used in title tags.', 'seo-ultimate'), __('Title Tag Variables', 'seo-ultimate'));
 		$this->radiobuttons('rewrite_method', array(
 			  'ob' => __('Use output buffering &mdash; no configuration required, but slower (default)', 'seo-ultimate')
-			, 'filter' => __('Use filtering &mdash; faster, but configuration required (see the &#8220;Settings Help&#8221; dropdown for details)', 'seo-ultimate')
+			, 'filter' => __('Use filtering &mdash; faster, but configuration required (see the &#8220;Settings Tab&#8221 section of the &#8220;Help&#8221; dropdown for details)', 'seo-ultimate')
 		), __('Rewrite Method', 'seo-ultimate'));
 		$this->admin_form_table_end();
 	}
@@ -80,7 +81,6 @@ class SU_Titles extends SU_Module {
 			, 'title_search' => __('Search Results for {query} | {blog}', 'seo-ultimate')
 			, 'title_404' => __('404 Not Found | {blog}', 'seo-ultimate')
 			, 'title_paged' => __('{title} - Page {num}', 'seo-ultimate')
-			
 			, 'terms_ucwords' => true
 			, 'rewrite_method' => 'ob'
 		);
@@ -145,9 +145,10 @@ class SU_Titles extends SU_Module {
 		
 		$title = $this->get_title();
 		if (!$title) return $head;
-		
+		// Pre-parse the title replacement text to escape the $ ($n backreferences) when followed by a number 0-99 because of preg_replace issue
+		$title = preg_replace('/\$(\d)/', '\\\$$1', $title);
 		//Replace the old title with the new and return
-		return eregi_replace('<title>[^<]*</title>', '<title>'.$title.'</title>', $head);
+		return preg_replace('/<title>[^<]*<\/title>/i', '<title>'.$title.'</title>', $head);
 	}
 	
 	function get_title() {
@@ -159,7 +160,7 @@ class SU_Titles extends SU_Module {
 			return htmlspecialchars($this->get_title_paged($post_title));
 		
 		//Custom taxonomy title?
-		if (is_category() || is_tag() || is_tax()) {
+		if (suwp::is_tax()) {
 			$tax_titles = $this->get_setting('taxonomy_titles');
 			if ($tax_title = $tax_titles[$wp_query->get_queried_object_id()])
 				return htmlspecialchars($this->get_title_paged($tax_title));
@@ -330,8 +331,16 @@ class SU_Titles extends SU_Module {
 		return $url;
 	}
 	
-	function postmeta_fields($fields) {
-		$fields['10|title'] = $this->get_postmeta_textbox('title', __('Title Tag:', 'seo-ultimate'));
+	function postmeta_fields($fields, $screen) {
+		$id = "_su_title";
+		$value = su_esc_attr($this->get_postmeta('title'));
+		$fields['serp'][10]['title'] =
+			"<div class='form-group su textbox'>\n<label class='col-sm-4 col-md-4 control-label' for='$id'>".__('Title Tag:', 'seo-ultimate')."</label>\n<div class='col-sm-4 col-md-4'><input name='$id' id='$id' type='text' value='$value' class='form-control input-sm regular-text' tabindex='2'"
+			. " onkeyup=\"javascript:document.getElementById('su_title_charcount').innerHTML = document.getElementById('_su_title').value.length\" />"
+			. "</div>\n<div class='col-sm-4 col-md-4 help-text'>".sprintf(__('You&#8217;ve entered %s characters. Most search engines use up to 70.', 'seo-ultimate'), "<strong id='su_title_charcount'>".strlen($value)."</strong>")
+			. "</div>\n</div>\n";
+		
+		
 		return $fields;
 	}
 	
@@ -355,7 +364,7 @@ class SU_Titles extends SU_Module {
 	
 	$screen->add_help_tab(array(
 			  'id' => 'su-titles-vars'
-			, 'title' => __('Formats &amp; Variables', 'seo-ultimate')
+			, 'title' => __('Default Formats Tab', 'seo-ultimate')
 			, 'content' => __("
 <p>Various variables, surrounded in {curly brackets}, are provided for use in the title formats. All settings support the {blog} variable, which is replaced with the name of the blog, and the {tagline} variable, which is replaced with the blog tagline as set under <a href='options-general.php'>Settings &rArr; General</a>.</p>
 
@@ -418,16 +427,27 @@ class SU_Titles extends SU_Module {
 	
 	$screen->add_help_tab(array(
 			  'id' => 'su-titles-settings'
-			, 'title' => __('Settings Help', 'seo-ultimate')
+			, 'title' => __('Settings Tab', 'seo-ultimate')
 			, 'content' => __("
 <p>Here&#8217;s documentation for the options on the &#8220;Settings&#8221; tab.</p>
 <ul>
+	<li><strong>Convert lowercase category/tag names to title case when used in title tags</strong> &mdash; If your Tag Title Format is set to <code>{tag} | {blog}</code> and you have a tag called &#8220;blue widgets,&#8221; your title tag would be <code>blue widgets | My WordPress Blog</code>. Enabling this setting would capitalize the words in &#8220;blue widgets&#8221; so that the title tag would be <code>Blue Widgets | My WordPress Blog</code> instead.</li>
 	<li>
 		<p><strong>Rewrite Method</strong> &mdash; This setting controls the method by which Title Tag Rewriter edits your site&#8217;s <code>&lt;title&gt;</code> tags.</p>
 		<ul>
-			<li><strong>Use output buffering</strong> &mdash; This is the &#8220;traditional&#8221; method that most SEO plugins use. With this method, SEO Ultimate will intercept your site&#8217;s <code>&lt;head&gt;</code> tag section as it&#8217;s being outputted, locate the <code>&lt;title&gt;</code> tag, edit its value, and then output the edited <code>&lt;head&gt;</code> data. The good thing about this method is that you don&#8217;t have to edit your theme in any way, as SEO Ultimate will overwrite whatever your theme puts in your <code>&lt;title&gt;</code> tag. The bad thing is that this output interception takes a few extra milliseconds to complete. If you are concerned about performance, are comfortable editing your theme&#8217;s `header.php` file, and will remember to edit the `header.php` file of any new themes you activate, you may want to try the filtering rewrite method.</li>
+			<li><strong>Use output buffering</strong> &mdash; This is the &#8220;traditional&#8221; method that most SEO plugins use.
+				With this method, SEO Ultimate will intercept your site&#8217;s <code>&lt;head&gt;</code> tag section as it&#8217;s being outputted, 
+				locate the <code>&lt;title&gt;</code> tag, edit its value, and then output the edited <code>&lt;head&gt;</code> data. 
+				The good thing about this method is that you don&#8217;t have to edit your theme in any way, as SEO Ultimate will overwrite 
+				whatever your theme puts in your <code>&lt;title&gt;</code> tag. The bad thing is that this output interception takes a few extra 
+				milliseconds to complete. If you are concerned about performance, are comfortable editing your theme&#8217;s header.php file, 
+				and will remember to edit the header.php file of any new themes you activate, you may want to try the filtering rewrite method.</li>
 			<li>
-				<p><strong>Use filtering</strong> &mdash; With this method, SEO Ultimate will register itself with WordPress and will replace WordPress&#8217;s <code>&lt;title&gt;</code> tag output with its own. This method can only edit the text that WordPress itself generates for the <code>&lt;title&gt;</code> tag; the filtering method can&#8217;t edit anything extra your theme may add. For this reason, you need to edit your theme to make sure it&#8217;s only pulling <code>&lt;title&gt;</code> tag data from WordPress and is not adding anything else.</p>
+				<p><strong>Use filtering</strong> &mdash; With this method, SEO Ultimate will register itself with WordPress and will replace 
+				WordPress&#8217;s <code>&lt;title&gt;</code> tag output with its own. This method can only edit the text that WordPress itself 
+				generates for the <code>&lt;title&gt;</code> tag; the filtering method can&#8217;t edit anything extra your theme may add. 
+				For this reason, you need to edit your theme to make sure it&#8217;s only pulling <code>&lt;title&gt;</code> tag data from WordPress 
+				and is not adding anything else.</p>
 				<p>Here&#8217;s how to set up filtering:</p>
 				<ol>
 					<li>Go to <a href='theme-editor.php'>Appearance &rArr; Editor</a> (if you get a permissions error, you may be on a WordPress multi-site environment and may not be able to use the filtering rewrite method)</li>

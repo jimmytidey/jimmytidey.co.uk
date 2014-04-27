@@ -1,15 +1,15 @@
 <?php
 /*
-Plugin Name: Google Plus Author Information in Search Result (GPAISR)
-Plugin URI: http://social2business.com/google-author-information-in-search-results-wordpress-plugin
-Description: Replaces the author link with your Google+ Profile Link or adds the Special Link in your blogpost
-Version: 0.2
-Author: Florian Simeth
-Author URI: http://hangout-lifestyle.de
+Plugin Name: Google+ Author Information in Search Results (Free Version)
+Plugin URI: http://wp-buddy.com/products/plugins/google-authorship-wordpress-plugin/
+Description: Replaces the author link with your Google+ Profile Link or add a special link in your blogpost
+Version: 0.7.3
+Author: WP-Buddy
+Author URI: http://wp-buddy.com
 License: GPL2
 */
 
-/*  Copyright 2012  Florian Simeth  (email : florian.simeth@online.de)
+/*  Copyright 2013  WP-Buddy  (email : info@wp-buddy.com)
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License, version 2, as 
@@ -26,21 +26,19 @@ License: GPL2
 */
 
 // what's the path?
-$gpX = plugin_dir_path(__FILE__);
+$gpX = plugin_dir_path( __FILE__ );
 
 // loads the translation file
-require_once($gpX.'class.translation.php');
+require_once( $gpX . 'class.translation.php' );
 $gpTranslation = new GPAISRTranslation();
 
 // this hooks in the fields in the profile page and the save-functions
-require_once($gpX.'class.profile.php');
+require_once( $gpX . 'class.profile.php' );
 $gpProfile = new GPAISRProfile();
 
-require_once($gpX.'class.settings.php');
-$gpSettings = new GPAISRSettings();
+require_once( $gpX . 'class.settings.php' );
+$gpSettings = new GPAISRSettings( __FILE__ );
 
 // this hooks in the filter to show the author link
-require_once($gpX.'class.filter.php');
+require_once( $gpX . 'class.filter.php' );
 $gpFilter = new GPAISRFilter();
-
-

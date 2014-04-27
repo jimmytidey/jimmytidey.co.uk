@@ -12,9 +12,8 @@ if (class_exists('SU_Module')) {
 
 class SU_Permalinks extends SU_Module {
 	
-	function get_module_title() { return __('Permalink Tweaker', 'seo-ultimate'); }
-	
-	function get_parent_module() { return 'misc'; }
+	static function get_module_title() { return __('Permalink Tweaker', 'seo-ultimate'); }
+	static function get_parent_module() { return 'misc'; }
 	function get_settings_key() { return 'permalinks'; }
 	
 	function get_default_settings() {
@@ -37,11 +36,36 @@ class SU_Permalinks extends SU_Module {
 				}
 			}
 			if ($nobase_enabled) {
+				add_action('wp_insert_post', array(&$this, 'flush_rewrite_rules'));
 				add_filter('term_link', array(&$this, 'nobase_term_link'), 1000, 2);
 				add_filter('query_vars', array(&$this, 'nobase_query_vars'));
 				add_filter('request', array(&$this, 'nobase_old_base_redirect'));
 			}
 		}
+	}
+	
+	function deactivate() {
+		if (suwp::permalink_mode()) {
+			$nobase_enabled = false;
+			$taxonomies = suwp::get_taxonomy_names();
+			foreach ($taxonomies as $taxonomy) {
+				if ($this->get_setting("nobase_$taxonomy", false)) {
+					remove_action("created_$taxonomy", array(&$this, 'flush_rewrite_rules'));
+					remove_action("edited_$taxonomy", array(&$this, 'flush_rewrite_rules'));
+					remove_action("delete_$taxonomy", array(&$this, 'flush_rewrite_rules'));
+					remove_filter("{$taxonomy}_rewrite_rules", array(&$this, 'nobase_rewrite_rules'));
+					$nobase_enabled = true;
+				}
+			}
+			if ($nobase_enabled) {
+				remove_action('wp_insert_post', array(&$this, 'flush_rewrite_rules'));
+				remove_filter('term_link', array(&$this, 'nobase_term_link'), 1000, 2);
+				remove_filter('query_vars', array(&$this, 'nobase_query_vars'));
+				remove_filter('request', array(&$this, 'nobase_old_base_redirect'));
+			}
+		}
+		
+		$this->flush_rewrite_rules();
 	}
 	
 	function admin_page_contents() {
@@ -139,6 +163,7 @@ class SU_Permalinks extends SU_Module {
 		$tax_name = sustr::rtrim_str(current_filter(), '_rewrite_rules');
 		$tax_obj = get_taxonomy($tax_name);
 		
+		wp_cache_flush(); //Otherwise get_terms() won't include the term just added
 		$terms = get_terms($tax_name);
 		if ($terms && !is_wp_error($terms)) {
 			foreach ($terms as $term_obj) {
