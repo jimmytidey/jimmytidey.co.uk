@@ -1,6 +1,6 @@
 <?php 
     $title = 'PhD Overview';
-    include('../../header.php');
+    include('../header.php');
 ?>
 
 <div class='container'>
@@ -123,7 +123,7 @@
 
 </div>
 
-<?php  include '../../footer.php' ?>
+<?php  include '../footer.php' ?>
 
     
 

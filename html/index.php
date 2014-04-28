@@ -17,7 +17,7 @@ include('header.php');
 				<li><a href='http://twitter.com/jimmytidey'>Twitter</a></li>
 				<li><a href='/blog'>Blog</a></li>
 				<li><a href='http://github.com/jimmytidey'>GitHub</a></li>
-				<li><a href='/phd/overview'>PhD study</a></li>    
+				<li><a href='/phd/'>PhD study</a></li>    
 			</ul>
 		</div>
 
