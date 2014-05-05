@@ -22,7 +22,8 @@ include('../../header.php');
                 <li><a href='#broad_context'>Broad Context</a></li>
                 <li><a href='#existing_methodologuies'>Existing Methodologies</a></li>
                 <li><a href='#analogy'>Experimental difficulties</a></li>
-                <li><a href='#prototyping'>Synthesised Methodology</a></li>          
+                <li><a href='#prototyping'>Synthesised Methodology</a></li>
+                <li><a href='#citations'>Citations</a></li>          
             </ul>
         </div>
 
@@ -42,10 +43,14 @@ include('../../header.php');
 			<p>Finally, I will synthesis these into a methodology that I can use for my own work.</p>
 
 
-			<h2 id='broad_context'>Broad context</h2>
+			<!-- Broad Context --> 
+
+			<h2 id='broad_context'>Context and similar work in the literature</h2>
 			
 			<img src="img/methodology_flow_2.png" alt="Methodology Flow" />
 			
+			<p><em>Steps 2 & 3 are the specific causal effects I want to investigate.</em></p> 
+
 			<h3>Step 1 - Finding data for presentation.</h3>
 
 			<p>Two prototype versions of the system, demonstrated at FACT and Kensington & Chelsea Council Staff cafe were both able to find enough data to function.</p>
@@ -55,13 +60,73 @@ include('../../header.php');
 			<p>In the context of the office, the current CX 'bucket' project is finding at least enough data to power a working prototype.</p>
 
 
-			<h3>Step 2 - Presenting the data to drive users to interact.</h3>
+			<h3>Step 2 - Ambient computing driving social awareness.</h3>
 
-			<p>Dourish portholes project.</p>
+			<p>Examples of projects using ambient <p>
 
-			<p>Calm technology</p>
+			<table class="table table-striped">
 
-			<p>Social Mirror</p>
+				<thead>
+					<tr>
+						<th></th>
+						<th>For community awareness</th>
+						<th>Other intervention</th>
+					</tr>
+				</thead>
+				
+
+				<tr>
+					<td>Private Screen<br/>(Laptop or Desktop)</td>
+					<td>
+						<p>Portholes : Supporting Awareness in a Distributed Group Work (1992)</p>
+						<p>A study on the use of “Yams” for enterprise knowledge sharing (2012)</p>
+						<p>WIPDash : Work Item and People Dashboard for Software Development Teams (2009)</p>
+						<p>Studying yammer at Deloitte (2012)</p>
+						<p>What's Happening ? Promoting Community Awareness through Opportunistic, Peripheral Interfaces (2002)</p>
+						<p><em>Social networking sites</em></p>
+					</td>
+					<td>
+						<p><em>General computing applications...</em></p>
+
+					</td>
+				</tr>
+
+
+				<tr>
+					<td>Mobile Device (Private)</td>
+					<td><em>Social Networking sites...</em></td>
+
+					<td><p>How to Nudge In Situ: Designing Lambent Devices to Deliver Salient Information in Supermarkets (2011)</p></td>
+				</tr>
+
+				<tr>
+					<td>Public Screen (Interactive)</td>
+					<td>
+						<p>Enticing People to Interact with Large Public Displays in Public Spaces (2002)</p>
+						<p>Interactive Community Bulletin Boards as Conversational Hubs and Sites for Playful Visual Repartee (2007)</p>
+						<p>Agora2 . 0 : Enhancing Civic Participation through a Public Display(2013)</p>
+						<p>Enticing People to Interact with Large Public Displays in Public Spaces (2002)</p>
+						<p>Enticing People to Interact with Large Public Displays in Public Spaces (2002)</p>
+					</td>
+					<td></td>
+				</tr>
+				
+				<tr>
+					<td>Public Screen (Broadcast)</td>
+					<td><p>Computation for the Corridor : Experiments in Augmenting Public Spaces (2014)</p></td>
+					<td><p>What's Happening ?: Promoting Community Awareness through Opportunistic, Peripheral Interfaces (2002)</p></td>
+				</tr>
+
+
+				<tr>
+					<td>Ambient interface</td>
+					<td></td>
+					<td></td>
+				</tr>
+
+			</table>
+
+
 
 
 			<h3>Step 3 - correlation between community-focused digital activity and social capital</h3>
@@ -80,12 +145,10 @@ include('../../header.php');
 
 			<p>This effect has also been observed on Twitter (Hofer & Aubert, 2013) and on a hyperlocal community website (Littau, 2007).</p>
 
-
-
-
 			
 
 			<h3>Step 4 - Correlation between social capital and community benefits</h3>
+
 			<p>Social capital has attractive properties as an evaluative framework for an investigation of the potential impact of ambient computing on communities.</p>  
 
 			<p>While there are many formulations of it, there is a consensus that all of them relate to "a resource to collective action" (Stone, 2001).</p>
@@ -107,7 +170,7 @@ include('../../header.php');
 						
 
 
-			<h2>Citations</h2>
+			<h2 id='citations'>Citations</h2>
 			<p>Weiser, Mark, and John Seely Brown. "The coming age of calm technology." Beyond calculation. Springer New York, 1997. 75-85.</p> 
 			<p>Wisneski, C., Ishii, H., Dahley, A., Gorbet, M., Brave, S., Ullmer, B., & Yarin, P. (n.d.). Ambient Displays : Turning Architectural Space into an Interface between People and Digital Information, 1–11.</p>
 			<p>Stone, W. (2001). Measuring social and community life, (24).</p>
