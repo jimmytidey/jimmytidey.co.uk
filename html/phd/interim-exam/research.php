@@ -18,7 +18,7 @@ include('../../header.php');
 
 		<div class='col-md-3'>
 			<nav id="affix-nav" >
-				<ul class="nav" data-spy="affix" data-offset-top="10">
+				<ul class="nav" data-spy="affix" data-offset-top="50">
 
 					<li><a href='#intro'>Intro</a></li>
 					<li><a href='#structure'>Overall strucutre</a></li>
@@ -31,15 +31,15 @@ include('../../header.php');
 						</ul>
 					</li>
 					<li><a href='#methodologies'>Methodologies</a></li>
-
+					<li><a href='#similar_work'>Appendix: Similar Work</a></li>
 					<li><a href='#citations'>Citations</a></li>
-					<li><a href='#similar_work'>Appendix: Similar Work</a></li>	
+						
 				</ul>
 
 			</nav>
 		</div>
 
-		<div class='col-md-8'>
+		<div class='col-md-9'>
 
 
 			<!-- INTRO --> 
@@ -59,7 +59,7 @@ include('../../header.php');
 
 			<h2 id='structure'>Context and similar work in the literature</h2>
 
-			<img src="img/methodology_flow_2.png" alt="Methodology Flow" />
+			<img src="img/methodology_flow_2.png" alt="Methodology Flow" class='scale_img' />
 
 			<p><em>Steps 2 & 3 are the specific causal effects I want to investigate.</em></p> 
 
@@ -75,15 +75,15 @@ include('../../header.php');
 
 
 			<!-- step 1 --> 
-			<h3 id='step_1'>Step 2 - Ambient computing driving social awareness.</h3>
+			<h3 id='step_2'>Step 2 - Ambient computing driving social awareness.</h3>
 
-			<p>Examples of projects using ambient </p>
-
-
+			<p>Two striking examples</p>
 
 
 
-			<h3>Step 3 - correlation between community-focused digital activity and social capital</h3>
+
+
+			<h3 id='step_3'>Step 3 - correlation between community-focused digital activity and social capital</h3>
 
 			<p>Most research tends to agree that bridging social capital is more correlated with social media use than bonding social capital.</p>
 
@@ -101,7 +101,7 @@ include('../../header.php');
 
 
 
-			<h3>Step 4 - Correlation between social capital and community benefits</h3>
+			<h3 id='step_4'>Step 4 - Correlation between social capital and community benefits</h3>
 
 			<p>Social capital has attractive properties as an evaluative framework for an investigation of the potential impact of ambient computing on communities.</p>  
 
@@ -122,6 +122,7 @@ include('../../header.php');
 
 			<blockquote>life expectancy; health status; suicide rates; teenage pregnancy; crime rates; participation rates in tertiary education; employment and unemployment rates; family income; marital relationship formations and dissolutions; business confidence; job growth; growth in GDP; and balance of trade</blockquote>
 
+			<h2 id='similar_work'>Methodology</h2>
 
 			<h2 id='similar_work'>Appendix: Similar Work</h2>
 
