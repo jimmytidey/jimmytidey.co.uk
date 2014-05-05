@@ -30,7 +30,8 @@ include('../../header.php');
 							<li><a href='#step_4'>Step 4: Generate Social Capital</a></li>
 						</ul>
 					</li>
-					<li><a href='#methodologies'>Methodologies</a></li>
+					<li><a href='#intervention_design'>Intervention Design</a></li>
+					<li><a href='#intervention_design'>Experimental Design</a></li>
 					<li><a href='#similar_work'>Appendix: Similar Work</a></li>
 					<li><a href='#citations'>Citations</a></li>
 						
@@ -50,39 +51,52 @@ include('../../header.php');
 
 			<p>The wider background is also necessary to frame possible confounding factors and methodological difficulties.</p>
 
-			<p>I will then present a range existing methodologies as well as the problems I expect to encounter.</p>
-
-			<p>Finally, I will synthesis these into a methodology that I can use for my own work.</p>
+			<p></p>
 
 
 			<!-- Broad Context --> 
 
-			<h2 id='structure'>Context and similar work in the literature</h2>
+			<h2 id='structure'>Overall Structure</h2>
 
 			<img src="img/methodology_flow_2.png" alt="Methodology Flow" class='scale_img' />
 
+
+
 			<p><em>Steps 2 & 3 are the specific causal effects I want to investigate.</em></p> 
-
-			<h3 id='step_1'>Step 1 - Finding data for presentation.</h3>
-
-			<p>Two prototype versions of the system, demonstrated at FACT and Kensington & Chelsea Council Staff cafe were both able to find enough data to function.</p>
-
-			<p>Further, in the context of gathering 'hyperlocal' type data, a project with Hounslow and RSA has identified approximately 50 sources of useful online community data.</p>
-
-			<p>In the context of the office, the current CX 'bucket' project is finding at least enough data to power a working prototype.</p>
-
 
 
 
 			<!-- step 1 --> 
-			<h3 id='step_2'>Step 2 - Ambient computing driving social awareness.</h3>
+			<h3 id='step_1'>Step 1 - Finding data for presentation.</h3>
 
-			<p>Two striking examples</p>
+			<p>Two prototype versions of the system, demonstrated at FACT and Kensington & Chelsea Council Staff cafe were both able to find enough data - local Tweets, blog posts and Facebook posts - to function.</p>
+
+			<p>An upcoming project in Hounslow with the RSA has identified approximately 50 sources of useful online community data for that borough. </p>
+
+			<p>In the context of the office, the current CX 'bucket' project is finding at least enough data to power a working prototype.</p>
+
+			<p>My experience suggests that for office situations, and for London locations, plenty of data is available.</p>
 
 
+			<!-- step 2 --> 
+			<h3 id='step_2'>Step 2 - Ambient displays driving social awareness.</h3>
+
+			<p>The appendix contains a table of the different research directions that I've looked at. I've classified my research into similar interventions by the type of interface used: </p>
+
+			<ul> 
+				<li>Desktop / Laptop</li>
+				<li>Mobile</li>
+				<li>Public display (broadcast)</li>
+				<li>Public display (interactive)</li>
+				<li>Other (no screen involved)</li>
+			</ul>	 
+
+			<p>So far, I have not discovered any work looking at printed material. I foresee my work being most like the broadcast public display model, although I think the ambient devices might have useful design insights.</p> 
+
+			<p>One particularly useful reference point is the Agora 2.0 project. In this project a screen was placed outside the town hall which allowed people to vote on various local issues. They were also to partic</p>
 
 
-
+			<!-- step 3 --> 
 			<h3 id='step_3'>Step 3 - correlation between community-focused digital activity and social capital</h3>
 
 			<p>Most research tends to agree that bridging social capital is more correlated with social media use than bonding social capital.</p>
@@ -122,7 +136,9 @@ include('../../header.php');
 
 			<blockquote>life expectancy; health status; suicide rates; teenage pregnancy; crime rates; participation rates in tertiary education; employment and unemployment rates; family income; marital relationship formations and dissolutions; business confidence; job growth; growth in GDP; and balance of trade</blockquote>
 
-			<h2 id='similar_work'>Methodology</h2>
+			<h2 id='intervention_design'>Intervention Design</h2>
+
+			<h2 id='experimental_design'>Experimental Design</h2> 
 
 			<h2 id='similar_work'>Appendix: Similar Work</h2>
 
@@ -132,7 +148,7 @@ include('../../header.php');
 					<tr>
 						<th></th>
 						<th>For community awareness</th>
-						<th>Other intervention</th>
+						<th>Other research intervention</th>
 					</tr>
 				</thead>
 
@@ -148,7 +164,7 @@ include('../../header.php');
 						<p><em>Social networking sites</em></p>
 					</td>
 					<td>
-						<p><em>General computing applications...</em></p>
+						<p><em>Too general to list...</em></p>
 
 					</td>
 				</tr>
@@ -156,7 +172,7 @@ include('../../header.php');
 
 				<tr>
 					<td>Mobile Device (Private)</td>
-					<td><em>Social Networking sites...</em></td>
+					<td><em>Too general to list... </em></td>
 
 					<td><p>How to Nudge In Situ: Designing Lambent Devices to Deliver Salient Information in Supermarkets (2011)</p></td>
 				</tr>
@@ -172,10 +188,12 @@ include('../../header.php');
 						<p>Designing Interaction for Local Communications: An Urban Screen Study (2013)</p>
 						<p>Supporting Community Awareness with Interactive Displays (2012)</p>
 						<p>Probing Communities : Study of a Village Photo Display (2007)</p>
+						
+					</td>
+					<td>
 						<p>MyPosition : Sparking Civic Discourse by a Public Interactive Poll Visualization (2014)</p>
 
 					</td>
-					<td></td>
 				</tr>
 
 				<tr>
@@ -186,7 +204,7 @@ include('../../header.php');
 
 
 				<tr>
-					<td>Ambient interface</td>
+					<td>Non-screen interface</td>
 					<td>
 						<p>http://berglondon.com/projects/availabot/</p>
 
