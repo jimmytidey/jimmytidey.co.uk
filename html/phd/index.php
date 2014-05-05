@@ -1,6 +1,6 @@
 <?php 
-    $title = 'PhD Overview';
-    include('../header.php');
+$title = 'PhD Overview';
+include('../header.php');
 ?>
 
 <div class='container'>
@@ -11,18 +11,20 @@
     </div>
     
     <div class='row'>
-        <div class='navbar col-md-2 col-md-offset-1'>
-            <ul class='nav'>
-                <li><a href='#background'>Background</a></li>
-                <li><a href='#hypothesis'>Research Question</a></li>
-                <li><a href='#analogy'>An Analogy</a></li>
-                <li><a href='#prototyping'>Prototyping</a></li>
-                <li><a href='#work_so_far'>Work so far</a></li>          
-            </ul>
+        <div class='col-md-2 col-md-offset-1 '>
+            <nav id="affix-nav" >
+                <ul class="nav" data-spy="affix" data-offset-top="10">
+                    <li><a href='#background'>Background</a></li>
+                    <li><a href='#hypothesis'>Research Question</a></li>
+                    <li><a href='#analogy'>An Analogy</a></li>
+                    <li><a href='#prototyping'>Prototyping</a></li>
+                    <li><a href='#work_so_far'>Work so far</a></li>          
+                </ul>
+            </nav>
         </div>
         
         <div class='col-md-7 '>
-            
+
             <p>I'm doing a <a href='http://thecreativeexchange.org/'>PhD at RCA</a>. I'm investigating new representations of online social interactions.</p>
             
             <p><a href='/'>[More about me]</a></p>
@@ -65,11 +67,11 @@
             <p>The personal computer screen is the omni-present interface for all digital activities - from organising your calendar to writing to social activity. </p>  
             
             <img src='img/three_activities.png'  alt='Diagram of a single person using a single monitor to do three distinct digital activities' class='center' />
-                        
+
             <p>I'm particularly interested in getting away from this paradigm, instead using a variety of intentionally public or shared interfaces, for example print, projection, shared screens. </p>
             
             <img src='img/three_interface_three_person.png' alt='diagram of multiple people using multiple interfaces to see social digital activity' class='center' />
-                        
+
             
             <h2 id='work_so_far'>Work so far</h2>
             
@@ -103,7 +105,7 @@
             <p>It tracks Twitter, Facebook and Blog updates from the team and displays the most recent information prominently. An audio cue also alerts us to changes. </p>
             <p>I plan to encompass Dropbox and Google Docs activity soon.</p> 
 
-            <h2 id='work_so_far'>Noun project credits</h2>
+            <h2 id=''>Noun project credits</h2>
             <ul>
                 <li><a href='http://thenounproject.com/matt.crum'>Matt Crum</a></li>
                 <li><a href='http://thenounproject.com/EricBirdDesign'>Eric Bird</a></li>
@@ -119,12 +121,15 @@
             
         </div>
     </div>
-    
+
+    <script>
+    $('body').scrollspy({ target: '.navbar' });
+    </script>
 
 </div>
 
 <?php  include '../footer.php' ?>
 
-    
+
 
 

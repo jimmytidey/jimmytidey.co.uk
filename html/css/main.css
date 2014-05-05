@@ -12,33 +12,72 @@ body {
 
 
 /* Nav */ 
-.nav > a,
-.nav > a:hover,
-
 li.active > a,
 li.active > a:hover,
 li.active > a:focus {
-  color: #fff;
-  background-color: #ccc;
+    color: #fff;
+    background-color: #ccc;
+    
+    color: #716b7a;
+}
+
+#affix-nav { 
+    margin-top:-12px;
+}
+
+/*make the menu look sensible for sub items */ 
+#affix-nav ul { 
+    list-style-type: none;
+    list-style-position: inside;
+    padding-left:10px;
+}
+
+#affix-nav li { 
+    padding: 0px;
+}
+
+#affix-nav li a{ 
+    padding: 5px 10px;
+    display: block;
 }
 
 
-@media (min-width: 940px) {
-    .nav {
-        position:fixed;
-        width:165px;
-    }
+#affix-nav li ul { 
+    margin-top:0px;
+    margin-bottom:0px;
+    margin-left:0px;
 }
 
-.nav { 
-    margin-top:-16px;
-    text-align:left;
+.affix {
+  width: inherit; //helped keep the content the same size on fluid layouts
+  position: fixed;
+  top: 20px;  //height of the nav
 }
 
-.navbar { 
-  background-image:none;
-  box-shadow: none;
+
+
+/* Stops affix doing stupid things when the screen gets narrow */
+@media (max-width: 992px) { 
+ .affix {
+    position: static!important;
+    
+  }
 }
+
+
+/*Apparently solves jerkyness for scroll spy */
+.body {
+    position: relative;
+}
+
+
+
+
+.scale_img { 
+    width:100%  ;
+}
+
+
 
 /* FOOTER */
 footer p { 
@@ -87,7 +126,7 @@ blockquote {
 }
 
 p, ul { 
-    font-size:1.2em;
+    font-size:1.1em;
     line-height:1.7em;
     margin-top:0.5em;
     margin-bottom:1em;
@@ -107,6 +146,11 @@ li {
     margin-bottom:2px;
 }
 
+
+li li{ 
+   font-size:0.8em;
+}
+
 img { 
    display:block;
    margin:20px auto;
@@ -124,9 +168,6 @@ hr {
     border-bottom:1px dashed #ccc;
     margin-top:40px;
 }
-
-
-
 
 
 

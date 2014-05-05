@@ -12,7 +12,7 @@ include('header.php');
 	</div>
 
 	<div class='row'>
-		<div class='navbar col-md-2 col-md-offset-1'>
+		<div class=' col-md-2 col-md-offset-1'>
 			<ul class='nav'>
 				<li><a href='http://twitter.com/jimmytidey'>Twitter</a></li>
 				<li><a href='/blog'>Blog</a></li>
