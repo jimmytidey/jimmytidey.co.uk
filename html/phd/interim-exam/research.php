@@ -93,28 +93,49 @@ include('../../header.php');
 
 			<p>So far, I have not discovered any work looking at printed material. I foresee my work being most like the broadcast public display model, although I think the ambient devices might have useful design insights.</p> 
 
-			<p>One particularly useful reference point is the Agora 2.0 project. In this project a screen was placed outside the town hall which allowed people to vote on various local issues. They were also to partic</p>
+			<p>One pertinent project is the Wray Display (Taylor & Cheverst, 2012), where users submitted photos online which then became visible in a public display in a shop in a the small village of Wray.</p>
+
+			<p>Over three years a library of 1500 photos built up, with 14,000 photo views built up. Anecdotal evidence presented in the paper suggests that the display triggered conversations within the community and also helped new residents feel more embedded.</p>
+
+			<p>In the office context, the "What's Happening" project at Georgia Institute of Technology (Zhao & Stasko, 2002) sought create a sense of community between the three different buildings of the Computer Studies Department.</p> 
+
+			<p>
+				They gathered data from internal mailing lists and about University events, as well as instant message chat, and presented it in a variety of different ways. 
+
+				Staff could install an app that showed the data in a small box at the corner of their screen and when their computer went into screen saver.
+			
+				Public screens also displayed the data. 
+			</P>
+
+			<p>Using survey methods, the paper show that users that installed the app were more aware of university events, were more familiar with research being undertaken by other groups and had a greater sense of community.</p>
+
+
+			<p>Overall however, I have not been able to find many projects that investigate the effects of public screen notifications on community cohesion</p>
 
 
 			<!-- step 3 --> 
 			<h3 id='step_3'>Step 3 - correlation between community-focused digital activity and social capital</h3>
 
+			<p>Much of the work looking at social capital on social network uses the well documented distinction between subtypes of social capital: bonding and bridging</p>
+
+			<p>Bridging social capital is taken between different groups, while bonding is within homogeneous groups.</p> 
+
 			<p>Most research tends to agree that bridging social capital is more correlated with social media use than bonding social capital.</p>
 
-			<p>Perhaps the most prominent paper is "The benefits of Facebook “friends:” Social capital and college students' use of online social network sites" (Ellison et al, 2007), which has been cited nearly 3,500 times. In this paper they find that intensity of Facebook use is one of the strongest correlates of social capital, as determined by a standardised survey instrument.</p>
+			<p>Perhaps the most prominent paper is "The benefits of Facebook 'friends:' Social capital and college students' use of online social network sites" (Ellison et al, 2007), which has been cited nearly 3,500 times. In this paper they find that intensity of Facebook use is one of the strongest correlates of social capital, as determined by a standardised survey instrument.</p>
 
 			<p>One of the most convincing papers on the topic (Burke, 2011) used Facebook adverts to gather ~1000 participants from across the English speaking world. Using privileged access to Facebook data (one of the authors is a Facebook employee), they were able to determine three modalities of Facebook use: direct messaging, passive consumption and broadcasting. Using two surveys of social capital taken one year apart they were then able to investigate correlations between changes in social capital and modalities of Facebook use, and found that all types of Facebook use, but especially direct messaging, correlate with bridging social capital (but no correlation with boding social capital).</p>
 
 			<p>An interesting aspect of this paper is that they also gathered data on major life events. This enabled them to qualify the scale of the effects, for example:</p>
 
-			<blockquote>“When compared to events, where we would expect a major disruption in social capital, the effect of Facebook is clear: every doubling of directed communication is associated with the same gain as moving to a new city, and about half the change incurred by job loss.</blockquote>
+			<blockquote>"When compared to events, where we would expect a major disruption in social capital, the effect of Facebook is clear: every doubling of directed communication is associated with the same gain as moving to a new city, and about half the change incurred by job loss."</blockquote>
 
 			<p>In addition, they were able to determine the direction of causality by using life events as a control. Losing a job causes a decrease in social capital, but not a change in Facebook behavior. This suggests that Facebook behaviour causes changes in social capital, not the other way round.</p>
 
 			<p>This effect has also been observed on Twitter (Hofer & Aubert, 2013) and on a hyperlocal community website (Littau, 2007).</p>
 
 
-
+			<!-- step 4 --> 
 			<h3 id='step_4'>Step 4 - Correlation between social capital and community benefits</h3>
 
 			<p>Social capital has attractive properties as an evaluative framework for an investigation of the potential impact of ambient computing on communities.</p>  
@@ -188,7 +209,7 @@ include('../../header.php');
 						<p>Designing Interaction for Local Communications: An Urban Screen Study (2013)</p>
 						<p>Supporting Community Awareness with Interactive Displays (2012)</p>
 						<p>Probing Communities : Study of a Village Photo Display (2007)</p>
-						
+						<p>Reveal-it!(2013)</p>
 					</td>
 					<td>
 						<p>MyPosition : Sparking Civic Discourse by a Public Interactive Poll Visualization (2014)</p>
@@ -229,6 +250,9 @@ include('../../header.php');
 			<p>Burke, Moira, Robert Kraut, and Cameron Marlow. "Social capital on Facebook: Differentiating uses and users." Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, 2011.</p>
 			<p>Hofer, M., & Aubert, V. (2013). Computers in Human Behavior Perceived bridging and bonding social capital on Twitter : Differentiating between followers and followees, 29, 2134–2142.</p>
 			<p>Littau, Jeremy. Citizen journalism and community building: predictive measures of social capital generation. Diss. University of Missouri--Columbia, 2007.</p>
+			<p>Taylor, N., & Cheverst, K. (2012). Supporting Community Awareness with Interactive Displays. Computer, 45(5), 26–32. doi:10.1109/MC.2012.113</p>
+			<p>Rogers, Y., Hazlewood, W. R., Marshall, P., Dalton, N., & Hertrich, S. (2010). Ambient Influence : Can Twinkly Lights Lure and Abstract Representations Trigger Behavioral Change ?</p>
+			<p>Memarovic, N. ., Langheinrich, M. ., & Alt, F. . (2012). Interacting places - A framework for promoting community interaction and place awareness through public displays. In 2012 IEEE International Conference on Pervasive Computing and Communications Workshops, PERCOM Workshops 2012 (pp. 427–430). doi:10.1109/PerComW.2012.6197526</p>
 		</div>
 	</div>    
 </div>
