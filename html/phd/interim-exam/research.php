@@ -21,7 +21,7 @@ include('../../header.php');
 				<ul class="nav" data-spy="affix" data-offset-top="50">
 
 					<li><a href='#intro'>Intro</a></li>
-					<li><a href='#structure'>Overall strucutre</a></li>
+					<li><a href='#context'>Context</a></li>
 					<li>
 						<ul>
 							<li><a href='#step_1'>Step 1: Gather the data</a></li>
@@ -47,16 +47,15 @@ include('../../header.php');
 
 			<p id='intro'>This project concerns ambient representation of digital activity associated with a physical space to enhance community cohesion.</p>
 
-			<p>Here I will present the broader context of the research, which explains the motivation for the work. Assumptions about context will be supported through references to other papers</p>
+			<p>I will present the broader context of the research, which explains the motivation for the work. It's also important to help situate the design process and experimental design.</p>
 
-			<p>The wider background is also necessary to frame possible confounding factors and methodological difficulties.</p>
+			<p>In the Intervention Design and Experimental Design sections I will go into detail on the intervention, which is represented by stage 2 in the below diagram.</p>
 
-			<p></p>
-
+			
 
 			<!-- Broad Context --> 
 
-			<h2 id='structure'>Overall Structure</h2>
+			<h2 id='context'>Context</h2>
 
 			<img src="img/methodology_flow_2.png" alt="Methodology Flow" class='scale_img' />
 
@@ -81,7 +80,7 @@ include('../../header.php');
 			<!-- step 2 --> 
 			<h3 id='step_2'>Step 2 - Ambient displays driving social awareness.</h3>
 
-			<p>The appendix contains a table of the different research directions that I've looked at. I've classified my research into similar interventions by the type of interface used: </p>
+			<p>The appendix contains a table of the different research categories of similar work I've looked at. I've classified my research by type of interface used: </p>
 
 			<ul> 
 				<li>Desktop / Laptop</li>
@@ -95,7 +94,7 @@ include('../../header.php');
 
 			<p>One pertinent project is the Wray Display (Taylor & Cheverst, 2012), where users submitted photos online which then became visible in a public display in a shop in a the small village of Wray.</p>
 
-			<p>Over three years a library of 1500 photos built up, with 14,000 photo views built up. Anecdotal evidence presented in the paper suggests that the display triggered conversations within the community and also helped new residents feel more embedded.</p>
+			<p>Over three years a library of 1500 photos built up, with 14,000 photo views. Anecdotal evidence presented in the paper suggests that the display triggered conversations within the community and also helped new residents feel more embedded.</p>
 
 			<p>In the office context, the "What's Happening" project at Georgia Institute of Technology (Zhao & Stasko, 2002) sought create a sense of community between the three different buildings of the Computer Studies Department.</p> 
 
@@ -110,7 +109,7 @@ include('../../header.php');
 			<p>Using survey methods, the paper show that users that installed the app were more aware of university events, were more familiar with research being undertaken by other groups and had a greater sense of community.</p>
 
 
-			<p>Overall however, I have not been able to find many projects that investigate the effects of public screen notifications on community cohesion</p>
+			<p>Overall however, I have not been able to find many projects that investigate the effects of public screen notifications on community cohesion, and none using content gathered from pre-existing social media activity.</p>
 
 
 			<!-- step 3 --> 
@@ -148,10 +147,9 @@ include('../../header.php');
 
 			<p>Measurement of social capital and its dimensions has been discussed at length in the literature. As examined later, there is a well established link between social capital, especially the 'bridging' dimension, and broader social effects, such as wellbeing and health. Additionally there is a nascent body of work connecting digital activity to social capital.</p> 
 
-
 			<p>The Strength of Weak Ties (Granovetter, 1973) is referenced across widely in both ambient computing and the previously discussed analysis of social networks. </p>
 
-			<p>His work suggests there are strong benefits to increases in social captial, and in particular, as the title suggests, in large collections of weak ties.</p>
+			<p>His work suggests there are strong benefits to increases in social capital, and in particular, as the title suggests, in large collections of weak ties.</p>
 
 			<p>Stone gives a survey positive correlations with social capital that have been observed:</p>
 
