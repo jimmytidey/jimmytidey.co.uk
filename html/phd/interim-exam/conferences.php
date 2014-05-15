@@ -96,7 +96,7 @@ include('../../header.php');
             <p>April 14th, 2014</p>
         </div>
         <div class='col-md-3'>
-            <p>V&amp;A digital Futures</p>
+            <p>V&amp;A digital Futures talks</p>
         </div>
     </div>
 
@@ -119,6 +119,28 @@ include('../../header.php');
             <p>CX Observatory deployed in our office</p>
         </div>
     </div>
+
+    <div class='row'>
+        <div class='col-md-3 col-md-offset-3'>
+            <p>April 21st, 2014</p>
+        </div>
+        <div class='col-md-3'>
+            <p>CX Observatory deployed in our office</p>
+        </div>
+    </div>
+
+    <div class='row'>
+        <div class='col-md-3 col-md-offset-3'>
+            <p>May 13th, 2014</p>
+        </div>
+        <div class='col-md-3'>
+            <p>Presented my work at #geomob UCL </p>
+        </div>
+    </div>
+
+
+
+
 </div>    
 
 <?php  include '../../footer.php' ?>

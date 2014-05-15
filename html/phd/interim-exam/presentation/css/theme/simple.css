@@ -58,6 +58,10 @@ p {
     border:none!important;
 }
 
+.full_size { 
+  width:60%
+}
+
 .process_list { 
     font-size:19px!important;
     float:left;
