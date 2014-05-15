@@ -17,9 +17,12 @@ include('../../header.php');
             <ul>
                  <li><a href='abstract.php'>Abstract</a></li>
                  <li><a href="research.php">Research So Far</a></li>
-                 <li><a href="https://docs.google.com/document/d/1RqOzBBMAVKS-AfpzA2LIzZiS3hPjh0kF9lnJ0nJ-RsE/edit#heading=h.sord9555il9y">RMC Essay</a></li>
-                 <li><a href="/phd/#work_so_far">Projects</a></li>
-                 <li><a href="conferences.php">Conferences attended</a></li>
+                 <li><a href='RMCessay.pdf'>RMC Essay (PDF)</li>
+                 <li><a href="https://docs.google.com/document/d/1RqOzBBMAVKS-AfpzA2LIzZiS3hPjh0kF9lnJ0nJ-RsE/edit#heading=h.sord9555il9y">RMC Essay (view online)</a></li>
+                 <li><a href="prototypes.php">Work so far</a></li>
+                 <li><a href='conferencesattended.pdf'>Conferences attended (PDF)</a></li>
+                 <li><a href="conferences.php">Conferences attended (view online)</a></li>
+
                  <li><a href="timeline.pdf">Schedule (PDF)</a></li>
                  <li><a href="https://www.tomsplanner.com/public/jimmyphd">Schedule (view online)</a></li>
              </ul> 

@@ -120,14 +120,7 @@ include('../../header.php');
         </div>
     </div>
 
-    <div class='row'>
-        <div class='col-md-3 col-md-offset-3'>
-            <p>April 21st, 2014</p>
-        </div>
-        <div class='col-md-3'>
-            <p>CX Observatory deployed in our office</p>
-        </div>
-    </div>
+
 
     <div class='row'>
         <div class='col-md-3 col-md-offset-3'>

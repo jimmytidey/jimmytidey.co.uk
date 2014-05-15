@@ -31,7 +31,7 @@ include('../../header.php');
 						</ul>
 					</li>
 					<li><a href='#intervention_design'>Intervention Design</a></li>
-					<li><a href='#intervention_design'>Measuring group behavior</a></li>
+					<li><a href='#measure'>Measuring group behavior</a></li>
 					<li><a href='#similar_work'>Appendix: Similar Work</a></li>
 					<li><a href='#citations'>Citations</a></li>
 
@@ -132,7 +132,7 @@ include('../../header.php');
 			<!-- step 4 --> 
 			<h3 id='step_4'>Step 4 - beneficial effects of social capital</h3>
 
-			<p>As previously states, social capital is likely to be too broad to be used as a basis for investigation or measurement. However, other proposed measurements, such as group effectiveness, are seen as subsets of social capital, so the construct bears further examination here. </p>
+			<p>As previously stated, social capital is likely to be too broad to be used as a basis for investigation or measurement. However, other proposed measurements, such as group effectiveness, are seen as subsets of social capital, so the construct bears further examination here. </p>
 
 			<p>Social capital has attractive properties as an evaluative framework for an investigation of the potential impact of ambient computing on communities.</p>  
 
@@ -154,20 +154,24 @@ include('../../header.php');
 
 			<h2 id='intervention_design'>Intervention Design</h2>
 
-			<p></p>
+			<p>"Interaction design beyond the product: Creating Technology-Enhanced Activity Spaces" (Kaptelinin )</p>
 
 			<p></p>
 
 			<p></p>
 
 
-			<h2 id='experimental_design'>Measuring the effects of the intervention.</h2>
+			<h2 id='measure'>Measuring the effects of the intervention.</h2>
 
-			<p>Many types of intervention will generate quantitative data regarding participation. For example, if users respond to a link on a screen in a public place or in print it will be possible </p>  
+			<p>Many types of intervention will generate quantitative data regarding participation. For example, if users respond to a link on a screen in a public place or in print it will be possible to track this and discover exactly how many people responded. In the case of the proposed collaboration with Commonplace, many of the users who contribute to the website will also give demographic information.</p>  
+
+			<p>This kind of raw data will be the subject of analysis, however the goal of the investigation is to go beyond measuring participation and to try to consider effects on the community.</p>
+
+			<p>To this end, various different approaches have been reviewed.</p> 
 
 			<h3>Tuckman group stages</h3>
 
-			<p>Stages of Small Group Development (Tuckman & Jensen, 1977) gave rise to the popular idea of the forming, storming, norming and performing stages in group development. This work has several drawbacks as a basis for this project. Firstly, it is usually concerned with small groups, which may not be appropriate. Secondly, this construct considers a group from the time members first meet through to either failure or success. In many instances the groups under investigation will not be transitioning through these phases simultaneously. This absence of synchronisation in digitally mediated groups might in itself provide a fertile ground for investigation.</p>
+			<p>Stages of Small Group Development (Tuckman & Jensen, 1977) gave rise to the popular idea of the forming, storming, norming and performing stages in group development. This work has several drawbacks as a basis for this project. Firstly, it is usually concerned with small groups, which may not be appropriate. Secondly, this construct considers a group from the time members first meet through to either failure or success. In many instances the groups under investigation will have members transitioning who are not through these phases simultaneously. This absence of synchronisation in digitally mediated groups might in itself provide a fertile ground for investigation.</p>
 
 			<h3>FIRO: Fundamental Interpersonal Relations Orientation </h3>
 
