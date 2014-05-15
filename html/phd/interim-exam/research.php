@@ -157,6 +157,13 @@ include('../../header.php');
 
 			<h2 id='intervention_design'>Intervention Design</h2>
 
+			<p></p>
+
+			<p></p>
+
+			<p></p>
+
+
 			<h2 id='experimental_design'>Experimental Design</h2> 
 
 			<h2 id='similar_work'>Appendix: Similar Work</h2>
