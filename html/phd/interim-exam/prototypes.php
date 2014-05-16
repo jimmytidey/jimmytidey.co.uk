@@ -33,7 +33,9 @@ include('../../header.php');
                   <p><em>Harvesting the digital exhaust of our office - sonification and screen</em></p>
                   <p>The Creative Exchange is spread across three universities. This project looks at ways to keep us all connected, as well as giving us a chance to experience the use of ambient displays first hand.</p>
                   <p>It tracks Twitter, Facebook and Blog updates from the team and displays the most recent information prominently. An audio cue also alerts us to changes. </p>
-
+                  
+                  
+                  <h3><center><a href='index.php'>Back</a></center></h3>
             </div>
       </div> 
 </div>    

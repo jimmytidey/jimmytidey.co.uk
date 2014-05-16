@@ -34,7 +34,7 @@ include('../../header.php');
 					<li><a href='#measure'>Measuring group behavior</a></li>
 					<li><a href='#similar_work'>Appendix: Similar Work</a></li>
 					<li><a href='#citations'>Citations</a></li>
-
+                    <li><a href='index.php'>Back to index</a></li>
 				</ul>
 
 			</nav>
@@ -277,8 +277,13 @@ include('../../header.php');
 
 			</table>
 
-
-
+            
+            <br/>
+                        <br/>
+                        
+            <h3><center><a href='index.php'>Back</a></center></h3>
+            
+            <br/>            <br/>            
 
 			<h2 id='citations'>Citations</h2>
 			<p>Burke, Moira, Robert Kraut, and Cameron Marlow. "Social capital on Facebook: Differentiating uses and users." Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, 2011.</p>
