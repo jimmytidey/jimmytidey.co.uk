@@ -112,11 +112,10 @@ include('../../header.php');
 
 			<p>Much of the research finds that bridging social capital is implicated in social networking activity, while bonding social capital is not. Bridging social capital is taken between different groups, while bonding is within homogeneous groups.</p> 
 
-			<p>Most research tends to agree that bridging social capital is more correlated with social media use than bonding social capital.</p>
 
 			<p>Perhaps the most prominent paper is "The benefits of Facebook 'friends:' Social capital and college students' use of online social network sites" (Ellison et al, 2007), which has been cited nearly 3,500 times. In this paper they find that intensity of Facebook use is one of the strongest correlates of social capital, as determined by a standardised survey instrument.</p>
 
-			<p>One of the most convincing papers on the topic (Burke, 2011) used Facebook adverts to gather approximately 1000 participants from across the English speaking world. Using privileged access to Facebook data (one of the authors is a Facebook employee), they were able to determine three modalities of Facebook use: direct messaging, passive consumption and broadcasting. Using two surveys of social capital taken one year apart they were then able to investigate correlations between changes in social capital and modalities of Facebook use, and found that all types of Facebook use, but especially direct messaging, correlate with bridging social capital (but no correlation with boding social capital).</p>
+			<p>One of the most convincing papers on the topic (Burke, 2011) used Facebook adverts to gather approximately 1000 participants from across the English speaking world. Using privileged access to Facebook data (one of the authors is a Facebook employee), they were able to determine three modalities of Facebook use: direct messaging, passive consumption and broadcasting. Using two surveys of participant's social capital taken one year apart they were then able to investigate correlations between changes in social capital and modalities of Facebook use, and found that all types of Facebook use, but especially direct messaging, correlate with bridging social capital (but no correlation with boding social capital).</p>
 
 			<p>An interesting aspect of this paper is that they also gathered data on major life events. This enabled them to qualify the scale of the effects, for example:</p>
 
@@ -148,18 +147,29 @@ include('../../header.php');
 
 			<p>His work suggests there are strong benefits to increases in social capital, and in particular, as the title suggests, in large collections of weak ties.</p>
 
-			<p>Stone gives a survey positive correlations with social capital that have been observed:</p>
-
-			<blockquote>life expectancy; health status; suicide rates; teenage pregnancy; crime rates; participation rates in tertiary education; employment and unemployment rates; family income; marital relationship formations and dissolutions; business confidence; job growth; growth in GDP; and balance of trade</blockquote>
 
 			<h2 id='intervention_design'>Intervention Design</h2>
 
-			<p>"Interaction design beyond the product: Creating Technology-Enhanced Activity Spaces" (Kaptelinin )</p>
-
-			<p></p>
-
-			<p></p>
-
+			<p>
+			    
+			    "Interaction design beyond the product: Creating Technology-Enhanced Activity Spaces" (Kaptelinin and Bannon, 2012) represents a useful survey of design methodologies.
+			    
+			    Their contention is that in context of ubiquitous computing, it is no longer possible for a "hero designer" to specify a product which will meet users needs because of the complex ecology of digital products which must work together to serve the user. 
+			    </p><p>
+			    They refer to the "hero designer trope" as an "extrinsic" methodology, and contrast it with an "intrinsic" approach, where users take responsibility for design decisions. 
+			    
+			</p>
+			
+			<p>They identify End User Design as an alternative which embodies an intrinsic approach. In End User Design, designers take the roll of metadesigners, who, rather than designing products, design the context in which users can fit together their own design solutions. </p>
+			
+            <p>End User Design as a process is agnostic about the frameworks metadesigners should employ when going about their work, for example they discuss Nardi &amp; O'Days information ecologies, MuCullough's notion of digital ground, and Beyer &amp; Holtzblatt's contextual design as candidate frameworks.</p>
+            
+            <p>Finally Kaptelinin and Bannon suggest that the "object of design", is the technologically-enhanced activity space (TEAS), rather than the any particular product.</p>
+            
+            <blockquote>A spatially and temporally organised configuration of resources, including digital technologies, which enable an individual or group to carry out one activity or several co-ordinated activities.</blockquote>
+            
+            <p>While further research is needed, this approach to design fits well with the project at hand.</p> 
+            
 
 			<h2 id='measure'>Measuring the effects of the intervention.</h2>
 
@@ -271,18 +281,22 @@ include('../../header.php');
 
 
 			<h2 id='citations'>Citations</h2>
+			<p>Burke, Moira, Robert Kraut, and Cameron Marlow. "Social capital on Facebook: Differentiating uses and users." Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, 2011.</p>
+			<p>Ellison, Nicole B., Charles Steinfield, and Cliff Lampe. "The benefits of Facebook “friends:” Social capital and college students’ use of online social network sites." Journal of Computer‐Mediated Communication 12.4 (2007): 1143-1168.</p>
+			
+			<p>Hofer, M., & Aubert, V. (2013). Computers in Human Behavior Perceived bridging and bonding social capital on Twitter : Differentiating between followers and followees, 29, 2134–2142.</p>
+			<p>Memarovic, N. ., Langheinrich, M. ., & Alt, F. . (2012). Interacting places - A framework for promoting community interaction and place awareness through public displays. In 2012 IEEE International Conference on Pervasive Computing and Communications Workshops, PERCOM Workshops 2012 (pp. 427–430). doi:10.1109/PerComW.2012.6197526</p>
+			<p>Littau, Jeremy. Citizen journalism and community building: predictive measures of social capital generation. Diss. University of Missouri--Columbia, 2007.</p>
+
+			<p>Rogers, Y., Hazlewood, W. R., Marshall, P., Dalton, N., & Hertrich, S. (2010). Ambient Influence : Can Twinkly Lights Lure and Abstract Representations Trigger Behavioral Change ?</p>
+
+			<p>Schutz, Will. FIRO; a Three-dimensional Theory of Interpersonal Behavior. New York: Rinehart, 1958. Print.</p>
+			<p>Stone, W. (2001). Measuring social and community life, (24).</p>
+			<p>Taylor, N., & Cheverst, K. (2012). Supporting Community Awareness with Interactive Displays. Computer, 45(5), 26–32. doi:10.1109/MC.2012.113</p>
+			<p>Tuckman, Bruce W., and Mary Ann C. Jensen. "Stages of small-group development revisited." Group & Organization Management 2.4 (1977): 419-427.</p>
+
 			<p>Weiser, Mark, and John Seely Brown. "The coming age of calm technology." Beyond calculation. Springer New York, 1997. 75-85.</p> 
 			<p>Wisneski, C., Ishii, H., Dahley, A., Gorbet, M., Brave, S., Ullmer, B., & Yarin, P. (n.d.). Ambient Displays : Turning Architectural Space into an Interface between People and Digital Information, 1–11.</p>
-			<p>Stone, W. (2001). Measuring social and community life, (24).</p>
-			<p>Ellison, Nicole B., Charles Steinfield, and Cliff Lampe. "The benefits of Facebook “friends:” Social capital and college students’ use of online social network sites." Journal of Computer‐Mediated Communication 12.4 (2007): 1143-1168.</p>
-			<p>Burke, Moira, Robert Kraut, and Cameron Marlow. "Social capital on Facebook: Differentiating uses and users." Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, 2011.</p>
-			<p>Hofer, M., & Aubert, V. (2013). Computers in Human Behavior Perceived bridging and bonding social capital on Twitter : Differentiating between followers and followees, 29, 2134–2142.</p>
-			<p>Littau, Jeremy. Citizen journalism and community building: predictive measures of social capital generation. Diss. University of Missouri--Columbia, 2007.</p>
-			<p>Taylor, N., & Cheverst, K. (2012). Supporting Community Awareness with Interactive Displays. Computer, 45(5), 26–32. doi:10.1109/MC.2012.113</p>
-			<p>Rogers, Y., Hazlewood, W. R., Marshall, P., Dalton, N., & Hertrich, S. (2010). Ambient Influence : Can Twinkly Lights Lure and Abstract Representations Trigger Behavioral Change ?</p>
-			<p>Memarovic, N. ., Langheinrich, M. ., & Alt, F. . (2012). Interacting places - A framework for promoting community interaction and place awareness through public displays. In 2012 IEEE International Conference on Pervasive Computing and Communications Workshops, PERCOM Workshops 2012 (pp. 427–430). doi:10.1109/PerComW.2012.6197526</p>
-			<p>Tuckman, Bruce W., and Mary Ann C. Jensen. "Stages of small-group development revisited." Group & Organization Management 2.4 (1977): 419-427.</p>
-			<p>Schutz, Will. FIRO; a Three-dimensional Theory of Interpersonal Behavior. New York: Rinehart, 1958. Print.</p>
 
 		</div>
 	</div>    
