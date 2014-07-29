@@ -154,7 +154,7 @@ include('../../header.php');
 
 			<h2 id='intervention_design'>Intervention Design</h2>
 
-			<p>"Interaction design beyond the product: Creating Technology-Enhanced Activity Spaces" (Kaptelinin )</p>
+			<p>"Interaction design beyond the product: Creating Technology-Enhanced Activity Spaces" (Kaptelinin & Bannon, 2012) provides a detailed discussion of the various design challenges posed by digital environments or spaces, focusing on ecologies rather than products.</p>
 
 			<p></p>
 

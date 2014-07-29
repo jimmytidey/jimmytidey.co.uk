@@ -161,6 +161,13 @@ img {
     border:1px solid black;
 }
 
+
+
+.vid { 
+    width:100%;
+    height:400px;
+}
+
 hr { 
     height:1px;
     background:none;
