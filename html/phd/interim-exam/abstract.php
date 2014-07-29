@@ -26,7 +26,9 @@ include('../../header.php');
             <p>This work will focus upon “goal oriented” communities, ones where the participants are bound by a desire to further a particular outcome. In the example of the office, goals are defined by business objectives. In the example of a high street, actions such as responding to planning consultations are taken as goals.</p>
 
            <p>The research question will be addressed by using prototypes to test the effectiveness of various interventions. Where possible, standardised instruments of group cohesion will be used to evaluate outcomes. </p> 
-
+           
+           
+           <h3><center><a href='index.php'>Back</a></center></h3>
        </div>
    </div>
 </div>    
