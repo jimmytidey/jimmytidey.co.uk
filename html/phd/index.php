@@ -31,7 +31,7 @@ include('../header.php');
             <p>I'm looking at how taking preexisting, published digital activity (Twitter, Forums, etc.) and improving its visibility (through public screens or print) can change community cohesion.</p>
 
             <center>     
-                <p><strong>Highly filtered geographic social media updates → public displays / print</strong></p> 
+                <p><strong>Filtered geographic social media updates  → <br/> public displays / print in geographically relevant locations → <br/> changes in community cohesion</strong></p> 
             </center>
 
             
@@ -42,7 +42,7 @@ include('../header.php');
 
             <p><strong>Beyond geotagging.</strong> Rather than relying on geotagging to gather data, which misses much important content, only sources which are known to produce a high volume of relevant content are selected, and a process of human moderation is used. This process is discussed in the <a href='#software'>software section</a>.</p>
 
-            <p><strong>Network models of communities.</strong> Using a network model of communities will be developed as a tool to harvest, process and represent content</p>
+            <p><strong>Network models of communities.</strong> A network model of communities will be developed as a tool to harvest, process and represent content.</p>
 
             <p>The processing of designing physical prototypes will be informed by a series of workshops which is currently underway.</p> 
 
@@ -93,6 +93,11 @@ include('../header.php');
 
             <iframe src="//player.vimeo.com/video/100644300" class='vid' frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
             
+            <p>When asking a community member to engage in the network mapping process, I'd like to include prompts derived from the data I have gathered from social media.</p>
+
+            <p>For example, pre-populating with the community nodes I have discovered, or highlighting important geographic locations, while stilling allowing to 'think-out-loud' about what they are doing.</p> 
+
+            <p>This may take the form of a printed, or 3D printed layer for users to stick pins in, or be even more divergent from the current model.</p> 
 
             <h2 id='bucket'>CX screen prototype</h2>
 
