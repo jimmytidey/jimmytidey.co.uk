@@ -95,7 +95,7 @@ include('../header.php');
             
             <p>When asking a community member to engage in the network mapping process, I'd like to include prompts derived from the data I have gathered from social media.</p>
 
-            <p>For example, pre-populating the board with the community nodes I have discovered through social media analysis, or highlighting important geographic locations, while stilling allowing the participant to 'think-out-loud' about what they are doing.</p> 
+            <p>For example, pre-populating the board with the community nodes I have discovered through social media analysis, or highlighting important geographic locations, while still allowing the participant to fluidly 'think-out-loud' about what they are doing.</p> 
 
             <p>This may take the form of a printed, or 3D printed layer for users to stick pins in, or be even more divergent from the current model.</p> 
 
