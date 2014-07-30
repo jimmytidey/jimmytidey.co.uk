@@ -85,7 +85,7 @@ include('../header.php');
 
             <p>The workshop surprised me in terms of how well people understood out-of-context tweets, and elicited feedback on how local businesses use social media. </p>
             
-            <h2 id='phase_2'>Phase 2 - Modeling communities as networks </h2>
+            <h2 id='phase_2'>Phase 2 workshops- Modeling communities as networks </h2>
 
             <p><a href='https://twitter.com/johnfass'>@johnfass</a>'s technique asks participants to draw out their social networks using rubber bands and drawing pins. I intend to use an expanded version of this approach for the second phase of workshops.</p>
 
