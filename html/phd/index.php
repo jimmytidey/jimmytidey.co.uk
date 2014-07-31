@@ -28,19 +28,20 @@ include('../header.php');
 
             <p>I'm doing a PhD at RCA <a href='http://thecreativeexchange.org/'>on the CX programme</a>.</p> 
 
-            <p>I'm looking at how taking preexisting, published digital activity (Twitter, Forums, etc.) and improving its visibility (through public screens or print) can change community cohesion.</p>
+            <p>I'm looking at how improving its visibility of preexisting, published digital community activity (Twitter, Forums, etc.) can change community cohesion. In particular I'm interested in using print and public screens to improve visibility.</p>
 
+           <p>My focus is on geographic communities, where content comes from hyperlocal forums and blogs, location-specific Facebook pages and relevant Twitter accounts.</p> 
+ 
             <center>     
                 <p><strong>Filtered geographic social media updates  → <br/> public displays / print in geographically relevant locations → <br/> changes in community cohesion</strong></p> 
             </center>
 
             
-            <p>My focus is on geographic communities, where content comes from hyperlocal forums and blogs, location-specific Facebook pages and relevant Twitter accounts.</p> 
-
+ 
 
             <p><strong>Increasing inclusivity.</strong> The goal is to present this content to people who would not normally see it, for example as a print-on-demand flyer in a local cafe or a screen in a shop window.</p>
 
-            <p><strong>Beyond geotagging.</strong> Rather than relying on geotagging to gather data, which misses much important content, only sources which are known to produce a high volume of relevant content are selected, and a process of human moderation is used. This process is discussed in the <a href='#software'>software section</a>.</p>
+            <p><strong>Beyond geotagging.</strong> Rather than relying on geotagging to gather data, which misses much important content, sources which are known to produce a high volume of relevant content combined with human moderation will play a part in improving data quality. This process is discussed in the <a href='#software'>software section</a>.</p>
 
             <p><strong>Network models of communities.</strong> A network model of communities will be developed as a tool to harvest, process and represent content.</p>
 
