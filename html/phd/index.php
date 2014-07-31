@@ -28,7 +28,7 @@ include('../header.php');
 
             <p>I'm doing a PhD at RCA <a href='http://thecreativeexchange.org/'>on the CX programme</a>.</p> 
 
-            <p>I'm looking at how improving its visibility of preexisting, published digital community activity (Twitter, Forums, etc.) can change community cohesion. In particular I'm interested in using print and public screens to improve visibility.</p>
+            <p>I'm looking at how improving its visibility of relevant digital activity (Twitter, Forums, etc.) can change community cohesion. In particular I'm interested in using print and public screens to improve visibility.</p>
 
            <p>My focus is on geographic communities, where content comes from hyperlocal forums and blogs, location-specific Facebook pages and relevant Twitter accounts.</p> 
  
@@ -37,7 +37,7 @@ include('../header.php');
             </center>
 
             
- 
+            <p><em>Example: cafe in Herne Hill has flyers for customer to pick up, printed out that morning, with updates from the most active thread on hernehillforum.org.uk</em></p>
 
             <p><strong>Increasing inclusivity.</strong> The goal is to present this content to people who would not normally see it, for example as a print-on-demand flyer in a local cafe or a screen in a shop window.</p>
 
