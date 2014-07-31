@@ -6,7 +6,7 @@ include('../header.php');
 <div class='container'>
     <div class='row'>
         <div id='background' class='col-md-8 col-md-offset-3'>
-            <h1  id='intro'>Making digital social activity visible</h1>
+            <h1  id='intro'>Making digital community activity visible</h1>
         </div>
     </div>
     
