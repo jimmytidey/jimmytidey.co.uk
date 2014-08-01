@@ -28,12 +28,12 @@ include('../header.php');
 
             <p>I'm doing a PhD at RCA <a href='http://thecreativeexchange.org/'>on the CX programme</a>.</p> 
 
-            <p>I'm looking at how improving its visibility of relevant digital activity (Twitter, Forums, etc.) can change community cohesion. In particular I'm interested in using print and public screens to improve visibility.</p>
+            <p>I'm looking at how improving its visibility of social media activity can change community cohesion, in particular I'm interested in using print and public screens to improve visibility.</p>
 
            <p>My focus is on geographic communities, where content comes from hyperlocal forums and blogs, location-specific Facebook pages and relevant Twitter accounts.</p> 
  
             <center>     
-                <p><strong>Filtered geographic social media updates  → <br/> public displays / print in geographically relevant locations → <br/> changes in community cohesion</strong></p> 
+                <p><strong>Community-oriented social media updates  → <br/> public displays / print in relevant locations → <br/> changes in community cohesion</strong></p> 
             </center>
 
             
