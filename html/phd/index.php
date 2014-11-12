@@ -18,7 +18,7 @@ include('../header.php');
                     <li><a href='#phase_1'>Phase 1 workshops</a></li>
                     <li><a href='#phase_2'>Phase 2 workshops - Modeling communities as networks</a></li>
                     <li><a href='#bucket'>CX Screen Prototype</a></li>
-                    <li><a href='#software'>Software</a></li>
+                    <li><a href='#software'>Hyperlocal Observatory</a></li>
                     <li><a href='#nesta'>Work with RSA on NESTA BTR research project</a></li>                    
                 </ul>
             </nav>
@@ -108,11 +108,13 @@ include('../header.php');
 
             <img class="img_border" src="img/bucket.jpg" alt="Bucket installed in CX office">
 
-            <h2 id='software'>Software</h2>
-
-            <p><strong>Observatory</strong></p>
+            <h2 id='software'>Hyperlocal Observatory</h2>
 
             <img class="img_border width_control" src="img/obs.png" alt="Observatory software">
+
+            <img class="img_border width_control" src="img/obs.png" alt="Observatory software">
+            <p><em>Network map of Hounslow generated with Hyperlocal Observatory</p> 
+
             <p>The Observatory software is written on the <a href='http://meteor.com'>Meteor platform</a>, and provides a mechanism to gather and classify content from:</p>
 
             <ul>
