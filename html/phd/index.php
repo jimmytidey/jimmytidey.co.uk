@@ -127,7 +127,7 @@ include('../header.php');
 
             <p>The software is 'seeded' with Twitter accounts, blogs or forums that focus on local issues, say within a particular town or borough. From there it automatically discovers new community-oriented content.</p> 
 
-            <p>The Observatory provides geographical mapping of locations local people are talking about, as well discovering 'community nodes', as shown on the network diagram of Hounslow below.</p>  
+            <p>The Observatory provides geographical mapping of the locations local people are talking about, as well discovering 'community nodes', as shown on the network diagram of Hounslow below.</p>  
 
 
             <img class="img_border width_control" src="img/hounslow_network.png" alt="Hounslow Network Diagram ">
