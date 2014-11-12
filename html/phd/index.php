@@ -113,9 +113,6 @@ include('../header.php');
             <img class="img_border width_control" src="img/obs.png" alt="Observatory software">
             <p><em>Dashboard</em></p> 
 
-            <img class="img_border width_control" src="img/hounslow_network.png" alt="Hounslow Network Diagram ">
-            <p><em>Network map of Hounslow generated with Hyperlocal Observatory</p> 
-
             <p>The Observatory software is written on the <a href='http://meteor.com'>Meteor platform</a>, and provides a mechanism to gather and classify content from:</p>
 
             <ul>
@@ -126,7 +123,12 @@ include('../header.php');
                 <li>RSS / Blogs</li>
             </ul>
 
-            <p>It allows content to be assigned to 'community nodes', so that network of the underlying community interactions becomes apparent.</p>  
+            <p>The Observatory provides geographical mapping of locations local people are talking about, as well discovering 'community nodes', as shown on the network diagram of Hounslow below.</p>  
+
+
+            <img class="img_border width_control" src="img/hounslow_network.png" alt="Hounslow Network Diagram ">
+            <p><em>Network map of Hounslow generated with Hyperlocal Observatory</em></p> 
+
 
             <p>The code is available <a href='http://github.com/jimmytidey/obs'>here</a>.</p>
 
