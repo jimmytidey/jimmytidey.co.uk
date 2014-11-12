@@ -113,7 +113,9 @@ include('../header.php');
             <img class="img_border width_control" src="img/obs.png" alt="Observatory software">
             <p><em>Dashboard</em></p> 
 
-            <p>The Observatory software is written on the <a href='http://meteor.com'>Meteor platform</a>, and provides a mechanism to gather and classify content from:</p>
+            <p>Hyperlocal Observatory is a software tool to discover the conversations people have online about their local community.<p>
+
+            <p>It provides a mechanism to gather and classify content from:</p>
 
             <ul>
                 <li>Facebook</li>
@@ -123,12 +125,15 @@ include('../header.php');
                 <li>RSS / Blogs</li>
             </ul>
 
+            <p>The software is 'seeded' with Twitter accounts, blogs or forums that focus on local issues, say within a particular town or borough. From there it automatically discovers new community-oriented content.</p> 
+
             <p>The Observatory provides geographical mapping of locations local people are talking about, as well discovering 'community nodes', as shown on the network diagram of Hounslow below.</p>  
 
 
             <img class="img_border width_control" src="img/hounslow_network.png" alt="Hounslow Network Diagram ">
             <p><em>Network map of Hounslow generated with Hyperlocal Observatory</em></p> 
 
+            <p>The goal of the software is to allow any party with a stake in a community to better understand what is going on. It is analogous and complimentary to traditional on-the-ground community surveying methods.</p>
 
             <p>The code is available <a href='http://github.com/jimmytidey/obs'>here</a>.</p>
 
