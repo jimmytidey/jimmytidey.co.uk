@@ -111,8 +111,9 @@ include('../header.php');
             <h2 id='software'>Hyperlocal Observatory</h2>
 
             <img class="img_border width_control" src="img/obs.png" alt="Observatory software">
+            <p><em>Dashboard</em></p> 
 
-            <img class="img_border width_control" src="img/obs.png" alt="Observatory software">
+            <img class="img_border width_control" src="img/hounslow_network.png" alt="Hounslow Network Diagram ">
             <p><em>Network map of Hounslow generated with Hyperlocal Observatory</p> 
 
             <p>The Observatory software is written on the <a href='http://meteor.com'>Meteor platform</a>, and provides a mechanism to gather and classify content from:</p>
