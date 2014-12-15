@@ -18,7 +18,7 @@ include('../header.php');
                     <li><a href='#phase_1'>Phase 1 workshops</a></li>
                     <li><a href='#phase_2'>Phase 2 workshops - Modeling communities as networks</a></li>
                     <li><a href='#bucket'>CX Screen Prototype</a></li>
-                    <li><a href='#software'>Hyperlocal Observatory</a></li>
+                    <li><a href='#software'>LocalNets</a></li>
                     <li><a href='#nesta'>Work with RSA on NESTA BTR research project</a></li>                    
                 </ul>
             </nav>
@@ -108,12 +108,14 @@ include('../header.php');
 
             <img class="img_border" src="img/bucket.jpg" alt="Bucket installed in CX office">
 
-            <h2 id='software'>Hyperlocal Observatory</h2>
+            <h2 id='software'>LocalNets</h2>
 
             <img class="img_border width_control" src="img/obs.png" alt="Observatory software">
             <p><em>Dashboard</em></p> 
 
-            <p>Hyperlocal Observatory is a software tool to discover the conversations people have online about their local community.<p>
+            <p>LocalNets is a software tool to map and explore online conversations about community issues.<p>
+
+            <p>It can be accessed at <a href='http://localnets.org'>localnets.org</a>, though it's very much a prototype.<p>                
 
             <p>It provides a mechanism to gather and classify content from:</p>
 
@@ -127,10 +129,12 @@ include('../header.php');
 
             <p>The software is 'seeded' with Twitter accounts, blogs or forums that focus on local issues, say within a particular town or borough. From there it automatically discovers new community-oriented content.</p> 
 
-            <p>The Observatory provides geographical mapping of the locations
-            <local people are talking about, as well discovering 'community
-            <nodes', as shown on the network diagram of Hounslow below.</p>
+            <p>The Observatory automatically adds metadata such as topic tags and location. It also attempts to identify 'community nodes', which could be locations, facilities, people or organisations.</p>
+   
+            <img class="img_border width_control" src="img/peterborough_heatmap.png" alt="Hounslow Network Diagram ">
+            <p><em>Heatmap of Hyperlocal activity in Peterborough</em></p> 
 
+            <br/>
 
             <img class="img_border width_control" src="img/hounslow_network.png" alt="Hounslow Network Diagram ">
             <p><em>Network map of Hounslow generated with Hyperlocal Observatory</em></p> 
@@ -138,6 +142,8 @@ include('../header.php');
             <p>The goal of the software is to allow any party with a stake in a community to better understand what is going on. It is analogous and complimentary to traditional on-the-ground community surveying methods.</p>
 
             <p>The code is available <a href='http://github.com/jimmytidey/obs'>here</a>.</p>
+
+
 
             <p><strong>Wonkbook</strong></p>
             <img src="img/wonkbook.png" class='img_border'  alt="Wonkbook screen shot">

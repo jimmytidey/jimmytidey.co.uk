@@ -1,1 +1,0 @@
-LocationHistory = new Meteor.Collection('locationHistory');
