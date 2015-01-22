@@ -39,7 +39,7 @@ include('../header.php');
             <ul>
                 <li>The community itself, where it can be used to increase awareness of community assets, and to act collectively to protextx and improve those assets.</li>
                 <li>Charities and local and national government, who may want to promote policies aimed at local communities, or to support community assets.</li>
-            <ul>
+            </ul>
 
 
 
