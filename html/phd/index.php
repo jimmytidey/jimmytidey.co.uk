@@ -32,13 +32,13 @@ include('../header.php');
 
             <p>My focus is on geographic communities, looking at hyperlocal forums,  blogs, location-specific Facebook pages and locally-oriented Twitter accounts.</p> 
 
-            <p>Using this data, my work attempts to generate a list of community assets, and a network representation of the way those assets and the people in the community interact.<p>            
+            <p>Using this data, my work attempts to generate a list of community assets, and a network representation of the way assets people interact.<p>            
 
             <p>This information is valuable to two groups:<p>
 
             <ul>
-                <li>The community itself, where it can be used to increase awareness of community assets, and to act collectively to protextx and improve those assets.<li>
-                <li>Charities and local and national government, who may want to promote policies aimed at local communities, or to support community assets.</p>
+                <li>The community itself, where it can be used to increase awareness of community assets, and to act collectively to protextx and improve those assets.</li>
+                <li>Charities and local and national government, who may want to promote policies aimed at local communities, or to support community assets.</li>
             <ul>
 
 
