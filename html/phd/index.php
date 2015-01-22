@@ -15,8 +15,8 @@ include('../header.php');
             <nav id="affix-nav" >
                 <ul class="nav" data-spy="affix" data-offset-top="10">
                     <li><a href='#intro'>Intro</a></li>
-                    <li><a href='#phase_1'>Phase 1 workshops</a></li>
-                    <li><a href='#phase_2'>Phase 2 workshops - Modeling communities as networks</a></li>
+                    <li><a href='#phase_1'>Phase 1 workshops - RBKC council</a></li>
+                    <li><a href='#phase_2'>Phase 2 workshops - Modeling the Hounslow network</a></li>
                     <li><a href='#bucket'>CX Screen Prototype</a></li>
                     <li><a href='#software'>LocalNets</a></li>
                     <li><a href='#nesta'>Work with RSA on NESTA BTR research project</a></li>                    
@@ -26,26 +26,21 @@ include('../header.php');
         
         <div class='col-md-8 '>
 
-            <p>I'm doing a PhD at RCA <a href='http://thecreativeexchange.org/'>on the CX programme</a>.</p> 
+            <p>I'm doing a PhD at RCA <a href='http://thecreativeexchange.org/'>on the CX program</a>.</p> 
 
-            <p>I'm looking at how improving its visibility of social media activity can change community cohesion, in particular I'm interested in using print and public screens to improve visibility.</p>
+            <p>I'm looking at how the structure of a community is reflected in social media activity. I have <a href='#software'>built a web app</a> to enable this.</p>
 
-           <p>My focus is on geographic communities, where content comes from hyperlocal forums and blogs, location-specific Facebook pages and relevant Twitter accounts.</p> 
- 
-            <center>     
-                <p><strong>Community-oriented social media updates  → <br/> public displays / print in relevant locations → <br/> changes in community cohesion</strong></p> 
-            </center>
+            <p>My focus is on geographic communities, looking at hyperlocal forums,  blogs, location-specific Facebook pages and locally-oriented Twitter accounts.</p> 
 
-            
-            <p><em>Example: cafe in Herne Hill has flyers for customer to pick up, printed out that morning, with updates from the most active thread on hernehillforum.org.uk</em></p>
+            <p>Using this data, my work attempts to generate a list of community assets, and a network representation of the way those assets and the people in the community interact.<p>            
 
-            <p><strong>Increasing inclusivity.</strong> The goal is to present this content to people who would not normally see it, for example as a print-on-demand flyer in a local cafe or a screen in a shop window.</p>
+            <p>This information is valuable to two groups:<p>
 
-            <p><strong>Beyond geotagging.</strong> Rather than relying on geotagging to gather data, which misses much important content, sources which are known to produce a high volume of relevant content combined with human moderation will play a part in improving data quality. This process is discussed in the <a href='#software'>software section</a>.</p>
+            <ul>
+                <li>The community itself, where it can be used to increase awareness of community assets, and to act collectively to protextx and improve those assets.<li>
+                <li>Charities and local and national government, who may want to promote policies aimed at local communities, or to support community assets.</p>
+            <ul>
 
-            <p><strong>Network models of communities.</strong> A network model of communities will be developed as a tool to harvest, process and represent content.</p>
-
-            <p>The processing of designing physical prototypes will be informed by a series of workshops which is currently underway.</p> 
 
 
             <h2 id='phase_1'>Phase 1 workshops</h2>
