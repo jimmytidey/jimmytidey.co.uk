@@ -4,7 +4,14 @@
    Author's custom styles
    ========================================================================== */
 
+
+
 /* Layout */
+.links { 
+    text-align:center;
+}
+
+
 body { 
     background-color:#FDFFFA;
     color:#2B2B29;
@@ -82,6 +89,8 @@ li.active > a:focus {
 /* FOOTER */
 footer p { 
     text-align:center;
+    width:100%;
+     border-top:1px solid black;
 }
 
 
