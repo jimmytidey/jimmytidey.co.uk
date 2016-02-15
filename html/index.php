@@ -17,35 +17,39 @@ include('header.php');
 				<li><a href='http://twitter.com/jimmytidey'>Twitter</a></li>
 				<li><a href='/blog'>Blog</a></li>
 				<li><a href='http://github.com/jimmytidey'>GitHub</a></li>
-				<li><a href='/phd/'>PhD study</a></li>    
+				<li><a href='/phd/'>Employment</a></li>    
 			</ul>
 		</div>
 
 		<div class='col-md-7 '>
       
-			<p>I'm a PhD candidate at Royal College of Art, with a background in web development and digital product management.</p>
+			<p>I'm Jimmy. I'm doing a PhD at The Royal College of Art. My research question is: How can tech can help us cooperate, share and collaborate? In other words, what new kinds of '<a href='https://en.wikipedia.org/wiki/Collective_action'>social coordination</a>' are emerging?</p> 
       
-      <p>I'm researching ways social media activity inform public policy.</p>
+      <p>Are 'sharing economy' platforms or civic innovations like Fix My Street ethical? Could we design them to be more effective? Using ideas from economics, network science and design I'm researching digital platforms for social coordination.</p>   
+        
+      <p>It's not all ivory tower, I've developed <a href='https://localnets.org'>Localnets.org</a> - which helps local government understand what citizens are saying on Twitter, currently in use with NHS Birmingham.</p> 
       
-      <p>My research has led to the development of <a href=''>localnets.org</a> webapp, which facilitates policy consultation via Twitter.</p>
+      <p>My background is project management and programming. I've worked on citizen science at the BBC, integrating online games with Live TV, and at an IoT startup.</p>
       
-      <p>There have been two case studies using the software:<p> 
-
-      <ul>
-        <li>Hounslow (with NESTA and RSA)</li>
-        <li>Peterborough (with UCLAN and RSA)</li>
-        <li>A third with NHS Birmingham is upcoming</li>
-      </ul>
-			
-			<p>My work is grounded conceptually in the idea that the problem of social coordination - matching needs with capabilities, coordinating how resources are created and shared in communities. Both markets and the public sector are attempts to address this problem.</p>
-			
-			<p>Can the huge quantities of data that societies are now generating (big data) be used to solve the problem of social coordination? In the long run: </p>
-			<ul>
-			  <li>Will digital information create a new kind of highly tailored local public policy? </li>
-			  <li>Might it, in some circumstances, substitute for price information in market economies?</li>
-			  <li>What new kinds of organisations and communities are possible?</li>
-			  <li>Will democratic inclusion increase or decrease?</li>
-			</ul>
+      <p>My blog records the various hackdays, conferences, and uncategorisable happenings that I've organised or participated in. I'm especially interested in collaborations that cross boundaries between sciences and humanities (or however you want to construe that divide).</p>  
+      
+     
+        
+      <hr />
+      
+      <p>Localnets</p>
+      
+      <hr />
+      
+      <p>Art Hackathon</p>
+      
+      <hr />
+      
+      <p>Meta Londoners</p>
+      
+      <hr/>
+      
+      
 
 		</div>
 	</div>
