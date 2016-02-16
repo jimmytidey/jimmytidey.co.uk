@@ -8,6 +8,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title><?=$title ?></title>
         <meta name="description" content="Designing systems for digital collaboration and cooperation.">
+        <meta name="google-site-verification" content="zQd8pef_mazi8KBab_uSbTF8BsxNJAE62AUWO2hgUho" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="/css/bootstrap.min.css">
         <link rel="stylesheet" href="/css/bootstrap-theme.min.css">
