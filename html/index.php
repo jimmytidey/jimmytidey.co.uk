@@ -19,18 +19,16 @@ include('header.php');
       
 			<p>I'm Jimmy, I'm in my final year of a PhD at The Royal College of Art.</p> 
 
-      <p>Before RCA I worked in tech. Before that I did a degree in physics &amp; philosophy. Favourite gigs include: <a href='http://www.bbc.co.uk/labuk/'>citizen science at the BBC</a>, integrating <a href='http://www.monterosa.co.uk/'>online games into live TV</a>, creative developer at an <a href='https://evrythng.com/'>IoT startup</a>.</p>
+      <p>Before RCA I worked in tech, and before that I did a degree in physics &amp; philosophy. Favourite gigs include: <a href='http://www.bbc.co.uk/labuk/'>citizen science at the BBC</a>, integrating <a href='http://www.monterosa.co.uk/'>online games into live TV</a>, creative developer at an <a href='https://evrythng.com/'>IoT startup</a>.</p>
       
-      <p>My PhD is about using social media to make public policy more responsive and inclusive.  Brands monitor social media to understand what customers say about their products, could the public sector be as nimble?</p>
-
-      <p>This thought led to <a href='https://localnets.org'>Localnets.org</a> - a tool which helps local government find out what a community is saying on Twitter. It's been used in research with <a href='http://www.nesta.org.uk/publications/community-mirror-data-driven-method-below-radar-research'>NESTA</a> and <a href='https://www.thersa.org/discover/publications-and-articles/reports/community-capital-the-value-of-connected-communities/'>The RSA</a>, and is being piloted at NHS Birmingham.</p> 
-
-      <p>From a theoretical perspective, I'm drawing on economics, network science &amp; design to think about new ways of collaborating, sharing &amp; coordinating.</p> 
+      <p>In my research I'm using the design context to bring my experience of delivering digital products together with theoretical approaches from network science, economics and policy.</p>
       
-      <p>My blog records the various <a href=''>hackdays</a>, <a href=''>conferences</a>, &amp; <a href=''>uncategorisable happenings</a> that I've organised or participated in. I'm especially interested in collaborations that cross boundaries between the sciences &amp; humanities (or however you want to construe that divide).</p>  
-      
-     
+      <p>My focus is using social media to make public policy more responsive and inclusive.  Brands monitor social media to understand what customers say about their products, could the public sector be as nimble?</p>
 
+      <p>I have developed <a href='https://localnets.org'>Localnets.org</a> - a tool which helps local government find out what a community is saying on Twitter. It's been used in research with <a href='http://www.nesta.org.uk/publications/community-mirror-data-driven-method-below-radar-research'>NESTA</a> and <a href='https://www.thersa.org/discover/publications-and-articles/reports/community-capital-the-value-of-connected-communities/'>The RSA</a>, and is being piloted at NHS Birmingham.</p> 
+
+      <p>My blog records the various <a href='http://jimmytidey.co.uk/blog/category/hack-days/'>hackdays</a>, <a href='http://jimmytidey.co.uk/blog/category/conferences/'>conferences</a>, &amp; <a href='http://jimmytidey.co.uk/blog/lote4-the-stewardship-matera/'>uncategorisable happenings</a> that I've organised or participated in.</p>  
+      
       
 
 		</div>
