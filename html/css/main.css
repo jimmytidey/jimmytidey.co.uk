@@ -5,6 +5,12 @@
    ========================================================================== */
 
 
+.portfolio_image { 
+    float: left;
+    margin-top: 6px;
+    margin-right: 8px;
+}
+
 
 /* Layout */
 .links { 
