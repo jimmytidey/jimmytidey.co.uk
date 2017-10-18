@@ -8,7 +8,9 @@
 .portfolio_image { 
     float: left;
     margin-top: 6px;
-    margin-right: 8px;
+    margin-right: 16px;
+    margin-bottom: 46px;
+    width:50%; 
 }
 
 
