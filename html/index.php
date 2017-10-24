@@ -4,6 +4,7 @@ $title = 'Jimmy Tidey';
 include('header.php');
 ?>
 
+
 <div class='container'>
 	<div class='row'>
 		<div id='background' class='col-sm-8 col-sm-offset-2'>
@@ -12,7 +13,7 @@ include('header.php');
 	</div>
 
 	<div class='row'>
-		<div class='col-sm-6 col-sm-offset-2 '>
+		<div class='col-sm-6 col-sm-offset-2'>
       
             	<p>I'm Jimmy, I'm awaiting my viva for my PhD at The Royal College of Art. In my PhD research built a social media analytics platform for local government, which became a case study for civic social media analytics.</p> 
 
