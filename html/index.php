@@ -7,13 +7,13 @@ include('header.php');
 
 <div class='container'>
 	<div class='row'>
-		<div id='background' class='col-sm-8 col-sm-offset-2'>
+		<div id='background' class='col-sm-10 col-sm-offset-1'>
 			<h1>Jimmy Tidey</h1>
 		</div>
 	</div>
 
 	<div class='row'>
-		<div class='col-sm-6 col-sm-offset-2'>
+		<div class='col-sm-8 col-sm-offset-1'>
       
             	<p>I'm Jimmy, I'm awaiting my viva for my PhD at The Royal College of Art. In my PhD research built a social media analytics platform for local government, which became a case study for civic social media analytics.</p> 
 
@@ -40,7 +40,7 @@ include('header.php');
 
       <div class='row'>
 
-            <div class='col-sm-8 col-sm-offset-2'>
+            <div class='col-sm-10 col-sm-offset-1'>
       
                   <h3>Selected projects</h3>
                   <hr class='bit_higher' />
