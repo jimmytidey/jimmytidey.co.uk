@@ -4,7 +4,7 @@ $title = 'Jimmy Tidey';
 include('header.php');
 ?>
 
-<div class='container-fluid'>
+<div class='container'>
 	<div class='row'>
 		<div id='background' class='col-sm-8 col-sm-offset-2'>
 			<h1>Jimmy Tidey</h1>
