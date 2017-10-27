@@ -74,6 +74,21 @@ include('header.php');
                   <br style='clear:both' />
                   <hr />
 
+                  <!-- *************************** -->
+
+                  <a href='https://xkcd.com/770/'>
+                        <img src='img/xkcd.png' class='portfolio_image' >
+                        </a>
+                  
+                  <div class='portfolio_text'>
+                        <h4>Gale-Shapley algorithm (2017)</h4>
+                        <p>The RCA architecture department wanted a method to match students with tutors based on both groups voting on each other. I implemented the Gale-Shapley algorithm, which achieves an optimal matching (for a particular definition of optimal...). Image from <a href='https://xkcd.com/770/'>XKCD</a>. 
+                        </p>
+                  </div>
+                  
+                  <br style='clear:both' />
+                  <hr />                  
+
                   <!-- *************************** -->     
 
                   <a href='http://whocites.com'><img src='img/whocites.png' class='portfolio_image' ></a>
@@ -87,9 +102,57 @@ include('header.php');
                   </div>
 
                   <br style='clear:both' />
-                  <hr /> <a name="rsa">
+                  <hr /> 
 
                   <!-- *************************** -->
+                  
+                  <a href='https://edgeryders.eu/t/mapping-the-opencare-ecosystem-using-twitter/5604/6'>
+                        <img src='img/opencare.png' class='portfolio_image' >
+                  </a>
+                  
+                  <div class='portfolio_text'> 
+                        <h4> EU OpenCare report (2016)</h4>
+
+                        <p><a href='https://edgeryders.eu/c/opencare'>The OpenCare report</a> investigated non-traditional healthcare projects. Localnets <a href='https://edgeryders.eu/t/mapping-the-opencare-ecosystem-using-twitter/5604/6'>mapped Twitter activity</a> around projects developing open source insulin pumps, 3D printed prosthetics &amp; smartphone based healthcare in developing countries.
+
+                        <p>It contributed to Edgeryders’ (a ‘distributed think tank’) report on open healthcare innovation, commissioned by the EU.</p>
+                  </div>     
+                  <br style='clear:both' />
+                  <hr />
+
+
+                  <!-- *************************** -->
+                  
+                  <a href='http://jimmytidey.co.uk/blog/storymap-participatory-mapping/'>
+                        <img src='img/sins.png' class='portfolio_image' >
+                  </a>
+
+                  <div class='portfolio_text'>
+                        <h4>StoryMap (2016)</h4>
+
+                        <p><a href='http://jimmytidey.co.uk/blog/storymap-participatory-mapping/'>StoryMap</a> was a digital/physical installation developed as part of the Shakespeare in Shoreditch festival. Participants used typewriters to record anecdotes from around Shoreditch and locate them on a semi-fictional map of east London. It featured local Twitter activity drawn from Localnets. This project was lead by fellow PhD candidate Benjamin Koslowski. </p>
+                  </div>      
+                 
+                  <br style='clear:both' />
+                  <hr />      
+
+
+
+                  <!-- *************************** -->
+
+                  <img src='img/acrossrca.png' class='portfolio_image' >
+                  
+                  <div class='portfolio_text'>
+                        <h4>Metalonders (2016)</h4>                  
+                        <p>I helped run Metalonders, a week long, cross disciplinary workshop for students joining the RCA. We investigated narratives and social media in four sites across London, producing alternative maps of each location.</p>
+                  </div>            
+                  
+                  <br style='clear:both' />
+                  <hr/>                    <a name="rsa">             
+
+                  <!-- *************************** -->
+
+
                   
                   <a href='https://www.thersa.org/discover/publications-and-articles/reports/community-capital-the-value-of-connected-communities'>
                         <img src='img/pboro.png' class='portfolio_image' >
@@ -108,54 +171,23 @@ include('header.php');
                   </div>
                  
                   <br style='clear:both' />
-                  <hr />                      
+                  <hr /> 
+              
 
                   <!-- *************************** -->
-
-                  <a href='https://xkcd.com/770/'>
-                        <img src='img/xkcd.png' class='portfolio_image' >
-                        </a>
+                  
+                  <a href='http://arthackathon.co.uk'>
+                        <img src='img/arthack.png' class='portfolio_image' >
+                  </a>
                   
                   <div class='portfolio_text'>
-                        <h4>Gale-Shapley algorithm (2017)</h4>
-                        <p>The RCA architecture department wanted a method to match students with tutors based on both groups voting on each other. I implemented the Gale-Shapley algorithm, which achieves an optimal matching (for a particular definition of optimal...). Image from <a href='https://xkcd.com/770/'>XKCD</a>. 
-                        </p>
+                        <h4>Arthackathon (2014)</h4>
+
+                        <p><a href='http://arthackathon.co.uk'>Arthackathon</a> was a hackathon sponsored by Ravensbourne University. It brought over 50 artists and coders together to create exhibitable artworks over a weekend. The Localnets tool was used to evaluate changes in the participant's social networks over the course of the weekend.</p>
                   </div>
-                  
+
                   <br style='clear:both' />
-                  <hr />
-
-                  <!-- *************************** -->
-                  
-                  <a href='https://edgeryders.eu/t/mapping-the-opencare-ecosystem-using-twitter/5604/6'>
-                        <img src='img/opencare.png' class='portfolio_image' >
-                  </a>
-                  
-                  <div class='portfolio_text'> 
-                        <h4> EU OpenCare report (2016)</h4>
-
-                        <p><a href='https://edgeryders.eu/c/opencare'>The OpenCare report</a> investigated non-traditional healthcare projects. Localnets <a href='https://edgeryders.eu/t/mapping-the-opencare-ecosystem-using-twitter/5604/6'>mapped Twitter activity</a> around projects developing open source insulin pumps, 3D printed prosthetics &amp; smartphone based healthcare in developing countries.
-
-                        <p>It contributed to Edgeryders’ (a ‘distributed think tank’) report on open healthcare innovation, commissioned by the EU.</p>
-                  </div>     
-                  <br style='clear:both' />
-                  <hr />
-
-                  <!-- *************************** -->
-                  
-                  <a href='http://jimmytidey.co.uk/blog/storymap-participatory-mapping/'>
-                        <img src='img/sins.png' class='portfolio_image' >
-                  </a>
-
-                  <div class='portfolio_text'>
-                        <h4>StoryMap (2016)</h4>
-
-                        <p><a href='http://jimmytidey.co.uk/blog/storymap-participatory-mapping/'>StoryMap</a> was a digital/physical installation developed as part of the Shakespeare in Shoreditch festival. Participants used typewriters to record anecdotes from around Shoreditch and locate them on a semi-fictional map of east London. It featured local Twitter activity drawn from Localnets. This project was lead by fellow PhD candidate Benjamin Koslowski. </p>
-                  </div>      
-                 
-                  <br style='clear:both' />
-                  <hr />      
-
+                  <hr/>
         
 
                   <!-- *************************** -->
@@ -165,7 +197,7 @@ include('header.php');
                   </a>
                   
                   <div class='portfolio_text'>
-                        <h4>WonkBook</h4>
+                        <h4>WonkBook (2013)</h4>
                         <p><a href='http://wonkbook.io'>Wonkbook</a> uses Twitter to evaluate the networks that form between think tanks, politicians and journalists. Every week it creates a league table of the most impactful tweeters. It was created in conjunction with Stian Westlake, at the time director of research at NESTA. </p>
                   </div>
                   <br style='clear:both' />
@@ -173,27 +205,14 @@ include('header.php');
                   
                   <!-- *************************** -->
                   
-                  <a href='http://arthackathon.co.uk'>
-                        <img src='img/arthack.png' class='portfolio_image' >
+                  <a href='http://www.monterosa.co.uk/cases/mpd'>
+                        <img src='img/mpd.jpg' class='portfolio_image' >
                   </a>
                   
                   <div class='portfolio_text'>
-                        <h4>Arthackathon</h4>
-
-                        <p><a href='http://arthackathon.co.uk'>Arthackathon</a> was a hackathon sponsored by Ravensbourne University. It brought over 50 artists and coders together to create exhibitable artworks over a weekend. The Localnets tool was used to evaluate changes in the participant's social networks over the course of the weekend.</p>
+                        <h4>Million Pound Drop (2012)</h4>
+                        <p>I worked on integrating an online game with Channel 4's <a href='http://www.monterosa.co.uk/cases/mpd'>Million Pound Drop TV show</a>. It was one of the most successful integrations of its type, on some occasions over 10% of TV viewers were also playing along online.</p>
                   </div>
-
-                  <br style='clear:both' />
-                  <hr/>
-                  
-                  <!-- *************************** -->
-
-                  <img src='img/acrossrca.png' class='portfolio_image' >
-                  
-                  <div class='portfolio_text'>
-                        <h4>Metalonders</h4>                  
-                        <p>I helped run Metalonders, a week long, cross disciplinary workshop for students joining the RCA. We investigated narratives and social media in four sites across London, producing alternative maps of each location.</p>
-                  </div>            
                   
                   <br style='clear:both' />
                   <hr/>
@@ -204,27 +223,19 @@ include('header.php');
                         <img src='img/bbc.png' class='portfolio_image' style='margin-bottom:50px' >
                   </a>
 
+
+
                   <div class='portfolio_text'>
-                        <h4>BBC Lab UK</h4>
+                        <h4>BBC Lab UK (2011)</h4>
                         <p>While at the BBC I worked on <a href='http://www.bbc.co.uk/labuk/results/braintestbritain/'>Brain Test Britain</a>, an online experiment to see if brain training works (it doesn't!) with over 100,000 participants. The work resulted in a <a href='http://www.nature.com/news/2010/100420/full/4641111a.html
                         '>paper in the journal Nature</a> and was one of the first psychology experiments carried out on the web.</p>
 
                         <p>I also worked on the Great British Class Survey, which generated unique insights into emerging class structures in the UK.</p>
                   </div>      
                   
-                  <br style='clear:both' />
-                  <hr/>
-
+      
                   <!-- *************************** -->
-                  
-                  <a href='http://www.monterosa.co.uk/cases/mpd'>
-                        <img src='img/mpd.jpg' class='portfolio_image' >
-                  </a>
-                  
-                  <div class='portfolio_text'>
-                        <h4>Million Pound Drop</h4>
-                        <p>I worked on integrating an online game with Channel 4's <a href='http://www.monterosa.co.uk/cases/mpd'>Million Pound Drop TV show</a>. It was one of the most successful integrations of its type, on some occasions over 10% of TV viewers were also playing along online.</p>
-                  </div>
+
 
                   <br style='clear:both' />
                   <br style='clear:both' />
