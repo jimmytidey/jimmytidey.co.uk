@@ -26,7 +26,7 @@ include('header.php');
                         <li><a href='http://twitter.com/jimmytidey'>Twitter</a></li>
                         <li><a href='/blog'>Blog</a></li>
                         <li><a href='http://github.com/jimmytidey'>GitHub</a></li>
-                        <li><a href='#publications'>Publications &amp; talks</a></li>
+                        <li><a href='#publications'>Publications &amp; Talks</a></li>
                         <li><a href='https://www.linkedin.com/in/jimmytidey'>LinkedIn</a></li>
                         <li><a href='https://pinboard.in/u:jimmytidey?mode=list&floor=2'>Bookmarks</a></li>
                         <li><a href='download.php'>CV &amp; Portfolio <span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span></a></li>
